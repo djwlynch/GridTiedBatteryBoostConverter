@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name teensy)(type KiCad)(uri /home/jlynch/work/kicad/teensy.pretty)(options "")(descr ""))
+  (lib (name ltc7138)(type KiCad)(uri /home/jlynch/work/kicad/ultralibrarian/KiCAD/2020-03-11_13-52-21/footprints.pretty)(options "")(descr ""))
+)
