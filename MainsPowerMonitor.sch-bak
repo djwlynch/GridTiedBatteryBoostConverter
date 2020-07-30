@@ -71,7 +71,7 @@ L Device:R_Small R401
 U 1 1 5F166727
 P 3650 3800
 F 0 "R401" H 3709 3846 50  0000 L CNN
-F 1 "7.5K ohms .1%" H 3709 3755 50  0000 L CNN
+F 1 "5.9K ohms .1%" H 3709 3755 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" H 3650 3800 50  0001 C CNN
 F 3 "~" H 3650 3800 50  0001 C CNN
 	1    3650 3800
@@ -171,7 +171,7 @@ Connection ~ 4600 4600
 Wire Wire Line
 	4600 4600 4600 4550
 Text Notes 4850 4650 0    50   ~ 0
-1.024V
+1.25V
 Connection ~ 3650 3950
 Wire Wire Line
 	3650 3950 3650 3900
@@ -197,7 +197,7 @@ L Device:R_Small R404
 U 1 1 5F17C992
 P 4300 3200
 F 0 "R404" H 4359 3246 50  0000 L CNN
-F 1 "33 Ohms 0.1%" H 4359 3155 50  0000 L CNN
+F 1 "41.2 Ohms 0.1%" H 4359 3155 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" H 4300 3200 50  0001 C CNN
 F 3 "~" H 4300 3200 50  0001 C CNN
 	1    4300 3200
@@ -207,14 +207,14 @@ Connection ~ 4300 4600
 Wire Wire Line
 	4300 4600 4600 4600
 $Comp
-L Connector:AudioJack3_Switch J402
+L Connector:AudioJack3 J402
 U 1 1 5F18094B
-P 3450 2900
-F 0 "J402" H 3400 3350 50  0000 C CNN
-F 1 "AudioJack2_SwitchT" H 3450 3250 50  0000 C CNN
-F 2 "Connect_jl:Audio_StereoJack_3.5mm_ASJ-99H-R-HT-T" H 3450 2900 50  0001 C CNN
-F 3 "http://www.adam-tech.com/downloader.php?p=ASJ-99H-X-HT-TR.pdf" H 3450 2900 50  0001 C CNN
-	1    3450 2900
+P 3400 2900
+F 0 "J402" H 3350 3350 50  0000 C CNN
+F 1 "AudioJack2_SwitchT" H 3400 3250 50  0000 C CNN
+F 2 "Connect_jl:Audio_StereoJack_3.5mm_ASJ-99H-R-HT-T" H 3400 2900 50  0001 C CNN
+F 3 "http://www.adam-tech.com/downloader.php?p=ASJ-99H-X-HT-TR.pdf" H 3400 2900 50  0001 C CNN
+	1    3400 2900
 	1    0    0    1   
 $EndComp
 Wire Wire Line
@@ -277,62 +277,41 @@ Connection ~ 5350 3950
 Wire Wire Line
 	5350 3950 6150 3950
 Text Notes 6600 2950 2    50   ~ 0
-2.014V at Peak current
+2.486V at Peak current
 Text Notes 6900 3850 2    50   ~ 0
-2.027V at 392V Mains
-Wire Wire Line
-	4300 3300 4300 3500
-Wire Wire Line
-	3650 3100 3950 3100
-Wire Wire Line
-	4000 3100 4000 3500
-Wire Wire Line
-	4000 3500 4050 3500
-Connection ~ 4300 3500
-Wire Wire Line
-	4300 3500 4300 4600
-Wire Wire Line
-	3650 2700 3950 2700
-Wire Wire Line
-	4300 2700 4300 3050
-Connection ~ 4300 3050
-Wire Wire Line
-	3650 2900 3950 2900
-Wire Wire Line
-	3950 2900 3950 2700
-Connection ~ 3950 2700
-Wire Wire Line
-	3950 2700 4300 2700
-Wire Wire Line
-	3650 3000 3950 3000
-Wire Wire Line
-	3950 3000 3950 3100
-Connection ~ 3950 3100
-Wire Wire Line
-	3950 3100 4000 3100
-Wire Wire Line
-	3650 2600 4150 2600
-Wire Wire Line
-	4150 2600 4150 3500
-Connection ~ 4150 3500
-Wire Wire Line
-	4150 3500 4300 3500
-Wire Wire Line
-	3650 2800 4050 2800
-Wire Wire Line
-	4050 2800 4050 3500
-Connection ~ 4050 3500
-Wire Wire Line
-	4050 3500 4150 3500
+2.481V at 392V Mains
 Text Notes 2650 3400 0    50   ~ 0
 46:1
 Wire Wire Line
 	3650 4200 3650 4500
 Connection ~ 3650 4500
 Text HLabel 4750 4050 2    50   Input ~ 0
-+2.048V_REF
++2.5V_REF
 Wire Wire Line
 	4750 4050 4600 4050
 Wire Wire Line
 	4600 4050 4600 4350
+Text Notes 1200 4650 0    50   ~ 0
+This transformer could be replaced with \nTi's isolated precision amplifier: AMC1100\nsee slaa552.pdf
+Wire Wire Line
+	4300 3300 4300 3450
+Wire Wire Line
+	3600 3000 3950 3000
+Wire Wire Line
+	3950 3000 3950 3450
+Wire Wire Line
+	3950 3450 4300 3450
+Connection ~ 4300 3450
+Wire Wire Line
+	4300 3450 4300 4600
+Wire Wire Line
+	3600 2800 4300 2800
+Wire Wire Line
+	4300 2800 4300 2900
+Connection ~ 4300 3050
+Wire Wire Line
+	3600 2900 4300 2900
+Connection ~ 4300 2900
+Wire Wire Line
+	4300 2900 4300 3050
 $EndSCHEMATC

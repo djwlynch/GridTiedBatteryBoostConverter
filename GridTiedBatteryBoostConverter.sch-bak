@@ -958,7 +958,7 @@ F0 "Teensy-LC" 50
 F1 "Teensy-LC.sch" 50
 F2 "CHARGER_ON_OFF" O L 9850 3800 50 
 F3 "BOOST_ON_OFF" O L 9850 4600 50 
-F4 "+2.048V_REF" I L 9850 4200 50 
+F4 "+2.5V_REF" I L 9850 4200 50 
 $EndSheet
 Text GLabel 6700 3450 0    50   Output ~ 0
 Avg_Current
@@ -990,7 +990,7 @@ U 5EBD6442
 F0 "PowerSupplies" 50
 F1 "PowerSupplies.sch" 50
 F2 "CHARGER_ON_OFF" I L 9850 3300 50 
-F3 "+2.048V_REF" O L 9850 2950 50 
+F3 "+2.5V_REF" O L 9850 2950 50 
 $EndSheet
 $Comp
 L Device:Q_NMOS_GSD Q103
@@ -1060,7 +1060,7 @@ S 10100 5400 700  900
 U 5F15BF3C
 F0 "MainsPowerMonitor" 50
 F1 "MainsPowerMonitor.sch" 50
-F2 "+2.048V_REF" I L 10100 5600 50 
+F2 "+2.5V_REF" I L 10100 5600 50 
 $EndSheet
 $Comp
 L power:GNDPWR #PWR0105
@@ -1318,7 +1318,7 @@ Wire Wire Line
 Connection ~ 4650 5750
 Wire Wire Line
 	4650 5750 4950 5750
-Text GLabel 1000 2150 2    50   Output ~ 0
+Text GLabel 1000 2150 2    50   Input ~ 0
 ChargerConnection
 $Comp
 L power:GNDPWR #PWR0116
@@ -1392,4 +1392,10 @@ Wire Wire Line
 	3650 3350 3650 3500
 Wire Wire Line
 	3650 3100 3650 3150
+Text Label 9300 1350 0    50   ~ 0
+Vsolar_in
+Text Label 9300 1000 0    50   ~ 0
+Vout
+Text Label 9450 3200 0    50   ~ 0
++2.5V_REF
 $EndSCHEMATC

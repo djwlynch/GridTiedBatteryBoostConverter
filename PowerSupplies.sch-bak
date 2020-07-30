@@ -789,7 +789,7 @@ Text Notes 4150 800  0    50   ~ 0
 Text Notes 8100 700  0    50   ~ 0
 5V 500mA Continuous
 Text HLabel 4750 5900 2    50   Output ~ 0
-+2.048V_REF
++2.5V_REF
 Text GLabel 950  3800 0    50   BiDi ~ 0
 +11V
 $Comp
@@ -797,8 +797,8 @@ L power:GNDPWR #PWR?
 U 1 1 5F9C831E
 P 2250 4600
 AR Path="/5F9C831E" Ref="#PWR?"  Part="1" 
-AR Path="/5EBD6442/5F9C831E" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 2250 4400 50  0001 C CNN
+AR Path="/5EBD6442/5F9C831E" Ref="#PWR0303"  Part="1" 
+F 0 "#PWR0303" H 2250 4400 50  0001 C CNN
 F 1 "GNDPWR" H 2254 4446 50  0000 C CNN
 F 2 "" H 2250 4550 50  0001 C CNN
 F 3 "" H 2250 4550 50  0001 C CNN
@@ -810,8 +810,8 @@ L Device:C C?
 U 1 1 5F9C8324
 P 3550 4250
 AR Path="/5F9C8324" Ref="C?"  Part="1" 
-AR Path="/5EBD6442/5F9C8324" Ref="C?"  Part="1" 
-F 0 "C?" H 3600 4150 50  0000 L CNN
+AR Path="/5EBD6442/5F9C8324" Ref="C307"  Part="1" 
+F 0 "C307" H 3600 4150 50  0000 L CNN
 F 1 "10uF X7R 16V" H 3600 4050 50  0000 L CNN
 F 2 "Capacitors_SMD:C_1206_HandSoldering" H 3588 4100 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_automotive_general_en.pdf?ref_disty=digikey" H 3550 4250 50  0001 C CNN
@@ -823,8 +823,8 @@ L Device:L_Core_Ferrite L?
 U 1 1 5F9C832A
 P 2950 3700
 AR Path="/5F9C832A" Ref="L?"  Part="1" 
-AR Path="/5EBD6442/5F9C832A" Ref="L?"  Part="1" 
-F 0 "L?" V 2769 3700 50  0000 C CNN
+AR Path="/5EBD6442/5F9C832A" Ref="L303"  Part="1" 
+F 0 "L303" V 2769 3700 50  0000 C CNN
 F 1 "15uH 730mA Sat" V 2860 3700 50  0000 C CNN
 F 2 "Inductors_jl:Inductor_1210_HandSoldering" H 2950 3700 50  0001 C CNN
 F 3 "https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=CBC3225T150KR%20%20&u=M" H 2950 3700 50  0001 C CNN
@@ -838,8 +838,8 @@ L Device:C C?
 U 1 1 5F9C8331
 P 3250 4250
 AR Path="/5F9C8331" Ref="C?"  Part="1" 
-AR Path="/5EBD6442/5F9C8331" Ref="C?"  Part="1" 
-F 0 "C?" H 2850 4300 50  0000 L CNN
+AR Path="/5EBD6442/5F9C8331" Ref="C305"  Part="1" 
+F 0 "C305" H 2850 4300 50  0000 L CNN
 F 1 "10uF X7R 16V" H 2600 4200 50  0000 L CNN
 F 2 "Capacitors_SMD:C_1206_HandSoldering" H 3288 4100 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_automotive_general_en.pdf?ref_disty=digikey" H 3250 4250 50  0001 C CNN
@@ -851,8 +851,8 @@ L Device:R R?
 U 1 1 5F9C8337
 P 3800 3850
 AR Path="/5F9C8337" Ref="R?"  Part="1" 
-AR Path="/5EBD6442/5F9C8337" Ref="R?"  Part="1" 
-F 0 "R?" H 3900 3800 50  0000 L CNN
+AR Path="/5EBD6442/5F9C8337" Ref="R303"  Part="1" 
+F 0 "R303" H 3900 3800 50  0000 L CNN
 F 1 "61.9k 0.1%" H 4150 3800 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 3730 3850 50  0001 C CNN
 F 3 "~" H 3800 3850 50  0001 C CNN
@@ -864,8 +864,8 @@ L Device:R R?
 U 1 1 5F9C833D
 P 3800 4200
 AR Path="/5F9C833D" Ref="R?"  Part="1" 
-AR Path="/5EBD6442/5F9C833D" Ref="R?"  Part="1" 
-F 0 "R?" H 3870 4246 50  0000 L CNN
+AR Path="/5EBD6442/5F9C833D" Ref="R304"  Part="1" 
+F 0 "R304" H 3870 4246 50  0000 L CNN
 F 1 "20k 0.1%" H 4100 4250 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 3730 4200 50  0001 C CNN
 F 3 "~" H 3800 4200 50  0001 C CNN
@@ -877,8 +877,8 @@ L power:GNDPWR #PWR?
 U 1 1 5F9C8343
 P 3800 4600
 AR Path="/5F9C8343" Ref="#PWR?"  Part="1" 
-AR Path="/5EBD6442/5F9C8343" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 3800 4400 50  0001 C CNN
+AR Path="/5EBD6442/5F9C8343" Ref="#PWR0305"  Part="1" 
+F 0 "#PWR0305" H 3800 4400 50  0001 C CNN
 F 1 "GNDPWR" H 3804 4446 50  0000 C CNN
 F 2 "" H 3800 4550 50  0001 C CNN
 F 3 "" H 3800 4550 50  0001 C CNN
@@ -898,8 +898,8 @@ L power:GNDPWR #PWR?
 U 1 1 5F9C834D
 P 3250 4600
 AR Path="/5F9C834D" Ref="#PWR?"  Part="1" 
-AR Path="/5EBD6442/5F9C834D" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 3250 4400 50  0001 C CNN
+AR Path="/5EBD6442/5F9C834D" Ref="#PWR0304"  Part="1" 
+F 0 "#PWR0304" H 3250 4400 50  0001 C CNN
 F 1 "GNDPWR" H 3254 4446 50  0000 C CNN
 F 2 "" H 3250 4550 50  0001 C CNN
 F 3 "" H 3250 4550 50  0001 C CNN
@@ -913,8 +913,8 @@ L Device:C C?
 U 1 1 5F9C8354
 P 1200 3950
 AR Path="/5F9C8354" Ref="C?"  Part="1" 
-AR Path="/5EBD6442/5F9C8354" Ref="C?"  Part="1" 
-F 0 "C?" H 600 3950 50  0000 L CNN
+AR Path="/5EBD6442/5F9C8354" Ref="C301"  Part="1" 
+F 0 "C301" H 600 3950 50  0000 L CNN
 F 1 "10uF 16V X7R" H 1150 3850 50  0000 R CNN
 F 2 "Capacitors_SMD:C_1206_HandSoldering" H 1238 3800 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_midvoltage_en.pdf?ref_disty=digikey" H 1200 3950 50  0001 C CNN
@@ -933,10 +933,10 @@ Wire Wire Line
 Text Notes 3900 4050 0    50   ~ 0
 0.8V
 $Comp
-L TI:TPS560200 U?
+L TI:TPS560200 U306
 U 1 1 5F9C8360
 P 2250 3950
-F 0 "U?" H 2250 4465 50  0000 C CNN
+F 0 "U306" H 2250 4465 50  0000 C CNN
 F 1 "TPS560200" H 2250 4374 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 2250 3950 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tps560200.pdf" H 2250 3950 50  0001 C CNN
@@ -964,8 +964,8 @@ L Device:C C?
 U 1 1 5F9C836F
 P 1450 3950
 AR Path="/5F9C836F" Ref="C?"  Part="1" 
-AR Path="/5EBD6442/5F9C836F" Ref="C?"  Part="1" 
-F 0 "C?" H 1650 3950 50  0000 L CNN
+AR Path="/5EBD6442/5F9C836F" Ref="C304"  Part="1" 
+F 0 "C304" H 1650 3950 50  0000 L CNN
 F 1 "0.1uF 16V X7R" H 1900 3650 50  0000 R CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 1488 3800 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_midvoltage_en.pdf?ref_disty=digikey" H 1450 3950 50  0001 C CNN
@@ -1003,11 +1003,11 @@ Connection ~ 3800 3700
 Text Notes 3600 3550 0    50   ~ 0
 3.3V 500mA Continuous
 $Comp
-L TI:REF2920AIDBZT U?
+L TI:REF2920AIDBZT U305
 U 1 1 5FB58010
 P 1850 5800
-F 0 "U?" H 2950 6187 60  0000 C CNN
-F 1 "REF2920AIDBZT" H 2950 6081 60  0000 C CNN
+F 0 "U305" H 2950 6187 60  0000 C CNN
+F 1 "REF2925AIDBZT" H 2950 6081 60  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 2950 6040 60  0001 C CNN
 F 3 "" H 1850 5800 60  0000 C CNN
 	1    1850 5800
@@ -1018,8 +1018,8 @@ L power:GNDPWR #PWR?
 U 1 1 5FB595B9
 P 4400 5500
 AR Path="/5FB595B9" Ref="#PWR?"  Part="1" 
-AR Path="/5EBD6442/5FB595B9" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4400 5300 50  0001 C CNN
+AR Path="/5EBD6442/5FB595B9" Ref="#PWR0306"  Part="1" 
+F 0 "#PWR0306" H 4400 5300 50  0001 C CNN
 F 1 "GNDPWR" H 4404 5346 50  0000 C CNN
 F 2 "" H 4400 5450 50  0001 C CNN
 F 3 "" H 4400 5450 50  0001 C CNN
@@ -1037,10 +1037,10 @@ Text GLabel 1050 5800 0    50   Input ~ 0
 Wire Wire Line
 	4050 5900 4750 5900
 $Comp
-L Device:C_Small C?
+L Device:C_Small C302
 U 1 1 5FB88319
 P 1250 5900
-F 0 "C?" H 1342 5946 50  0000 L CNN
+F 0 "C302" H 1342 5946 50  0000 L CNN
 F 1 "0.47uF x7r 25V 10%" H 1342 5855 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 1250 5900 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B474KAFNNNE.jsp" H 1250 5900 50  0001 C CNN
@@ -1052,8 +1052,8 @@ L power:GNDPWR #PWR?
 U 1 1 5FB8F7FD
 P 1250 6000
 AR Path="/5FB8F7FD" Ref="#PWR?"  Part="1" 
-AR Path="/5EBD6442/5FB8F7FD" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 1250 5800 50  0001 C CNN
+AR Path="/5EBD6442/5FB8F7FD" Ref="#PWR0302"  Part="1" 
+F 0 "#PWR0302" H 1250 5800 50  0001 C CNN
 F 1 "GNDPWR" H 1254 5846 50  0000 C CNN
 F 2 "" H 1250 5950 50  0001 C CNN
 F 3 "" H 1250 5950 50  0001 C CNN
