@@ -96,7 +96,7 @@ Wire Wire Line
 	2950 5150 2800 5150
 Text HLabel 5100 4550 0    50   Output ~ 0
 CHARGER_ON_OFF
-Text HLabel 7550 4850 2    50   Output ~ 0
+Text HLabel 8150 4850 2    50   Output ~ 0
 BOOST_ON_OFF
 $Comp
 L Switch:SW_Push SW201
@@ -583,7 +583,7 @@ Connection ~ 8200 4450
 Wire Wire Line
 	8200 4450 8650 4450
 Wire Wire Line
-	7550 4450 8200 4450
+	7550 4450 7700 4450
 Wire Wire Line
 	7550 4350 8400 4350
 Wire Wire Line
@@ -1063,7 +1063,7 @@ Wire Wire Line
 Wire Wire Line
 	1000 3000 1150 3000
 Wire Wire Line
-	1150 3000 1150 5050
+	1150 3000 1150 4400
 Wire Wire Line
 	1150 5050 1400 5050
 Connection ~ 1150 3000
@@ -1081,4 +1081,54 @@ Wire Wire Line
 	2800 4150 3700 4150
 Wire Wire Line
 	3700 4150 3700 6950
+$Comp
+L Connector:TestPoint TP?
+U 1 1 604D2532
+P 1150 4400
+AR Path="/5EBD6442/604D2532" Ref="TP?"  Part="1" 
+AR Path="/5EF73D52/604D2532" Ref="TP201"  Part="1" 
+F 0 "TP201" H 1208 4518 50  0000 L CNN
+F 1 "TestPoint" H 1208 4427 50  0000 L CNN
+F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Big" H 1350 4400 50  0001 C CNN
+F 3 "~" H 1350 4400 50  0001 C CNN
+	1    1150 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 604DC721
+P 7700 4450
+AR Path="/5EBD6442/604DC721" Ref="TP?"  Part="1" 
+AR Path="/5EF73D52/604DC721" Ref="TP202"  Part="1" 
+F 0 "TP202" H 7758 4568 50  0000 L CNN
+F 1 "TestPoint" H 7758 4477 50  0000 L CNN
+F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Big" H 7900 4450 50  0001 C CNN
+F 3 "~" H 7900 4450 50  0001 C CNN
+	1    7700 4450
+	1    0    0    -1  
+$EndComp
+Connection ~ 7700 4450
+Wire Wire Line
+	7700 4450 8200 4450
+Wire Wire Line
+	7550 4850 7700 4850
+$Comp
+L Connector:TestPoint TP?
+U 1 1 604F5CFE
+P 7700 4850
+AR Path="/5EBD6442/604F5CFE" Ref="TP?"  Part="1" 
+AR Path="/5EF73D52/604F5CFE" Ref="TP203"  Part="1" 
+F 0 "TP203" H 7758 4968 50  0000 L CNN
+F 1 "TestPoint" H 7758 4877 50  0000 L CNN
+F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Big" H 7900 4850 50  0001 C CNN
+F 3 "~" H 7900 4850 50  0001 C CNN
+	1    7700 4850
+	1    0    0    -1  
+$EndComp
+Connection ~ 7700 4850
+Wire Wire Line
+	7700 4850 8150 4850
+Connection ~ 1150 4400
+Wire Wire Line
+	1150 4400 1150 5050
 $EndSCHEMATC

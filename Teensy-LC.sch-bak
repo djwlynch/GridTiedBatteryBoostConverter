@@ -96,7 +96,7 @@ Wire Wire Line
 	2950 5150 2800 5150
 Text HLabel 5100 4550 0    50   Output ~ 0
 CHARGER_ON_OFF
-Text HLabel 7550 4850 2    50   Output ~ 0
+Text HLabel 8150 4850 2    50   Output ~ 0
 BOOST_ON_OFF
 $Comp
 L Switch:SW_Push SW201
@@ -283,18 +283,6 @@ Wire Wire Line
 	7550 5450 8050 5450
 Wire Wire Line
 	7550 5350 8050 5350
-Entry Wire Line
-	3200 4050 3100 3950
-Entry Wire Line
-	3100 4150 3200 4250
-Entry Wire Line
-	3100 4050 3200 4150
-Wire Wire Line
-	2800 3950 3100 3950
-Wire Wire Line
-	2800 4050 3100 4050
-Wire Wire Line
-	2800 4150 3100 4150
 Text Label 3200 7150 0    50   ~ 0
 LCD_RS
 Text Label 3200 7050 0    50   ~ 0
@@ -442,19 +430,7 @@ Wire Wire Line
 Wire Wire Line
 	2900 6950 3700 6950
 Wire Wire Line
-	3700 6950 3700 4250
-Wire Wire Line
-	3700 4250 3200 4250
-Wire Wire Line
 	2900 7050 3750 7050
-Wire Wire Line
-	3750 7050 3750 4150
-Wire Wire Line
-	3750 4150 3200 4150
-Wire Wire Line
-	3800 7150 3800 4050
-Wire Wire Line
-	3800 4050 3200 4050
 Text Label 3150 6550 0    50   ~ 0
 LCD_DB4
 Wire Wire Line
@@ -607,7 +583,7 @@ Connection ~ 8200 4450
 Wire Wire Line
 	8200 4450 8650 4450
 Wire Wire Line
-	7550 4450 8200 4450
+	7550 4450 7700 4450
 Wire Wire Line
 	7550 4350 8400 4350
 Wire Wire Line
@@ -1093,4 +1069,63 @@ Wire Wire Line
 Connection ~ 1150 3000
 Wire Wire Line
 	1150 3000 1350 3000
+Wire Wire Line
+	3800 3950 2800 3950
+Wire Wire Line
+	3800 3950 3800 7150
+Wire Wire Line
+	2800 4050 3750 4050
+Wire Wire Line
+	3750 4050 3750 7050
+Wire Wire Line
+	2800 4150 3700 4150
+Wire Wire Line
+	3700 4150 3700 6950
+$Comp
+L Connector:TestPoint TP?
+U 1 1 604D2532
+P 1150 4450
+AR Path="/5EBD6442/604D2532" Ref="TP?"  Part="1" 
+AR Path="/5EF73D52/604D2532" Ref="TP201"  Part="1" 
+F 0 "TP201" H 1208 4568 50  0000 L CNN
+F 1 "TestPoint" H 1208 4477 50  0000 L CNN
+F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Big" H 1350 4450 50  0001 C CNN
+F 3 "~" H 1350 4450 50  0001 C CNN
+	1    1150 4450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 604DC721
+P 7700 4450
+AR Path="/5EBD6442/604DC721" Ref="TP?"  Part="1" 
+AR Path="/5EF73D52/604DC721" Ref="TP202"  Part="1" 
+F 0 "TP202" H 7758 4568 50  0000 L CNN
+F 1 "TestPoint" H 7758 4477 50  0000 L CNN
+F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Big" H 7900 4450 50  0001 C CNN
+F 3 "~" H 7900 4450 50  0001 C CNN
+	1    7700 4450
+	1    0    0    -1  
+$EndComp
+Connection ~ 7700 4450
+Wire Wire Line
+	7700 4450 8200 4450
+Wire Wire Line
+	7550 4850 7700 4850
+$Comp
+L Connector:TestPoint TP?
+U 1 1 604F5CFE
+P 7700 4850
+AR Path="/5EBD6442/604F5CFE" Ref="TP?"  Part="1" 
+AR Path="/5EF73D52/604F5CFE" Ref="TP203"  Part="1" 
+F 0 "TP203" H 7758 4968 50  0000 L CNN
+F 1 "TestPoint" H 7758 4877 50  0000 L CNN
+F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Big" H 7900 4850 50  0001 C CNN
+F 3 "~" H 7900 4850 50  0001 C CNN
+	1    7700 4850
+	1    0    0    -1  
+$EndComp
+Connection ~ 7700 4850
+Wire Wire Line
+	7700 4850 8150 4850
 $EndSCHEMATC

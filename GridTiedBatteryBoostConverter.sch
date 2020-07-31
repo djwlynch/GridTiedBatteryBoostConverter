@@ -648,7 +648,7 @@ Connection ~ 3950 4050
 Wire Wire Line
 	3950 4050 3950 4000
 Wire Wire Line
-	800  6300 2350 6300
+	800  6300 1450 6300
 $Comp
 L Device:R_Small R120
 U 1 1 5E8494B8
@@ -926,7 +926,7 @@ Wire Wire Line
 Text GLabel 3800 2500 0    50   BiDi ~ 0
 UCC_5V_REF
 Wire Wire Line
-	3800 2900 3800 2500
+	3800 2900 3800 2750
 Wire Wire Line
 	3600 2900 3800 2900
 Wire Wire Line
@@ -1398,4 +1398,53 @@ Text Label 9300 1000 0    50   ~ 0
 Vout
 Text Label 9450 3200 0    50   ~ 0
 +2.5V_REF
+$Comp
+L Connector:TestPoint TP?
+U 1 1 6050D700
+P 1450 6300
+AR Path="/5EBD6442/6050D700" Ref="TP?"  Part="1" 
+AR Path="/5EF73D52/6050D700" Ref="TP?"  Part="1" 
+AR Path="/6050D700" Ref="TP101"  Part="1" 
+F 0 "TP101" H 1508 6418 50  0000 L CNN
+F 1 "TestPoint" H 1508 6327 50  0000 L CNN
+F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Big" H 1650 6300 50  0001 C CNN
+F 3 "~" H 1650 6300 50  0001 C CNN
+	1    1450 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 60519D43
+P 3800 2750
+AR Path="/5EBD6442/60519D43" Ref="TP?"  Part="1" 
+AR Path="/5EF73D52/60519D43" Ref="TP?"  Part="1" 
+AR Path="/60519D43" Ref="TP102"  Part="1" 
+F 0 "TP102" V 3754 2938 50  0000 L CNN
+F 1 "TestPoint" V 3845 2938 50  0000 L CNN
+F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Big" H 4000 2750 50  0001 C CNN
+F 3 "~" H 4000 2750 50  0001 C CNN
+	1    3800 2750
+	0    1    1    0   
+$EndComp
+Connection ~ 3800 2750
+Wire Wire Line
+	3800 2750 3800 2500
+$Comp
+L Connector:TestPoint TP?
+U 1 1 6051C0A5
+P 4700 2950
+AR Path="/5EBD6442/6051C0A5" Ref="TP?"  Part="1" 
+AR Path="/5EF73D52/6051C0A5" Ref="TP?"  Part="1" 
+AR Path="/6051C0A5" Ref="TP103"  Part="1" 
+F 0 "TP103" H 4758 3068 50  0000 L CNN
+F 1 "TestPoint" H 4758 2977 50  0000 L CNN
+F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Big" H 4900 2950 50  0001 C CNN
+F 3 "~" H 4900 2950 50  0001 C CNN
+	1    4700 2950
+	1    0    0    -1  
+$EndComp
+Connection ~ 4700 2950
+Connection ~ 1450 6300
+Wire Wire Line
+	1450 6300 2350 6300
 $EndSCHEMATC

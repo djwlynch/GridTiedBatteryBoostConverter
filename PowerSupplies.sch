@@ -210,10 +210,10 @@ Wire Wire Line
 Connection ~ 3650 1750
 Wire Wire Line
 	3650 1750 3650 900 
-Text GLabel 4150 950  2    50   Output ~ 0
+Text GLabel 4700 950  2    50   Output ~ 0
 +11V
 Wire Wire Line
-	4150 950  3950 950 
+	4700 950  4250 950 
 Wire Wire Line
 	3950 900  3950 950 
 Connection ~ 3950 950 
@@ -221,7 +221,7 @@ Wire Wire Line
 	3950 950  3950 1100
 Wire Wire Line
 	2800 1750 3100 1750
-Text Notes 4250 1550 0    50   ~ 0
+Text Notes 4750 1550 0    50   ~ 0
 5V
 Wire Wire Line
 	2800 2150 3150 2150
@@ -444,8 +444,6 @@ Wire Wire Line
 Connection ~ 8300 1200
 Wire Wire Line
 	8300 1750 8300 1500
-Wire Wire Line
-	8300 850  8900 850 
 Connection ~ 8300 850 
 $Comp
 L Device:C C?
@@ -504,10 +502,8 @@ Text GLabel 9500 900  0    50   Input ~ 0
 Wire Wire Line
 	9500 900  9700 900 
 Connection ~ 9700 900 
-Text GLabel 10900 900  2    50   Output ~ 0
+Text GLabel 10950 900  2    50   Output ~ 0
 +3.0V
-Wire Wire Line
-	10900 900  10650 900 
 Connection ~ 10650 900 
 $Comp
 L TI:TLV704_SOT23-5 U304
@@ -565,7 +561,7 @@ Text Notes 10400 5700 0    50   ~ 0
 102.2V - 86.9V Batt
 Text Notes 6150 5750 0    50   ~ 0
 102.2V 20A
-Text HLabel 6300 4700 0    50   Input ~ 0
+Text HLabel 5600 4700 0    50   Input ~ 0
 CHARGER_ON_OFF
 $Comp
 L Device:R_Small R312
@@ -724,7 +720,7 @@ Wire Wire Line
 Wire Wire Line
 	6800 4700 7200 4700
 Wire Wire Line
-	6600 4700 6300 4700
+	6600 4700 5800 4700
 $Comp
 L Device:R_Small R301
 U 1 1 5F1DAAEA
@@ -784,9 +780,9 @@ Wire Wire Line
 Connection ~ 9850 900 
 Wire Wire Line
 	9850 900  9900 900 
-Text Notes 4150 800  0    50   ~ 0
+Text Notes 4150 750  0    50   ~ 0
 11V 405mA\n Continuous
-Text Notes 8100 700  0    50   ~ 0
+Text Notes 7850 650  0    50   ~ 0
 5V 500mA Continuous
 Text HLabel 4750 5900 2    50   Output ~ 0
 +2.5V_REF
@@ -865,8 +861,8 @@ U 1 1 5F9C833D
 P 3800 4200
 AR Path="/5F9C833D" Ref="R?"  Part="1" 
 AR Path="/5EBD6442/5F9C833D" Ref="R304"  Part="1" 
-F 0 "R304" H 3870 4246 50  0000 L CNN
-F 1 "20k 0.1%" H 4100 4250 50  0000 L CNN
+F 0 "R304" H 3950 4200 50  0000 L CNN
+F 1 "20k 0.1%" H 3950 4100 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 3730 4200 50  0001 C CNN
 F 3 "~" H 3800 4200 50  0001 C CNN
 	1    3800 4200
@@ -930,7 +926,7 @@ Wire Wire Line
 Connection ~ 2250 4550
 Wire Wire Line
 	2250 4550 2250 4600
-Text Notes 3900 4050 0    50   ~ 0
+Text Notes 4350 4100 0    50   ~ 0
 0.8V
 $Comp
 L TI:TPS560200 U306
@@ -997,10 +993,8 @@ Wire Wire Line
 Connection ~ 3800 4050
 Wire Wire Line
 	3800 4600 3800 4350
-Wire Wire Line
-	3800 3700 4400 3700
 Connection ~ 3800 3700
-Text Notes 3600 3550 0    50   ~ 0
+Text Notes 3600 3500 0    50   ~ 0
 3.3V 500mA Continuous
 $Comp
 L TI:REF2920AIDBZT U305
@@ -1035,7 +1029,7 @@ Wire Wire Line
 Text GLabel 1050 5800 0    50   Input ~ 0
 +3.0V
 Wire Wire Line
-	4050 5900 4750 5900
+	4050 5900 4300 5900
 $Comp
 L Device:C_Small C302
 U 1 1 5FB88319
@@ -1065,4 +1059,99 @@ Wire Wire Line
 Wire Wire Line
 	1250 5800 1850 5800
 Connection ~ 1250 5800
+$Comp
+L Connector:TestPoint TP304
+U 1 1 60423F90
+P 4250 950
+F 0 "TP304" H 4308 1068 50  0000 L CNN
+F 1 "TestPoint" H 4308 977 50  0000 L CNN
+F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Big" H 4450 950 50  0001 C CNN
+F 3 "~" H 4450 950 50  0001 C CNN
+	1    4250 950 
+	1    0    0    -1  
+$EndComp
+Connection ~ 4250 950 
+Wire Wire Line
+	4250 950  3950 950 
+$Comp
+L Connector:TestPoint TP303
+U 1 1 6045A6ED
+P 4200 1550
+F 0 "TP303" V 4154 1738 50  0000 L CNN
+F 1 "TestPoint" V 4245 1738 50  0000 L CNN
+F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Big" H 4400 1550 50  0001 C CNN
+F 3 "~" H 4400 1550 50  0001 C CNN
+	1    4200 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP301
+U 1 1 60490DE8
+P 3800 4050
+F 0 "TP301" V 3754 4238 50  0000 L CNN
+F 1 "TestPoint" V 3845 4238 50  0000 L CNN
+F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Big" H 4000 4050 50  0001 C CNN
+F 3 "~" H 4000 4050 50  0001 C CNN
+	1    3800 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP305
+U 1 1 60497068
+P 4300 5900
+F 0 "TP305" H 4358 6018 50  0000 L CNN
+F 1 "TestPoint" H 4358 5927 50  0000 L CNN
+F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Big" H 4500 5900 50  0001 C CNN
+F 3 "~" H 4500 5900 50  0001 C CNN
+	1    4300 5900
+	1    0    0    -1  
+$EndComp
+Connection ~ 4300 5900
+Wire Wire Line
+	4300 5900 4750 5900
+Wire Wire Line
+	8300 850  8900 850 
+Wire Wire Line
+	3800 3700 3950 3700
+$Comp
+L Connector:TestPoint TP307
+U 1 1 6049E6F4
+P 10650 900
+F 0 "TP307" H 10708 1018 50  0000 L CNN
+F 1 "TestPoint" H 10708 927 50  0000 L CNN
+F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Big" H 10850 900 50  0001 C CNN
+F 3 "~" H 10850 900 50  0001 C CNN
+	1    10650 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP302
+U 1 1 6049EF33
+P 3950 3700
+F 0 "TP302" H 4008 3818 50  0000 L CNN
+F 1 "TestPoint" H 4008 3727 50  0000 L CNN
+F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Big" H 4150 3700 50  0001 C CNN
+F 3 "~" H 4150 3700 50  0001 C CNN
+	1    3950 3700
+	1    0    0    -1  
+$EndComp
+Connection ~ 3950 3700
+Wire Wire Line
+	3950 3700 4400 3700
+$Comp
+L Connector:TestPoint TP306
+U 1 1 604A0C2F
+P 5800 4700
+F 0 "TP306" H 5858 4818 50  0000 L CNN
+F 1 "TestPoint" H 5858 4727 50  0000 L CNN
+F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Big" H 6000 4700 50  0001 C CNN
+F 3 "~" H 6000 4700 50  0001 C CNN
+	1    5800 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10650 900  10950 900 
+Connection ~ 5800 4700
+Wire Wire Line
+	5800 4700 5600 4700
 $EndSCHEMATC
