@@ -40,18 +40,6 @@ Text GLabel 8050 5150 2    50   Input ~ 0
 Mains_Current
 Text GLabel 8050 5250 2    50   Input ~ 0
 Mains_Voltage
-$Comp
-L Display_Character:NHD-0420H1Z U201
-U 1 1 5E86612A
-P 2400 4550
-F 0 "U201" H 2400 3661 50  0000 C CNN
-F 1 "LCD 2004A" H 2400 3570 50  0000 C CNN
-F 2 "Connect_jl:LCD2004_Pin_Header_Angled_1x16_Pitch2.54mm" H 2400 3650 50  0001 C CNN
-F 3 "/media/jlynch/SW_Preload/Users/jlynch/Downloads/DataSheets/LCD/2004A-RK-10290_410.pdf" H 2500 4450 50  0001 C CNN
-F 4 "http://www.adam-tech.com/downloader.php?p=PH1RB-XX-UA.pdf" H 2400 4550 50  0001 C CNN "Connector"
-	1    2400 4550
-	-1   0    0    -1  
-$EndComp
 Text GLabel 2400 2350 1    50   Input ~ 0
 +5V
 $Comp
@@ -209,56 +197,34 @@ Wire Wire Line
 $Comp
 L Device:Q_NMOS_GSD Q?
 U 1 1 5F7AABC6
-P 1600 4950
+P 1600 5050
 AR Path="/5F7AABC6" Ref="Q?"  Part="1" 
 AR Path="/5EF73D52/5F7AABC6" Ref="Q202"  Part="1" 
-F 0 "Q202" H 1200 4650 50  0000 L CNN
-F 1 "SSM3K329R" H 1200 4500 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 1800 5050 50  0001 C CNN
-F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=2157&prodName=SSM3K329R" H 1600 4950 50  0001 C CNN
-	1    1600 4950
+F 0 "Q202" H 1200 4750 50  0000 L CNN
+F 1 "SSM3K329R" H 1200 4600 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 1800 5150 50  0001 C CNN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=2157&prodName=SSM3K329R" H 1600 5050 50  0001 C CNN
+	1    1600 5050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1700 5150 1700 5650
+	1700 5250 1700 5650
 Wire Wire Line
 	1700 5650 2400 5650
 Connection ~ 2400 5650
 Wire Wire Line
 	2400 5650 2400 5750
-Wire Wire Line
-	2000 4750 1700 4750
-Wire Wire Line
-	1000 3000 1100 3000
-Wire Wire Line
-	1400 4950 1100 4950
-Wire Wire Line
-	1100 4950 1100 3000
-Connection ~ 1100 3000
-Wire Wire Line
-	1100 3000 1350 3000
 $Comp
 L Device:R_Small R206
 U 1 1 5F7FE774
-P 2000 3900
-F 0 "R206" H 2350 3750 50  0000 C CNN
-F 1 "100 Ohm 1%" H 2350 3900 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 2000 3900 50  0001 C CNN
-F 3 "~" H 2000 3900 50  0001 C CNN
-	1    2000 3900
+P 1850 3900
+F 0 "R206" H 2200 3750 50  0000 C CNN
+F 1 "100 Ohm 1%" H 2200 3900 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 1850 3900 50  0001 C CNN
+F 3 "~" H 1850 3900 50  0001 C CNN
+	1    1850 3900
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	2400 2350 2400 2450
-Wire Wire Line
-	2000 3800 2000 2450
-Wire Wire Line
-	2000 2450 2400 2450
-Connection ~ 2400 2450
-Wire Wire Line
-	2400 2450 2400 2550
-Wire Wire Line
-	2000 4000 2000 4750
 $Comp
 L Device:R_POT RV201
 U 1 1 5F833457
@@ -317,18 +283,6 @@ Wire Wire Line
 	7550 5450 8050 5450
 Wire Wire Line
 	7550 5350 8050 5350
-Entry Wire Line
-	3200 4050 3100 3950
-Entry Wire Line
-	3100 4150 3200 4250
-Entry Wire Line
-	3100 4050 3200 4150
-Wire Wire Line
-	2800 3950 3100 3950
-Wire Wire Line
-	2800 4050 3100 4050
-Wire Wire Line
-	2800 4150 3100 4150
 Text Label 3200 7150 0    50   ~ 0
 LCD_RS
 Text Label 3200 7050 0    50   ~ 0
@@ -418,8 +372,8 @@ L Espressif:ESP-WROOM-02 U204
 U 1 1 5F44E34B
 P 6400 2050
 F 0 "U204" H 6400 2831 50  0000 C CNN
-F 1 "ESP-WROOM-02" H 6400 2740 50  0000 C CNN
-F 2 "RF_Module:ESP-WROOM-02" H 7000 1500 50  0001 C CNN
+F 1 "ESP-WROOM-02U" H 6400 2740 50  0000 C CNN
+F 2 "RF_Module_jl:MODULE_ESP-WROOM-02U" H 7000 1500 50  0001 C CNN
 F 3 "https://www.espressif.com/sites/default/files/documentation/0c-esp-wroom-02_datasheet_en.pdf" H 6450 3550 50  0001 C CNN
 	1    6400 2050
 	1    0    0    -1  
@@ -449,7 +403,6 @@ Wire Wire Line
 	4800 4850 5200 4850
 Wire Wire Line
 	5300 6350 4750 6350
-Connection ~ 2000 4750
 Wire Wire Line
 	2900 6550 3500 6550
 Wire Wire Line
@@ -477,19 +430,7 @@ Wire Wire Line
 Wire Wire Line
 	2900 6950 3700 6950
 Wire Wire Line
-	3700 6950 3700 4250
-Wire Wire Line
-	3700 4250 3200 4250
-Wire Wire Line
 	2900 7050 3750 7050
-Wire Wire Line
-	3750 7050 3750 4150
-Wire Wire Line
-	3750 4150 3200 4150
-Wire Wire Line
-	3800 7150 3800 4050
-Wire Wire Line
-	3800 4050 3200 4050
 Text Label 3150 6550 0    50   ~ 0
 LCD_DB4
 Wire Wire Line
@@ -1080,4 +1021,64 @@ Wire Wire Line
 	4400 5450 4400 4650
 Wire Wire Line
 	4400 4650 5200 4650
+Text Label 4600 3950 0    50   ~ 0
+wifi_en
+Text Label 8450 1350 0    50   ~ 0
+~reset
+Text Label 4600 3750 0    50   ~ 0
+mcu_wifi_tx
+Text Label 4600 3650 0    50   ~ 0
+mcu_wifi_rx
+Text Label 7750 1700 0    50   ~ 0
+~wake_out
+$Comp
+L Display_Character:NHD-0420H1Z U201
+U 1 1 5E86612A
+P 2400 4550
+F 0 "U201" H 2400 3661 50  0000 C CNN
+F 1 "LCD 2004A" H 2400 3570 50  0000 C CNN
+F 2 "Connect_jl:LCD2004_Pin_Header_Angled_1x16_Pitch2.54mm" H 2400 3650 50  0001 C CNN
+F 3 "/media/jlynch/SW_Preload/Users/jlynch/Downloads/DataSheets/LCD/2004A-RK-10290_410.pdf" H 2500 4450 50  0001 C CNN
+F 4 "http://www.adam-tech.com/downloader.php?p=PH1RB-XX-UA.pdf" H 2400 4550 50  0001 C CNN "Connector"
+	1    2400 4550
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 2350 2400 2500
+Wire Wire Line
+	2400 2500 1850 2500
+Wire Wire Line
+	1850 2500 1850 3800
+Connection ~ 2400 2500
+Wire Wire Line
+	2400 2500 2400 2550
+Wire Wire Line
+	1850 4000 1850 4850
+Wire Wire Line
+	1850 4850 2000 4850
+Wire Wire Line
+	2000 4750 1700 4750
+Wire Wire Line
+	1700 4750 1700 4850
+Wire Wire Line
+	1000 3000 1150 3000
+Wire Wire Line
+	1150 3000 1150 5050
+Wire Wire Line
+	1150 5050 1400 5050
+Connection ~ 1150 3000
+Wire Wire Line
+	1150 3000 1350 3000
+Wire Wire Line
+	3800 3950 2800 3950
+Wire Wire Line
+	3800 3950 3800 7150
+Wire Wire Line
+	2800 4050 3750 4050
+Wire Wire Line
+	3750 4050 3750 7050
+Wire Wire Line
+	2800 4150 3700 4150
+Wire Wire Line
+	3700 4150 3700 6950
 $EndSCHEMATC
