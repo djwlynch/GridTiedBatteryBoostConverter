@@ -17,17 +17,17 @@ $Comp
 L Device:D_Schottky D?
 U 1 1 5EBD6C25
 P 3250 3900
-AR Path="/5EBD6C25" Ref="D?"  Part="1" 
-AR Path="/5F4EB1AC/5EBD6C25" Ref="D501"  Part="1" 
-F 0 "D501" H 3150 3750 50  0000 C CNN
-F 1 "VS-20ETS12-M3 1200V 1V fwd@10A" H 3250 4250 50  0000 C CNN
-F 2 "Diodes_ThroughHole_jl:Diode_TO_220AC_Horizonal" H 3250 3900 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/96244/vs-20etsm3_vs-20atsm3.pdf" H 3250 3900 50  0001 C CNN
-F 4 "-" H 0   0   50  0001 C CNN "MFR"
-F 5 "-" H 0   0   50  0001 C CNN "MPN"
-F 6 "-" H 0   0   50  0001 C CNN "SPR"
-F 7 "-" H 0   0   50  0001 C CNN "SPN"
-F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+AR Path="/5EBD6C25" Ref="D?" Part="1"
+AR Path="/5F4EB1AC/5EBD6C25" Ref="D501" Part="1"
+F 0 "D501" H 3150 3750 50 0000 C CNN
+F 1 "VS-20ETS12-M3 1200V 1V fwd@10A" H 3250 4250 50 0000 C CNN
+F 2 "Diodes_ThroughHole_jl:Diode_TO_220AC_Horizonal" H 3250 3900 50 0001 C CNN
+F 3 "http://www.vishay.com/docs/96244/vs-20etsm3_vs-20atsm3.pdf" H 3250 3900 50 0001 C CNN
+F 4 "-" H 0 0 50 0001 C CNN "MFR"
+F 5 "-" H 0 0 50 0001 C CNN "MPN"
+F 6 "-" H 0 0 50 0001 C CNN "SPR"
+F 7 "-" H 0 0 50 0001 C CNN "SPN"
+F 8 "-" H 0 0 50 0001 C CNN "SPURL"
 	1    3250 3900
 	-1   0    0    1   
 $EndComp
@@ -35,17 +35,17 @@ $Comp
 L Device:D_Schottky D?
 U 1 1 5EBD7949
 P 5250 3900
-AR Path="/5EBD7949" Ref="D?"  Part="1" 
-AR Path="/5F4EB1AC/5EBD7949" Ref="D503"  Part="1" 
-F 0 "D503" H 5250 4050 50  0000 C CNN
-F 1 "VS-20ETS12-M3 1200V 1V fwd@10A" H 5800 3600 50  0000 C CNN
-F 2 "Diodes_ThroughHole_jl:Diode_TO_220AC_Horizonal" H 5250 3900 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/96244/vs-20etsm3_vs-20atsm3.pdf" H 5250 3900 50  0001 C CNN
-F 4 "-" H 0   0   50  0001 C CNN "MFR"
-F 5 "-" H 0   0   50  0001 C CNN "MPN"
-F 6 "-" H 0   0   50  0001 C CNN "SPR"
-F 7 "-" H 0   0   50  0001 C CNN "SPN"
-F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+AR Path="/5EBD7949" Ref="D?" Part="1"
+AR Path="/5F4EB1AC/5EBD7949" Ref="D503" Part="1"
+F 0 "D503" H 5250 4050 50 0000 C CNN
+F 1 "VS-20ETS12-M3 1200V 1V fwd@10A" H 5800 3600 50 0000 C CNN
+F 2 "Diodes_ThroughHole_jl:Diode_TO_220AC_Horizonal" H 5250 3900 50 0001 C CNN
+F 3 "http://www.vishay.com/docs/96244/vs-20etsm3_vs-20atsm3.pdf" H 5250 3900 50 0001 C CNN
+F 4 "-" H 0 0 50 0001 C CNN "MFR"
+F 5 "-" H 0 0 50 0001 C CNN "MPN"
+F 6 "-" H 0 0 50 0001 C CNN "SPR"
+F 7 "-" H 0 0 50 0001 C CNN "SPN"
+F 8 "-" H 0 0 50 0001 C CNN "SPURL"
 	1    5250 3900
 	1    0    0    -1  
 $EndComp
@@ -53,17 +53,17 @@ $Comp
 L Device:D_Schottky D?
 U 1 1 5EC134A6
 P 4350 4050
-AR Path="/5EC134A6" Ref="D?"  Part="1" 
-AR Path="/5F4EB1AC/5EC134A6" Ref="D502"  Part="1" 
-F 0 "D502" H 4350 4200 50  0000 C CNN
-F 1 "VS-20ETS12-M3 1200V 1V fwd@10A" V 4750 4950 50  0000 C CNN
-F 2 "Diodes_ThroughHole_jl:Diode_TO_220AC_Horizonal" H 4350 4050 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/96244/vs-20etsm3_vs-20atsm3.pdf" H 4350 4050 50  0001 C CNN
-F 4 "-" H 0   0   50  0001 C CNN "MFR"
-F 5 "-" H 0   0   50  0001 C CNN "MPN"
-F 6 "-" H 0   0   50  0001 C CNN "SPR"
-F 7 "-" H 0   0   50  0001 C CNN "SPN"
-F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+AR Path="/5EC134A6" Ref="D?" Part="1"
+AR Path="/5F4EB1AC/5EC134A6" Ref="D502" Part="1"
+F 0 "D502" H 4350 4200 50 0000 C CNN
+F 1 "VS-20ETS12-M3 1200V 1V fwd@10A" V 4750 4950 50 0000 C CNN
+F 2 "Diodes_ThroughHole_jl:Diode_TO_220AC_Horizonal" H 4350 4050 50 0001 C CNN
+F 3 "http://www.vishay.com/docs/96244/vs-20etsm3_vs-20atsm3.pdf" H 4350 4050 50 0001 C CNN
+F 4 "-" H 0 0 50 0001 C CNN "MFR"
+F 5 "-" H 0 0 50 0001 C CNN "MPN"
+F 6 "-" H 0 0 50 0001 C CNN "SPR"
+F 7 "-" H 0 0 50 0001 C CNN "SPN"
+F 8 "-" H 0 0 50 0001 C CNN "SPURL"
 	1    4350 4050
 	0    1    1    0   
 $EndComp
@@ -71,10 +71,10 @@ $Comp
 L power:GNDPWR #PWR0501
 U 1 1 5EC16400
 P 4350 4400
-F 0 "#PWR0501" H 4350 4200 50  0001 C CNN
-F 1 "GNDPWR" H 4354 4246 50  0000 C CNN
-F 2 "" H 4350 4350 50  0001 C CNN
-F 3 "" H 4350 4350 50  0001 C CNN
+F 0 "#PWR0501" H 4350 4200 50 0001 C CNN
+F 1 "GNDPWR" H 4354 4246 50 0000 C CNN
+F 2 "" H 4350 4350 50 0001 C CNN
+F 3 "" H 4350 4350 50 0001 C CNN
 	1    4350 4400
 	1    0    0    -1  
 $EndComp

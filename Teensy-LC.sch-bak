@@ -218,7 +218,7 @@ L Device:R_Small R206
 U 1 1 5F7FE774
 P 1850 3900
 F 0 "R206" H 2200 3750 50  0000 C CNN
-F 1 "100 1%" H 2200 3900 50  0000 C CNN
+F 1 "100R 1%" H 2200 3900 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" H 1850 3900 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 1850 3900 50  0001 C CNN
 F 4 "Yageo" H 0   0   50  0001 C CNN "MFR"
@@ -363,11 +363,11 @@ P 2400 6950
 F 0 "U203" H 2400 7831 50  0000 C CNN
 F 1 "PCF8574ADWR" H 2400 7740 50  0000 C CNN
 F 2 "Housings_SOIC:SOIC-16W_7.5x10.3mm_Pitch1.27mm" H 2400 6950 50  0001 C CNN
-F 3 "http://www.nxp.com/documents/data_sheet/PCF8574_PCF8574A.pdf" H 2400 6950 50  0001 C CNN
-F 4 "-" H 0   0   50  0001 C CNN "MFR"
-F 5 "-" H 0   0   50  0001 C CNN "MPN"
-F 6 "-" H 0   0   50  0001 C CNN "SPR"
-F 7 "-" H 0   0   50  0001 C CNN "SPN"
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fpcf8574a" H 2400 6950 50  0001 C CNN
+F 4 "Texas Instruments" H 0   0   50  0001 C CNN "MFR"
+F 5 "PCF8574ADWR" H 0   0   50  0001 C CNN "MPN"
+F 6 "digikey" H 0   0   50  0001 C CNN "SPR"
+F 7 "296-13105-1-ND" H 0   0   50  0001 C CNN "SPN"
 F 8 "-" H 0   0   50  0001 C CNN "SPURL"
 	1    2400 6950
 	1    0    0    -1  
@@ -390,11 +390,11 @@ P 8200 4550
 F 0 "R211" H 8259 4596 50  0000 L CNN
 F 1 "4K7 1%" H 8259 4505 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" H 8200 4550 50  0001 C CNN
-F 3 "~" H 8200 4550 50  0001 C CNN
-F 4 "-" H 0   0   50  0001 C CNN "MFR"
-F 5 "-" H 0   0   50  0001 C CNN "MPN"
-F 6 "-" H 0   0   50  0001 C CNN "SPR"
-F 7 "-" H 0   0   50  0001 C CNN "SPN"
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 8200 4550 50  0001 C CNN
+F 4 "Yageo" H 0   0   50  0001 C CNN "MFR"
+F 5 "RC0805FR-074K7L" H 0   0   50  0001 C CNN "MPN"
+F 6 "digikey" H 0   0   50  0001 C CNN "SPR"
+F 7 "311-4.70KCRCT-ND" H 0   0   50  0001 C CNN "SPN"
 F 8 "-" H 0   0   50  0001 C CNN "SPURL"
 	1    8200 4550
 	1    0    0    -1  
@@ -406,11 +406,11 @@ P 8650 4550
 F 0 "R212" H 8709 4596 50  0000 L CNN
 F 1 "4K7 1%" H 8709 4505 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" H 8650 4550 50  0001 C CNN
-F 3 "~" H 8650 4550 50  0001 C CNN
-F 4 "-" H 0   0   50  0001 C CNN "MFR"
-F 5 "-" H 0   0   50  0001 C CNN "MPN"
-F 6 "-" H 0   0   50  0001 C CNN "SPR"
-F 7 "-" H 0   0   50  0001 C CNN "SPN"
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 8650 4550 50  0001 C CNN
+F 4 "Yageo" H 0   0   50  0001 C CNN "MFR"
+F 5 "RC0805FR-074K7L" H 0   0   50  0001 C CNN "MPN"
+F 6 "digikey" H 0   0   50  0001 C CNN "SPR"
+F 7 "311-4.70KCRCT-ND" H 0   0   50  0001 C CNN "SPN"
 F 8 "-" H 0   0   50  0001 C CNN "SPURL"
 	1    8650 4550
 	1    0    0    -1  
@@ -422,11 +422,11 @@ P 700 6550
 F 0 "R208" H 759 6596 50  0000 L CNN
 F 1 "4K7 1%" H 759 6505 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" H 700 6550 50  0001 C CNN
-F 3 "~" H 700 6550 50  0001 C CNN
-F 4 "-" H 0   0   50  0001 C CNN "MFR"
-F 5 "-" H 0   0   50  0001 C CNN "MPN"
-F 6 "-" H 0   0   50  0001 C CNN "SPR"
-F 7 "-" H 0   0   50  0001 C CNN "SPN"
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 700 6550 50  0001 C CNN
+F 4 "Yageo" H 0   0   50  0001 C CNN "MFR"
+F 5 "RC0805FR-074K7L" H 0   0   50  0001 C CNN "MPN"
+F 6 "digikey" H 0   0   50  0001 C CNN "SPR"
+F 7 "311-4.70KCRCT-ND" H 0   0   50  0001 C CNN "SPN"
 F 8 "-" H 0   0   50  0001 C CNN "SPURL"
 	1    700  6550
 	1    0    0    -1  
