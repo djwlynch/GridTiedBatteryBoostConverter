@@ -21,10 +21,10 @@ F 0 "TR401" H 2700 4482 50 0000 C CNN
 F 1 "FS-10-110-C2" H 2700 4391 50 0000 C CNN
 F 2 "Transformers_ThroughHole_jl:FS10-110-C2" H 2700 4000 50 0001 C CNN
 F 3 "http://catalog.triadmagnetics.com/Asset/FS10-110-C2.pdf" H 2700 4000 50 0001 C CNN
-F 4 "-" H 0 0 50 0001 C CNN "MFR"
-F 5 "-" H 0 0 50 0001 C CNN "MPN"
-F 6 "-" H 0 0 50 0001 C CNN "SPR"
-F 7 "-" H 0 0 50 0001 C CNN "SPN"
+F 4 "Triad Magnetics" H 0 0 50 0001 C CNN "MFR"
+F 5 "FS10-110-C2" H 0 0 50 0001 C CNN "MPN"
+F 6 "digikey" H 0 0 50 0001 C CNN "SPR"
+F 7 "237-1578-ND" H 0 0 50 0001 C CNN "SPN"
 F 8 "-" H 0 0 50 0001 C CNN "SPURL"
 	1    2700 4000
 	1    0    0    -1  
@@ -37,10 +37,10 @@ F 0 "J401" H 1418 4117 50 0000 C CNN
 F 1 "Screw_Terminal_01x02" H 1418 4026 50 0000 C CNN
 F 2 "digikey-footprints:Term_Block_1x2_P5mm" H 1500 3900 50 0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1792863.pdf" H 1500 3900 50 0001 C CNN
-F 4 "-" H 0 0 50 0001 C CNN "MFR"
-F 5 "-" H 0 0 50 0001 C CNN "MPN"
-F 6 "-" H 0 0 50 0001 C CNN "SPR"
-F 7 "-" H 0 0 50 0001 C CNN "SPN"
+F 4 "Phoenix Contact" H 0 0 50 0001 C CNN "MFR"
+F 5 "1792863" H 0 0 50 0001 C CNN "MPN"
+F 6 "digikey" H 0 0 50 0001 C CNN "SPR"
+F 7 "277-2518-ND" H 0 0 50 0001 C CNN "SPN"
 F 8 "-" H 0 0 50 0001 C CNN "SPURL"
 	1    1500 3900
 	-1   0    0    -1  
@@ -182,10 +182,10 @@ F 0 "J402" H 3350 3350 50 0000 C CNN
 F 1 "AudioJack2_SwitchT" H 3400 3250 50 0000 C CNN
 F 2 "Connect_jl:Audio_StereoJack_3.5mm_ASJ-99H-R-HT-T" H 3400 2900 50 0001 C CNN
 F 3 "http://www.adam-tech.com/downloader.php?p=ASJ-99H-X-HT-TR.pdf" H 3400 2900 50 0001 C CNN
-F 4 "-" H 0 0 50 0001 C CNN "MFR"
-F 5 "-" H 0 0 50 0001 C CNN "MPN"
-F 6 "-" H 0 0 50 0001 C CNN "SPR"
-F 7 "-" H 0 0 50 0001 C CNN "SPN"
+F 4 "Adam Tech" H 0 0 50 0001 C CNN "MFR"
+F 5 "ASJ-99H-R-HT-T/R" H 0 0 50 0001 C CNN "MPN"
+F 6 "digikey" H 0 0 50 0001 C CNN "SPR"
+F 7 "2057-ASJ-99H-R-HT-T/RCT-ND" H 0 0 50 0001 C CNN "SPN"
 F 8 "-" H 0 0 50 0001 C CNN "SPURL"
 	1    3400 2900
 	1    0    0    1   
@@ -195,13 +195,13 @@ L Diode:BAT54S D401
 U 1 1 5F1847B9
 P 5200 3050
 F 0 "D401" V 5246 3129 50 0000 L CNN
-F 1 "BAV54S" V 5155 3129 50 0000 L CNN
+F 1 "BAT54S" V 5155 3129 50 0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 5200 2550 50 0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAT54_SER.pdf" H 5200 3050 50 0001 C CNN
-F 4 "-" H 0 0 50 0001 C CNN "MFR"
-F 5 "-" H 0 0 50 0001 C CNN "MPN"
-F 6 "-" H 0 0 50 0001 C CNN "SPR"
-F 7 "-" H 0 0 50 0001 C CNN "SPN"
+F 3 "http://toshiba.semicon-storage.com/info/docget.jsp?did=37137&prodName=TBAT54" H 5200 3050 50 0001 C CNN
+F 4 "Toshiba Semiconductor and Storage" H 0 0 50 0001 C CNN "MFR"
+F 5 "TBAT54S,LM" H 0 0 50 0001 C CNN "MPN"
+F 6 "digikey" H 0 0 50 0001 C CNN "SPR"
+F 7 "TBAT54SLMCT-ND" H 0 0 50 0001 C CNN "SPN"
 F 8 "-" H 0 0 50 0001 C CNN "SPURL"
 	1    5200 3050
 	0    1    -1   0   
@@ -222,13 +222,13 @@ L Diode:BAT54S D402
 U 1 1 5EF7C6D1
 P 5550 3950
 F 0 "D402" V 5596 4029 50 0000 L CNN
-F 1 "BAV54S" V 5505 4029 50 0000 L CNN
+F 1 "BAT54S" V 5505 4029 50 0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 5550 3450 50 0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAT54_SER.pdf" H 5550 3950 50 0001 C CNN
-F 4 "-" H 0 0 50 0001 C CNN "MFR"
-F 5 "-" H 0 0 50 0001 C CNN "MPN"
-F 6 "-" H 0 0 50 0001 C CNN "SPR"
-F 7 "-" H 0 0 50 0001 C CNN "SPN"
+F 3 "http://toshiba.semicon-storage.com/info/docget.jsp?did=37137&prodName=TBAT54" H 5550 3950 50 0001 C CNN
+F 4 "Toshiba Semiconductor and Storage" H 0 0 50 0001 C CNN "MFR"
+F 5 "TBAT54S,LM" H 0 0 50 0001 C CNN "MPN"
+F 6 "digikey" H 0 0 50 0001 C CNN "SPR"
+F 7 "TBAT54SLMCT-ND" H 0 0 50 0001 C CNN "SPN"
 F 8 "-" H 0 0 50 0001 C CNN "SPURL"
 	1    5550 3950
 	0    1    -1   0   

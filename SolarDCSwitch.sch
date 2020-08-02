@@ -23,10 +23,10 @@ F 0 "D501" H 3150 3750 50 0000 C CNN
 F 1 "VS-20ETS12-M3 1200V 1V fwd@10A" H 3250 4250 50 0000 C CNN
 F 2 "Diodes_ThroughHole_jl:Diode_TO_220AC_Horizonal" H 3250 3900 50 0001 C CNN
 F 3 "http://www.vishay.com/docs/96244/vs-20etsm3_vs-20atsm3.pdf" H 3250 3900 50 0001 C CNN
-F 4 "-" H 0 0 50 0001 C CNN "MFR"
-F 5 "-" H 0 0 50 0001 C CNN "MPN"
-F 6 "-" H 0 0 50 0001 C CNN "SPR"
-F 7 "-" H 0 0 50 0001 C CNN "SPN"
+F 4 "Vishay Semiconductor Diodes Division" H 0 0 50 0001 C CNN "MFR"
+F 5 "VS-20ETS12-M3" H 0 0 50 0001 C CNN "MPN"
+F 6 "digikey" H 0 0 50 0001 C CNN "SPR"
+F 7 "VS-20ETS12-M3-ND" H 0 0 50 0001 C CNN "SPN"
 F 8 "-" H 0 0 50 0001 C CNN "SPURL"
 	1    3250 3900
 	-1   0    0    1   
@@ -41,10 +41,10 @@ F 0 "D503" H 5250 4050 50 0000 C CNN
 F 1 "VS-20ETS12-M3 1200V 1V fwd@10A" H 5800 3600 50 0000 C CNN
 F 2 "Diodes_ThroughHole_jl:Diode_TO_220AC_Horizonal" H 5250 3900 50 0001 C CNN
 F 3 "http://www.vishay.com/docs/96244/vs-20etsm3_vs-20atsm3.pdf" H 5250 3900 50 0001 C CNN
-F 4 "-" H 0 0 50 0001 C CNN "MFR"
-F 5 "-" H 0 0 50 0001 C CNN "MPN"
-F 6 "-" H 0 0 50 0001 C CNN "SPR"
-F 7 "-" H 0 0 50 0001 C CNN "SPN"
+F 4 "Vishay Semiconductor Diodes Division" H 0 0 50 0001 C CNN "MFR"
+F 5 "VS-20ETS12-M3" H 0 0 50 0001 C CNN "MPN"
+F 6 "digikey" H 0 0 50 0001 C CNN "SPR"
+F 7 "VS-20ETS12-M3-ND" H 0 0 50 0001 C CNN "SPN"
 F 8 "-" H 0 0 50 0001 C CNN "SPURL"
 	1    5250 3900
 	1    0    0    -1  
@@ -59,10 +59,10 @@ F 0 "D502" H 4350 4200 50 0000 C CNN
 F 1 "VS-20ETS12-M3 1200V 1V fwd@10A" V 4750 4950 50 0000 C CNN
 F 2 "Diodes_ThroughHole_jl:Diode_TO_220AC_Horizonal" H 4350 4050 50 0001 C CNN
 F 3 "http://www.vishay.com/docs/96244/vs-20etsm3_vs-20atsm3.pdf" H 4350 4050 50 0001 C CNN
-F 4 "-" H 0 0 50 0001 C CNN "MFR"
-F 5 "-" H 0 0 50 0001 C CNN "MPN"
-F 6 "-" H 0 0 50 0001 C CNN "SPR"
-F 7 "-" H 0 0 50 0001 C CNN "SPN"
+F 4 "Vishay Semiconductor Diodes Division" H 0 0 50 0001 C CNN "MFR"
+F 5 "VS-20ETS12-M3" H 0 0 50 0001 C CNN "MPN"
+F 6 "digikey" H 0 0 50 0001 C CNN "SPR"
+F 7 "VS-20ETS12-M3-ND" H 0 0 50 0001 C CNN "SPN"
 F 8 "-" H 0 0 50 0001 C CNN "SPURL"
 	1    4350 4050
 	0    1    1    0   

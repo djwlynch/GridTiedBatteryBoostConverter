@@ -51,13 +51,13 @@ L Device:C C102
 U 1 1 5E42A8DB
 P 3100 1850
 F 0 "C102" H 3215 1896 50 0000 L CNN
-F 1 "15uF 250VDC 3.9mOhm" H 3215 1805 50 0000 L CNN
+F 1 "15uF PP 250VDC 3.9mOhm" H 3215 1805 50 0000 L CNN
 F 2 "Capacitors_ThroughHole_jl:C_Axial_44mm_24.5mm_P50mm" H 3138 1700 50 0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_F3040_C4G_AXIAL.pdf" H 3100 1850 50 0001 C CNN
-F 4 "-" H 0 0 50 0001 C CNN "MFR"
-F 5 "-" H 0 0 50 0001 C CNN "MPN"
-F 6 "-" H 0 0 50 0001 C CNN "SPR"
-F 7 "-" H 0 0 50 0001 C CNN "SPN"
+F 4 "KEMET" H 0 0 50 0001 C CNN "MFR"
+F 5 "C4GADUD5150AA1J" H 0 0 50 0001 C CNN "MPN"
+F 6 "digikey" H 0 0 50 0001 C CNN "SPR"
+F 7 "399-13088-ND" H 0 0 50 0001 C CNN "SPN"
 F 8 "-" H 0 0 50 0001 C CNN "SPURL"
 	1    3100 1850
 	1    0    0    -1  
@@ -67,13 +67,13 @@ L Device:CP C101
 U 1 1 5E42C075
 P 2600 1850
 F 0 "C101" H 2718 1896 50 0000 L CNN
-F 1 "220uF 200V 905 mOhm" H 2718 1805 50 0000 R CNN
+F 1 "220uF ALUM 200V 905 mOhm 20%" H 2718 1805 50 0000 R CNN
 F 2 "Capacitors_ThroughHole:CP_Radial_D22.0mm_P10.00mm_SnapIn" H 2638 1700 50 0001 C CNN
 F 3 "https://www.cde.com/resources/catalogs/SLP.pdf" H 2600 1850 50 0001 C CNN
-F 4 "-" H 0 0 50 0001 C CNN "MFR"
-F 5 "-" H 0 0 50 0001 C CNN "MPN"
-F 6 "-" H 0 0 50 0001 C CNN "SPR"
-F 7 "-" H 0 0 50 0001 C CNN "SPN"
+F 4 "Cornell Dubilier Electronics (CDE)" H 0 0 50 0001 C CNN "MFR"
+F 5 "SLP221M200A1P3" H 0 0 50 0001 C CNN "MPN"
+F 6 "digikey" H 0 0 50 0001 C CNN "SPR"
+F 7 "338-1478-ND" H 0 0 50 0001 C CNN "SPN"
 F 8 "-" H 0 0 50 0001 C CNN "SPURL"
 	1    2600 1850
 	1    0    0    -1  
@@ -83,13 +83,13 @@ L Device:CP C103
 U 1 1 5E42C8D9
 P 7300 1850
 F 0 "C103" H 7418 1896 50 0000 L CNN
-F 1 "470uF 400V 130mOhm" H 7418 1805 50 0000 R CNN
+F 1 "470uF ALUM 400V 130mOhm 20%" H 7418 1805 50 0000 R CNN
 F 2 "Capacitors_ThroughHole:CP_Radial_D35.0mm_P10.00mm_SnapIn" H 7338 1700 50 0001 C CNN
 F 3 "https://api.kemet.com/component-edge/download/specsheet/ELH477M400AT4AA.pdf" H 7300 1850 50 0001 C CNN
-F 4 "-" H 0 0 50 0001 C CNN "MFR"
-F 5 "-" H 0 0 50 0001 C CNN "MPN"
-F 6 "-" H 0 0 50 0001 C CNN "SPR"
-F 7 "-" H 0 0 50 0001 C CNN "SPN"
+F 4 "KEMET" H 0 0 50 0001 C CNN "MFR"
+F 5 "ELH477M400AT4AA" H 0 0 50 0001 C CNN "MPN"
+F 6 "digikey" H 0 0 50 0001 C CNN "SPR"
+F 7 "399-6073-ND" H 0 0 50 0001 C CNN "SPN"
 F 8 "-" H 0 0 50 0001 C CNN "SPURL"
 	1    7300 1850
 	1    0    0    -1  
@@ -99,13 +99,13 @@ L Device:D_Schottky D101
 U 1 1 5E42CC51
 P 6600 1700
 F 0 "D101" H 6600 1484 50 0000 C CNN
-F 1 "8A 200V 0.950V fwd" H 6600 1575 50 0000 C CNN
+F 1 "8A 200V 0.950V" H 6600 1575 50 0000 C CNN
 F 2 "Diodes_ThroughHole_jl:Diode_TO_220AC_Horizonal" H 6600 1700 50 0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Vishay%20Semiconductors/FES(F,B)8AT_thru_8JT.pdf" H 6600 1700 50 0001 C CNN
-F 4 "-" H 0 0 50 0001 C CNN "MFR"
-F 5 "-" H 0 0 50 0001 C CNN "MPN"
-F 6 "-" H 0 0 50 0001 C CNN "SPR"
-F 7 "-" H 0 0 50 0001 C CNN "SPN"
+F 4 "Vishay Semiconductor Diodes Division" H 0 0 50 0001 C CNN "MFR"
+F 5 "FES8DT-E3/45" H 0 0 50 0001 C CNN "MPN"
+F 6 "digikey" H 0 0 50 0001 C CNN "SPR"
+F 7 "FES8DT-E3/45GI-ND" H 0 0 50 0001 C CNN "SPN"
 F 8 "-" H 0 0 50 0001 C CNN "SPURL"
 	1    6600 1700
 	-1   0    0    1   
@@ -118,10 +118,10 @@ F 0 "L101" V 3719 1700 50 0000 C CNN
 F 1 "47uH 31A Sat 6.38m Ohm" V 3810 1700 50 0000 C CNN
 F 2 "Inductors_jl:Inductor_Wurth_7443763540470" H 3900 1700 50 0001 C CNN
 F 3 "https://www.we-online.com/redexpert/#/module/7324/selecteditems/7443763540470/productdata/=7443763540470/re/digikey" H 3900 1700 50 0001 C CNN
-F 4 "-" H 0 0 50 0001 C CNN "MFR"
-F 5 "-" H 0 0 50 0001 C CNN "MPN"
-F 6 "-" H 0 0 50 0001 C CNN "SPR"
-F 7 "-" H 0 0 50 0001 C CNN "SPN"
+F 4 "Wurth Elektronik" H 0 0 50 0001 C CNN "MFR"
+F 5 "7443763540470" H 0 0 50 0001 C CNN "MPN"
+F 6 "digikey" H 0 0 50 0001 C CNN "SPR"
+F 7 "732-13644-ND" H 0 0 50 0001 C CNN "SPN"
 F 8 "-" H 0 0 50 0001 C CNN "SPURL"
 	1    3900 1700
 	0    1    1    0   
@@ -134,10 +134,10 @@ F 0 "L102" V 5069 1700 50 0000 C CNN
 F 1 "47uH 31A Sat 6.38m Ohm" V 5160 1700 50 0000 C CNN
 F 2 "Inductors_jl:Inductor_Wurth_7443763540470" H 5250 1700 50 0001 C CNN
 F 3 "https://www.we-online.com/redexpert/#/module/7324/selecteditems/7443763540470/productdata/=7443763540470/re/digikey" H 5250 1700 50 0001 C CNN
-F 4 "-" H 0 0 50 0001 C CNN "MFR"
-F 5 "-" H 0 0 50 0001 C CNN "MPN"
-F 6 "-" H 0 0 50 0001 C CNN "SPR"
-F 7 "-" H 0 0 50 0001 C CNN "SPN"
+F 4 "Wurth Elektronik" H 0 0 50 0001 C CNN "MFR"
+F 5 "7443763540470" H 0 0 50 0001 C CNN "MPN"
+F 6 "digikey" H 0 0 50 0001 C CNN "SPR"
+F 7 "732-13644-ND" H 0 0 50 0001 C CNN "SPN"
 F 8 "-" H 0 0 50 0001 C CNN "SPURL"
 	1    5250 1700
 	0    1    1    0   
@@ -150,10 +150,10 @@ F 0 "Q101" H 6054 2096 50 0000 L CNN
 F 1 "IXFP36N20X3" H 6054 2005 50 0000 L CNN
 F 2 "Transistors_ThroughHole_jl:TO-220" H 6050 2150 50 0001 C CNN
 F 3 "http://ixapps.ixys.com/DataSheet/DS100846D(IXFY_-FA-FP36N20X3).pdf" H 5850 2050 50 0001 C CNN
-F 4 "-" H 0 0 50 0001 C CNN "MFR"
-F 5 "-" H 0 0 50 0001 C CNN "MPN"
-F 6 "-" H 0 0 50 0001 C CNN "SPR"
-F 7 "-" H 0 0 50 0001 C CNN "SPN"
+F 4 "IXYS" H 0 0 50 0001 C CNN "MFR"
+F 5 "IXFP36N20X3" H 0 0 50 0001 C CNN "MPN"
+F 6 "digikey" H 0 0 50 0001 C CNN "SPR"
+F 7 "IXFP36N20X3-ND" H 0 0 50 0001 C CNN "SPN"
 F 8 "-" H 0 0 50 0001 C CNN "SPURL"
 	1    5850 2050
 	1    0    0    -1  
@@ -226,10 +226,10 @@ F 0 "J101" H 568 2017 50 0000 C CNN
 F 1 "Battery Connection" H 350 2150 50 0000 C CNN
 F 2 "digikey-footprints:Term_Block_1x4_P5mm" H 650 1800 50 0001 C CNN
 F 3 "https://www.phoenixcontact.com/pxc-oc-itemdetail-pdf-web/eshop?lineItemType=LineItem&UID=1935792" H 650 1800 50 0001 C CNN
-F 4 "-" H 0 0 50 0001 C CNN "MFR"
-F 5 "-" H 0 0 50 0001 C CNN "MPN"
-F 6 "-" H 0 0 50 0001 C CNN "SPR"
-F 7 "-" H 0 0 50 0001 C CNN "SPN"
+F 4 "Phoenix Contact" H 0 0 50 0001 C CNN "MFR"
+F 5 "1935792" H 0 0 50 0001 C CNN "MPN"
+F 6 "digikey" H 0 0 50 0001 C CNN "SPR"
+F 7 "277-14426-ND" H 0 0 50 0001 C CNN "SPN"
 F 8 "-" H 0 0 50 0001 C CNN "SPURL"
 	1    650  1800
 	-1   0    0    -1  
@@ -243,10 +243,10 @@ F 1 "fuse 25A 100V DC" H 1850 1950 50 0000 C CNN
 F 2 "Connect_jl:BellFuse_6.3mmX32mm_FC_102-22" H 2050 1500 50 0001 L CNN
 F 3 "https://us.schurter.com/en/datasheet/typ_SUT-H_6.3x32.pdf" H 2000 1700 50 0001 C CNN
 F 4 "https://belfuse.com/resources/datasheets/circuitprotection/ds-cp-0672-fuse-clips-series.pdf" H 2000 1700 50 0001 C CNN "Holder DataSheet"
-F 5 "-" H 0 0 50 0001 C CNN "MFR"
-F 6 "-" H 0 0 50 0001 C CNN "MPN"
-F 7 "-" H 0 0 50 0001 C CNN "SPR"
-F 8 "-" H 0 0 50 0001 C CNN "SPN"
+F 5 "Schurter Inc" H 0 0 50 0001 C CNN "MFR"
+F 6 "SUT-H-6332-25A00-CTG-TT-NI" H 0 0 50 0001 C CNN "MPN"
+F 7 "digikey" H 0 0 50 0001 C CNN "SPR"
+F 8 "486-7266-ND" H 0 0 50 0001 C CNN "SPN"
 F 9 "-" H 0 0 50 0001 C CNN "SPURL"
 	1    2000 1700
 	1    0    0    -1  
@@ -259,10 +259,10 @@ F 0 "U102" H 4850 5300 60 0000 C CNN
 F 1 "UCC2800DTR" H 4900 5150 60 0000 C CNN
 F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 5150 4990 60 0001 C CNN
 F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fucc2800" H 5150 5031 60 0001 C CNN
-F 4 "-" H 0 0 50 0001 C CNN "MFR"
-F 5 "-" H 0 0 50 0001 C CNN "MPN"
-F 6 "-" H 0 0 50 0001 C CNN "SPR"
-F 7 "-" H 0 0 50 0001 C CNN "SPN"
+F 4 "Texas Instruments" H 0 0 50 0001 C CNN "MFR"
+F 5 "UCC2800DTR" H 0 0 50 0001 C CNN "MPN"
+F 6 "digikey" H 0 0 50 0001 C CNN "SPR"
+F 7 "296-39529-1-ND" H 0 0 50 0001 C CNN "SPN"
 F 8 "-" H 0 0 50 0001 C CNN "SPURL"
 	1    4050 4750
 	1    0    0    -1  
@@ -695,13 +695,13 @@ L 2020-03-11_04-11-57:OPA2837DGK U101
 U 1 1 5E85AC5C
 P 4200 3550
 F 0 "U101" H 4450 3300 50 0000 C CNN
-F 1 "OPA2837DGK" H 4450 3400 50 0000 C CNN
+F 1 "OPA2837IDGKR" H 4450 3400 50 0000 C CNN
 F 2 "Package_SO:VSSOP-8_3.0x3.0mm_P0.65mm" H 4200 3550 50 0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/opa2837.pdf" H 4200 3550 50 0001 C CNN
-F 4 "-" H 0 0 50 0001 C CNN "MFR"
-F 5 "-" H 0 0 50 0001 C CNN "MPN"
-F 6 "-" H 0 0 50 0001 C CNN "SPR"
-F 7 "-" H 0 0 50 0001 C CNN "SPN"
+F 4 "Texas Instruments" H 0 0 50 0001 C CNN "MFR"
+F 5 "OPA2837IDGKR" H 0 0 50 0001 C CNN "MPN"
+F 6 "digikey" H 0 0 50 0001 C CNN "SPR"
+F 7 "296-49464-1-ND" H 0 0 50 0001 C CNN "SPN"
 F 8 "-" H 0 0 50 0001 C CNN "SPURL"
 	1    4200 3550
 	-1   0    0    -1  
@@ -711,13 +711,13 @@ L 2020-03-11_04-11-57:OPA2837DGK U101
 U 3 1 5E8E89BB
 P 3300 3000
 F 0 "U101" V 2975 3000 50 0000 C CNN
-F 1 "OPA2837DGK" V 3066 3000 50 0000 C CNN
+F 1 "OPA2837IDGKR" V 3066 3000 50 0000 C CNN
 F 2 "Package_SO:VSSOP-8_3.0x3.0mm_P0.65mm" H 3300 3000 50 0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/opa2837.pdf" H 3300 3000 50 0001 C CNN
-F 4 "-" H 0 0 50 0001 C CNN "MFR"
-F 5 "-" H 0 0 50 0001 C CNN "MPN"
-F 6 "-" H 0 0 50 0001 C CNN "SPR"
-F 7 "-" H 0 0 50 0001 C CNN "SPN"
+F 4 "Texas Instruments" H 0 0 50 0001 C CNN "MFR"
+F 5 "OPA2837IDGKR" H 0 0 50 0001 C CNN "MPN"
+F 6 "digikey" H 0 0 50 0001 C CNN "SPR"
+F 7 "296-49464-1-ND" H 0 0 50 0001 C CNN "SPN"
 F 8 "-" H 0 0 50 0001 C CNN "SPURL"
 	3    3300 3000
 	0    1    1    0   
@@ -727,13 +727,13 @@ L 2020-03-11_04-11-57:OPA2837DGK U101
 U 2 1 5E8F4FEC
 P 7700 3450
 F 0 "U101" H 7700 3700 50 0000 C CNN
-F 1 "OPA2837DGK" H 7700 3850 50 0000 C CNN
+F 1 "OPA2837IDGKR" H 7700 3850 50 0000 C CNN
 F 2 "Package_SO:VSSOP-8_3.0x3.0mm_P0.65mm" H 7700 3450 50 0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/opa2837.pdf" H 7700 3450 50 0001 C CNN
-F 4 "-" H 0 0 50 0001 C CNN "MFR"
-F 5 "-" H 0 0 50 0001 C CNN "MPN"
-F 6 "-" H 0 0 50 0001 C CNN "SPR"
-F 7 "-" H 0 0 50 0001 C CNN "SPN"
+F 4 "Texas Instruments" H 0 0 50 0001 C CNN "MFR"
+F 5 "OPA2837IDGKR" H 0 0 50 0001 C CNN "MPN"
+F 6 "digikey" H 0 0 50 0001 C CNN "SPR"
+F 7 "296-49464-1-ND" H 0 0 50 0001 C CNN "SPN"
 F 8 "-" H 0 0 50 0001 C CNN "SPURL"
 	2    7700 3450
 	-1   0    0    -1  
@@ -913,10 +913,10 @@ F 0 "Q103" H 6704 6696 50 0000 L CNN
 F 1 "SSM3K329R" H 6704 6605 50 0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 6700 6750 50 0001 C CNN
 F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=2157&prodName=SSM3K329R" H 6500 6650 50 0001 C CNN
-F 4 "-" H 0 0 50 0001 C CNN "MFR"
-F 5 "-" H 0 0 50 0001 C CNN "MPN"
-F 6 "-" H 0 0 50 0001 C CNN "SPR"
-F 7 "-" H 0 0 50 0001 C CNN "SPN"
+F 4 "Toshiba Semiconductor and Storage" H 0 0 50 0001 C CNN "MFR"
+F 5 "SSM3K329R,LF" H 0 0 50 0001 C CNN "MPN"
+F 6 "digikey" H 0 0 50 0001 C CNN "SPR"
+F 7 "SSM3K329RLFCT-ND" H 0 0 50 0001 C CNN "SPN"
 F 8 "-" H 0 0 50 0001 C CNN "SPURL"
 	1    6500 6650
 	-1   0    0    -1  
@@ -929,10 +929,10 @@ F 0 "Q104" V 6742 5850 50 0000 C CNN
 F 1 "SSM3J334R" V 6651 5850 50 0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 6600 5950 50 0001 C CNN
 F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=5579&prodName=SSM3J334R" H 6400 5850 50 0001 C CNN
-F 4 "-" H 0 0 50 0001 C CNN "MFR"
-F 5 "-" H 0 0 50 0001 C CNN "MPN"
-F 6 "-" H 0 0 50 0001 C CNN "SPR"
-F 7 "-" H 0 0 50 0001 C CNN "SPN"
+F 4 "Toshiba Semiconductor and Storage" H 0 0 50 0001 C CNN "MFR"
+F 5 "SSM3J334R,LF" H 0 0 50 0001 C CNN "MPN"
+F 6 "digikey" H 0 0 50 0001 C CNN "SPR"
+F 7 "SSM3J334RLFCT-ND" H 0 0 50 0001 C CNN "SPN"
 F 8 "-" H 0 0 50 0001 C CNN "SPURL"
 	1    6400 5850
 	0    -1   -1   0   
@@ -982,13 +982,13 @@ P 7100 3450
 AR Path="/5F15BF3C/5EF83BFC" Ref="D?" Part="1"
 AR Path="/5EF83BFC" Ref="D103" Part="1"
 F 0 "D103" V 7146 3529 50 0000 L CNN
-F 1 "BAV54S" V 7055 3529 50 0000 L CNN
+F 1 "BAT54S" V 7055 3529 50 0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 7100 2950 50 0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAT54_SER.pdf" H 7100 3450 50 0001 C CNN
-F 4 "-" H 0 0 50 0001 C CNN "MFR"
-F 5 "-" H 0 0 50 0001 C CNN "MPN"
-F 6 "-" H 0 0 50 0001 C CNN "SPR"
-F 7 "-" H 0 0 50 0001 C CNN "SPN"
+F 3 "http://toshiba.semicon-storage.com/info/docget.jsp?did=37137&prodName=TBAT54" H 7100 3450 50 0001 C CNN
+F 4 "Toshiba Semiconductor and Storage" H 0 0 50 0001 C CNN "MFR"
+F 5 "TBAT54S,LM" H 0 0 50 0001 C CNN "MPN"
+F 6 "digikey" H 0 0 50 0001 C CNN "SPR"
+F 7 "TBAT54SLMCT-ND" H 0 0 50 0001 C CNN "SPN"
 F 8 "-" H 0 0 50 0001 C CNN "SPURL"
 	1    7100 3450
 	0    1    -1   0   
@@ -1000,13 +1000,13 @@ P 4300 6850
 AR Path="/5F15BF3C/5EFC810E" Ref="D?" Part="1"
 AR Path="/5EFC810E" Ref="D102" Part="1"
 F 0 "D102" V 4346 6929 50 0000 L CNN
-F 1 "BAV54S" V 4255 6929 50 0000 L CNN
+F 1 "BAT54S" V 4255 6929 50 0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 4300 6350 50 0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAT54_SER.pdf" H 4300 6850 50 0001 C CNN
-F 4 "-" H 0 0 50 0001 C CNN "MFR"
-F 5 "-" H 0 0 50 0001 C CNN "MPN"
-F 6 "-" H 0 0 50 0001 C CNN "SPR"
-F 7 "-" H 0 0 50 0001 C CNN "SPN"
+F 3 "http://toshiba.semicon-storage.com/info/docget.jsp?did=37137&prodName=TBAT54" H 4300 6850 50 0001 C CNN
+F 4 "Toshiba Semiconductor and Storage" H 0 0 50 0001 C CNN "MFR"
+F 5 "TBAT54S,LM" H 0 0 50 0001 C CNN "MPN"
+F 6 "digikey" H 0 0 50 0001 C CNN "SPR"
+F 7 "TBAT54SLMCT-ND" H 0 0 50 0001 C CNN "SPN"
 F 8 "-" H 0 0 50 0001 C CNN "SPURL"
 	1    4300 6850
 	0    1    -1   0   
@@ -1020,11 +1020,11 @@ AR Path="/5F587EBA" Ref="J103" Part="1"
 F 0 "J103" H 9800 1400 50 0000 L CNN
 F 1 "Solar Panels" H 10100 900 50 0000 L CNN
 F 2 "Connect_jl:TerminalBlock_4way_P6.35mm_P9.5mm_Holes1.7mm" H 9900 1100 50 0001 C CNN
-F 3 "~" H 9900 1100 50 0001 C CNN
-F 4 "-" H 0 0 50 0001 C CNN "MFR"
-F 5 "-" H 0 0 50 0001 C CNN "MPN"
-F 6 "-" H 0 0 50 0001 C CNN "SPR"
-F 7 "-" H 0 0 50 0001 C CNN "SPN"
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1017516_Ds.pdf" H 9900 1100 50 0001 C CNN
+F 4 "Phoenix Contact" H 0 0 50 0001 C CNN "MFR"
+F 5 "1017516" H 0 0 50 0001 C CNN "MPN"
+F 6 "digikey" H 0 0 50 0001 C CNN "SPR"
+F 7 "277-17506-ND" H 0 0 50 0001 C CNN "SPN"
 F 8 "-" H 0 0 50 0001 C CNN "SPURL"
 	1    9900 1100
 	1    0    0    -1  
@@ -1071,10 +1071,10 @@ F 0 "Q102" H 1791 3646 50 0000 L CNN
 F 1 "BC847B-13-F" H 1100 3850 50 0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 1800 3700 50 0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/ds11108.pdf" H 1600 3600 50 0001 C CNN
-F 4 "-" H 0 0 50 0001 C CNN "MFR"
-F 5 "-" H 0 0 50 0001 C CNN "MPN"
-F 6 "-" H 0 0 50 0001 C CNN "SPR"
-F 7 "-" H 0 0 50 0001 C CNN "SPN"
+F 4 "Diodes Incorporated" H 0 0 50 0001 C CNN "MFR"
+F 5 "BC847B-13-F" H 0 0 50 0001 C CNN "MPN"
+F 6 "digikey" H 0 0 50 0001 C CNN "SPR"
+F 7 "BC847B-13-FDICT-ND" H 0 0 50 0001 C CNN "SPN"
 F 8 "-" H 0 0 50 0001 C CNN "SPURL"
 	1    1600 3600
 	1    0    0    -1  
@@ -1087,10 +1087,10 @@ F 0 "C104" V 7800 2000 50 0000 L CNN
 F 1 "70uF PP Film 500V 2.1mOhm" V 7900 2000 50 0000 L CNN
 F 2 "Capacitors_ThroughHole_jl:C_RECT_4PIN_L42mm_W30mm_P37.5mm_P20.3mm" H 7650 1750 50 0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Kemet%20PDFs/C4AQ%20Series,%20Auto.pdf" H 7650 1750 50 0001 C CNN
-F 4 "-" H 0 0 50 0001 C CNN "MFR"
-F 5 "-" H 0 0 50 0001 C CNN "MPN"
-F 6 "-" H 0 0 50 0001 C CNN "SPR"
-F 7 "-" H 0 0 50 0001 C CNN "SPN"
+F 4 "KEMET" H 0 0 50 0001 C CNN "MFR"
+F 5 "C4AQLBW5700A3LK" H 0 0 50 0001 C CNN "MPN"
+F 6 "digikey" H 0 0 50 0001 C CNN "SPR"
+F 7 "399-17006-ND" H 0 0 50 0001 C CNN "SPN"
 F 8 "-" H 0 0 50 0001 C CNN "SPURL"
 	1    7650 1750
 	0    1    1    0   

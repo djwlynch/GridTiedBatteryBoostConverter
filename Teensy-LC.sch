@@ -22,11 +22,11 @@ AR Path="/5EF73D52/5EFA2BB9" Ref="U202" Part="1"
 F 0 "U202" H 6375 5737 60 0000 C CNN
 F 1 "Teensy-LC" H 6375 5631 60 0000 C CNN
 F 2 "teensy:Teensy30_31_32_LC" H 6350 5500 60 0000 C CNN
-F 3 "" H 6350 3950 60 0000 C CNN
-F 4 "-" H 0 0 50 0001 C CNN "MFR"
-F 5 "-" H 0 0 50 0001 C CNN "MPN"
-F 6 "-" H 0 0 50 0001 C CNN "SPR"
-F 7 "-" H 0 0 50 0001 C CNN "SPN"
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Sparkfun%20PDFs/DEV-13305_Web.pdf" H 6350 3950 60 0001 C CNN
+F 4 "SparkFun Electronics" H 0 0 50 0001 C CNN "MFR"
+F 5 "DEV-13305" H 0 0 50 0001 C CNN "MPN"
+F 6 "digikey" H 0 0 50 0001 C CNN "SPR"
+F 7 "1568-1233-ND" H 0 0 50 0001 C CNN "SPN"
 F 8 "-" H 0 0 50 0001 C CNN "SPURL"
 	1    6350 4500
 	1    0    0    -1  
@@ -153,10 +153,10 @@ F 0 "Q201" H 1050 3250 50 0000 L CNN
 F 1 "SSM3K329R" H 1050 3150 50 0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 1750 3100 50 0001 C CNN
 F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=2157&prodName=SSM3K329R" H 1550 3000 50 0001 C CNN
-F 4 "-" H 0 0 50 0001 C CNN "MFR"
-F 5 "-" H 0 0 50 0001 C CNN "MPN"
-F 6 "-" H 0 0 50 0001 C CNN "SPR"
-F 7 "-" H 0 0 50 0001 C CNN "SPN"
+F 4 "Toshiba Semiconductor and Storage" H 0 0 50 0001 C CNN "MFR"
+F 5 "SSM3K329R,LF" H 0 0 50 0001 C CNN "MPN"
+F 6 "digikey" H 0 0 50 0001 C CNN "SPR"
+F 7 "SSM3K329RLFCT-ND" H 0 0 50 0001 C CNN "SPN"
 F 8 "-" H 0 0 50 0001 C CNN "SPURL"
 	1    1550 3000
 	1    0    0    -1  
@@ -171,10 +171,10 @@ F 0 "Q203" H 2642 2750 50 0000 C CNN
 F 1 "SSM3J334R" H 2800 2650 50 0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 2500 2850 50 0001 C CNN
 F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=5579&prodName=SSM3J334R" H 2300 2750 50 0001 C CNN
-F 4 "-" H 0 0 50 0001 C CNN "MFR"
-F 5 "-" H 0 0 50 0001 C CNN "MPN"
-F 6 "-" H 0 0 50 0001 C CNN "SPR"
-F 7 "-" H 0 0 50 0001 C CNN "SPN"
+F 4 "Toshiba Semiconductor and Storage" H 0 0 50 0001 C CNN "MFR"
+F 5 "SSM3J334R,LF" H 0 0 50 0001 C CNN "MPN"
+F 6 "digikey" H 0 0 50 0001 C CNN "SPR"
+F 7 "SSM3J334RLFCT-ND" H 0 0 50 0001 C CNN "SPN"
 F 8 "-" H 0 0 50 0001 C CNN "SPURL"
 	1    2300 2750
 	1    0    0    1   
@@ -205,10 +205,10 @@ F 0 "Q202" H 1200 4750 50 0000 L CNN
 F 1 "SSM3K329R" H 1200 4600 50 0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 1800 5150 50 0001 C CNN
 F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=2157&prodName=SSM3K329R" H 1600 5050 50 0001 C CNN
-F 4 "-" H 0 0 50 0001 C CNN "MFR"
-F 5 "-" H 0 0 50 0001 C CNN "MPN"
-F 6 "-" H 0 0 50 0001 C CNN "SPR"
-F 7 "-" H 0 0 50 0001 C CNN "SPN"
+F 4 "Toshiba Semiconductor and Storage" H 0 0 50 0001 C CNN "MFR"
+F 5 "SSM3K329R,LF" H 0 0 50 0001 C CNN "MPN"
+F 6 "digikey" H 0 0 50 0001 C CNN "SPR"
+F 7 "SSM3K329RLFCT-ND" H 0 0 50 0001 C CNN "SPN"
 F 8 "-" H 0 0 50 0001 C CNN "SPURL"
 	1    1600 5050
 	1    0    0    -1  
@@ -237,10 +237,10 @@ F 0 "RV201" H 2930 3546 50 0000 R CNN
 F 1 "5K" H 2930 3455 50 0000 R CNN
 F 2 "Potentiometers:Potentiometer_Trimmer_Bourns_3006P" H 3000 3500 50 0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/3306.pdf" H 3000 3500 50 0001 C CNN
-F 4 "-" H 0 0 50 0001 C CNN "MFR"
-F 5 "-" H 0 0 50 0001 C CNN "MPN"
-F 6 "-" H 0 0 50 0001 C CNN "SPR"
-F 7 "-" H 0 0 50 0001 C CNN "SPN"
+F 4 "Bourns Inc" H 0 0 50 0001 C CNN "MFR"
+F 5 "3006P-7-502LF" H 0 0 50 0001 C CNN "MPN"
+F 6 "digikey" H 0 0 50 0001 C CNN "SPR"
+F 7 "3006P-7-502LF-ND" H 0 0 50 0001 C CNN "SPN"
 F 8 "-" H 0 0 50 0001 C CNN "SPURL"
 	1    3000 3500
 	-1   0    0    -1  
@@ -351,7 +351,7 @@ F 3 "https://www.espressif.com/sites/default/files/documentation/0c-esp-wroom-02
 F 4 "Espressif Systems" H 0 0 50 0001 C CNN "MFR"
 F 5 "ESP-WROOM-02U" H 0 0 50 0001 C CNN "MPN"
 F 6 "digikey" H 0 0 50 0001 C CNN "SPR"
-F 7 "1904-1022-2-ND" H 0 0 50 0001 C CNN "SPN"
+F 7 "1904-1022-1-ND" H 0 0 50 0001 C CNN "SPN"
 F 8 "-" H 0 0 50 0001 C CNN "SPURL"
 	1    6400 2050
 	1    0    0    -1  
@@ -493,13 +493,13 @@ AR Path="/5F9FA343" Ref="C?" Part="1"
 AR Path="/5EBD6442/5F9FA343" Ref="C?" Part="1"
 AR Path="/5EF73D52/5F9FA343" Ref="C204" Part="1"
 F 0 "C204" H 5200 1200 50 0000 L CNN
-F 1 "10uF X7R 16V" H 5350 1350 50 0000 R CNN
+F 1 "10uF X7R 25V 10%" H 5350 1350 50 0000 R CNN
 F 2 "Capacitors_SMD:C_1206_HandSoldering" H 5488 1050 50 0001 C CNN
-F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_automotive_general_en.pdf?ref_disty=digikey" H 5450 1200 50 0001 C CNN
-F 4 "-" H 0 0 50 0001 C CNN "MFR"
-F 5 "-" H 0 0 50 0001 C CNN "MPN"
-F 6 "-" H 0 0 50 0001 C CNN "SPR"
-F 7 "-" H 0 0 50 0001 C CNN "SPN"
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL31B106KAHNNNE.jsp" H 5450 1200 50 0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 0 0 50 0001 C CNN "MFR"
+F 5 "CL31B106KAHNNNE" H 0 0 50 0001 C CNN "MPN"
+F 6 "digikey" H 0 0 50 0001 C CNN "SPR"
+F 7 "1276-1804-1-ND" H 0 0 50 0001 C CNN "SPN"
 F 8 "-" H 0 0 50 0001 C CNN "SPURL"
 	1    5450 1200
 	1    0    0    -1  
@@ -576,11 +576,11 @@ P 5150 2300
 F 0 "JP203" H 5150 2535 50 0000 C CNN
 F 1 "BOOT_OPTION" H 5150 2444 50 0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 5150 2300 50 0001 C CNN
-F 3 "~" H 5150 2300 50 0001 C CNN
-F 4 "-" H 0 0 50 0001 C CNN "MFR"
-F 5 "-" H 0 0 50 0001 C CNN "MPN"
-F 6 "-" H 0 0 50 0001 C CNN "SPR"
-F 7 "-" H 0 0 50 0001 C CNN "SPN"
+F 3 "https://media.digikey.com/PDF/Data%20Sheets/Sullins%20PDFs/z%20RzCzzzSzzN-RC,%20ST,11635-B.pdf" H 5150 2300 50 0001 C CNN
+F 4 "Sullins Connector Solutions" H 0 0 50 0001 C CNN "MFR"
+F 5 "PREC002SAAN-RC" H 0 0 50 0001 C CNN "MPN"
+F 6 "digikey" H 0 0 50 0001 C CNN "SPR"
+F 7 "S1012EC-02-ND" H 0 0 50 0001 C CNN "SPN"
 F 8 "-" H 0 0 50 0001 C CNN "SPURL"
 	1    5150 2300
 	1    0    0    -1  
@@ -603,11 +603,11 @@ P 9400 1900
 F 0 "J202" V 9338 1712 50 0000 R CNN
 F 1 "Conn_01x03_Female" V 9247 1712 50 0000 R CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 9400 1900 50 0001 C CNN
-F 3 "~" H 9400 1900 50 0001 C CNN
-F 4 "-" H 0 0 50 0001 C CNN "MFR"
-F 5 "-" H 0 0 50 0001 C CNN "MPN"
-F 6 "-" H 0 0 50 0001 C CNN "SPR"
-F 7 "-" H 0 0 50 0001 C CNN "SPN"
+F 3 "https://media.digikey.com/PDF/Data%20Sheets/Sullins%20PDFs/z%20RzCzzzSzzN-RC,%20ST,11635-B.pdf" H 9400 1900 50 0001 C CNN
+F 4 "Sullins Connector Solutions" H 0 0 50 0001 C CNN "MFR"
+F 5 "PREC003SAAN-RC" H 0 0 50 0001 C CNN "MPN"
+F 6 "digikey" H 0 0 50 0001 C CNN "SPR"
+F 7 "S1012EC-03-ND" H 0 0 50 0001 C CNN "SPN"
 F 8 "-" H 0 0 50 0001 C CNN "SPURL"
 	1    9400 1900
 	0    -1   -1   0   
@@ -619,11 +619,11 @@ P 3300 2100
 F 0 "JP201" H 3300 2335 50 0000 C CNN
 F 1 "SDA_EN" H 3500 2250 50 0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 3300 2100 50 0001 C CNN
-F 3 "~" H 3300 2100 50 0001 C CNN
-F 4 "-" H 0 0 50 0001 C CNN "MFR"
-F 5 "-" H 0 0 50 0001 C CNN "MPN"
-F 6 "-" H 0 0 50 0001 C CNN "SPR"
-F 7 "-" H 0 0 50 0001 C CNN "SPN"
+F 3 "https://media.digikey.com/PDF/Data%20Sheets/Sullins%20PDFs/z%20RzCzzzSzzN-RC,%20ST,11635-B.pdf" H 3300 2100 50 0001 C CNN
+F 4 "Sullins Connector Solutions" H 0 0 50 0001 C CNN "MFR"
+F 5 "PREC002SAAN-RC" H 0 0 50 0001 C CNN "MPN"
+F 6 "digikey" H 0 0 50 0001 C CNN "SPR"
+F 7 "S1012EC-02-ND" H 0 0 50 0001 C CNN "SPN"
 F 8 "-" H 0 0 50 0001 C CNN "SPURL"
 	1    3300 2100
 	1    0    0    -1  
@@ -635,11 +635,11 @@ P 3350 1800
 F 0 "JP202" H 3350 2035 50 0000 C CNN
 F 1 "SCL_EN" H 3350 1944 50 0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 3350 1800 50 0001 C CNN
-F 3 "~" H 3350 1800 50 0001 C CNN
-F 4 "-" H 0 0 50 0001 C CNN "MFR"
-F 5 "-" H 0 0 50 0001 C CNN "MPN"
-F 6 "-" H 0 0 50 0001 C CNN "SPR"
-F 7 "-" H 0 0 50 0001 C CNN "SPN"
+F 3 "https://media.digikey.com/PDF/Data%20Sheets/Sullins%20PDFs/z%20RzCzzzSzzN-RC,%20ST,11635-B.pdf" H 3350 1800 50 0001 C CNN
+F 4 "Sullins Connector Solutions" H 0 0 50 0001 C CNN "MFR"
+F 5 "PREC002SAAN-RC" H 0 0 50 0001 C CNN "MPN"
+F 6 "digikey" H 0 0 50 0001 C CNN "SPR"
+F 7 "S1012EC-02-ND" H 0 0 50 0001 C CNN "SPN"
 F 8 "-" H 0 0 50 0001 C CNN "SPURL"
 	1    3350 1800
 	1    0    0    -1  
@@ -651,11 +651,11 @@ P 10300 3850
 F 0 "J203" V 10238 3562 50 0000 R CNN
 F 1 "I2C_BUS" V 10147 3562 50 0000 R CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 10300 3850 50 0001 C CNN
-F 3 "~" H 10300 3850 50 0001 C CNN
-F 4 "-" H 0 0 50 0001 C CNN "MFR"
-F 5 "-" H 0 0 50 0001 C CNN "MPN"
-F 6 "-" H 0 0 50 0001 C CNN "SPR"
-F 7 "-" H 0 0 50 0001 C CNN "SPN"
+F 3 "http://www.adam-tech.com/downloader.php?p=PH1-XX-UA.pdf" H 10300 3850 50 0001 C CNN
+F 4 "Adam Tech" H 0 0 50 0001 C CNN "MFR"
+F 5 "PH1-04-UA" H 0 0 50 0001 C CNN "MPN"
+F 6 "digikey" H 0 0 50 0001 C CNN "SPR"
+F 7 "2057-PH1-04-UA-ND" H 0 0 50 0001 C CNN "SPN"
 F 8 "-" H 0 0 50 0001 C CNN "SPURL"
 	1    10300 3850
 	0    -1   -1   0   
@@ -768,14 +768,14 @@ L Display_Character:NHD-0420H1Z U201
 U 1 1 5E86612A
 P 2400 4550
 F 0 "U201" H 2400 3661 50 0000 C CNN
-F 1 "LCD 2004A" H 2400 3570 50 0000 C CNN
+F 1 "LCD 2004A Right Angle Header 16 pin 2.54mm" H 2400 3570 50 0000 C CNN
 F 2 "Connect_jl:LCD2004_Pin_Header_Angled_1x16_Pitch2.54mm" H 2400 3650 50 0001 C CNN
 F 3 "/media/jlynch/SW_Preload/Users/jlynch/Downloads/DataSheets/LCD/2004A-RK-10290_410.pdf" H 2500 4450 50 0001 C CNN
 F 4 "http://www.adam-tech.com/downloader.php?p=PH1RB-XX-UA.pdf" H 2400 4550 50 0001 C CNN "Connector"
-F 5 "-" H 0 0 50 0001 C CNN "MFR"
-F 6 "-" H 0 0 50 0001 C CNN "MPN"
-F 7 "-" H 0 0 50 0001 C CNN "SPR"
-F 8 "-" H 0 0 50 0001 C CNN "SPN"
+F 5 "Adam Tech" H 0 0 50 0001 C CNN "MFR"
+F 6 "PH1RB-16-UA" H 0 0 50 0001 C CNN "MPN"
+F 7 "digikey" H 0 0 50 0001 C CNN "SPR"
+F 8 "2057-PH1RB-16-UA-ND" H 0 0 50 0001 C CNN "SPN"
 F 9 "-" H 0 0 50 0001 C CNN "SPURL"
 	1    2400 4550
 	-1   0    0    -1  
