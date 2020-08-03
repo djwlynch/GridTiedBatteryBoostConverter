@@ -1,0 +1,81 @@
+Refs,Value,Footprint,Quantity,MFR,MPN,SPR,SPN
+SW202,SW_Down,Buttons_Switches_ThroughHole_jl:SW_Tactile_SPST_Angled_FSM104,1,TE Connectivity ALCOSWITCH Switches,FSM104,digikey,450-1127-ND
+SW203,SW_Enter,Buttons_Switches_ThroughHole_jl:SW_Tactile_SPST_Angled_FSM104,1,TE Connectivity ALCOSWITCH Switches,FSM104,digikey,450-1127-ND
+SW201,SW_Up,Buttons_Switches_ThroughHole_jl:SW_Tactile_SPST_Angled_FSM104,1,TE Connectivity ALCOSWITCH Switches,FSM104,digikey,450-1127-ND
+C309;C312;C304;C109;C112;C107;C202;C203;C205,0.1uF X7R 25V 10%,Capacitors_SMD:C_0805_HandSoldering,9,Samsung,CL21B104KACNNNC,digikey,1276-1099-1-ND
+C302,0.47uF X7R 25V 10%,Capacitors_SMD:C_0805_HandSoldering,1,Samsung Electro-Mechanics,CL21B474KAFNNNE,digikey,1276-1074-1-ND
+Cint101,0.56uF X7R 16V 10%,Capacitors_SMD:C_0805_HandSoldering,1,KEMET,C0805C564K4RACTU,dikikey,399-10074-1-ND
+C105,100pF,Capacitors_SMD:C_0805_HandSoldering,1,KEMET,C0805C101JAGAC7800,digikey,399-15000-1-ND
+C113,1nF,Capacitors_SMD:C_0805_HandSoldering,1,Yageo,CC0805KRX7R9BB102,digikey,311-1127-1-ND
+C401;C313;C108;C114;C111;C106;C115;C201,1uF X7R 25V 10%,Capacitors_SMD:C_0805_HandSoldering,8,Wurth Elektronik,885012207078,digikey,732-7672-1-ND
+Ct101,200pF C0G 2%,Capacitors_SMD:C_0805_HandSoldering,1,AVX Corporation,08051A201GAT2A,digikey,478-10384-1-ND
+Crolloff101,68pF C0G 5%,Capacitors_SMD:C_0805_HandSoldering,1,Wurth Elektronik,885012007081,digikey,732-12227-1-ND
+C110,6pF C0G,Capacitors_SMD:C_0805_HandSoldering,1,Yageo,CC0805CRNPO9BN6R0,digikey,311-4149-1-ND
+C311;C310;C308;C307;C305;C301;C204,10uF X7R 25V 10%,Capacitors_SMD:C_1206_HandSoldering,7,Samsung Electro-Mechanics,CL31B106KAHNNNE,digikey,1276-1804-1-ND
+C306;C315,33uF X7R 16V 20%,Capacitors_SMD:C_1812_HandSoldering,2,TDK Corporation,C4532X7R1C336M250KC,digikey,445-3924-1-ND
+C303;C314,1uF X7R 250V 10%,Capacitors_SMD:C_2220_HandSoldering,2,TDK Corporation,C5750X7R2E105K230KA,digikey,445-2304-1-ND
+C101,220uF ALUM 200V 905 mOhm 20%,Capacitors_ThroughHole:CP_Radial_D22.0mm_P10.00mm_SnapIn,1,Cornell Dubilier Electronics (CDE),SLP221M200A1P3,digikey,338-1478-ND
+C103,470uF ALUM 400V 130mOhm 20%,Capacitors_ThroughHole:CP_Radial_D35.0mm_P10.00mm_SnapIn,1,KEMET,ELH477M400AT4AA,digikey,399-6073-ND
+C102,15uF PP 250VDC 3.9mOhm,Capacitors_ThroughHole_jl:C_Axial_44mm_24.5mm_P50mm,1,KEMET,C4GADUD5150AA1J,digikey,399-13088-ND
+C104,70uF PP Film 500V 2.1mOhm,Capacitors_ThroughHole_jl:C_RECT_4PIN_L42mm_W30mm_P37.5mm_P20.3mm,1,KEMET,C4AQLBW5700A3LK,digikey,399-17006-ND
+J402,AudioJack2_SwitchT,Connect_jl:Audio_StereoJack_3.5mm_ASJ-99H-R-HT-T,1,Adam Tech,ASJ-99H-R-HT-T/R,digikey,2057-ASJ-99H-R-HT-T/RCT-ND
+F101,fuse 25A 100V DC,Connect_jl:BellFuse_6.3mmX32mm_FC_102-22,1,Schurter Inc,SUT-H-6332-25A00-CTG-TT-NI,digikey,486-7266-ND
+U201,LCD 2004A Right Angle Header 16 pin 2.54mm,Connect_jl:LCD2004_Pin_Header_Angled_1x16_Pitch2.54mm,1,Adam Tech,PH1RB-16-UA,digikey,2057-PH1RB-16-UA-ND
+J103,Solar Panels,Connect_jl:TerminalBlock_4way_P6.35mm_P9.5mm_Holes1.7mm,1,Phoenix Contact,1017516,digikey,277-17506-ND
+D301,1A 150V 0.7V SMA,Diodes_SMD:D_SMA_Handsoldering,1,Diodes Incorporated,SBR1U150SA-13,digikey,SBR1U150SA-13DICT-ND
+D101,8A 200V 0.950V,Diodes_ThroughHole_jl:Diode_TO_220AC_Horizonal,1,Vishay Semiconductor Diodes Division,FES8DT-E3/45,digikey,FES8DT-E3/45GI-ND
+D501;D503;D502,VS-20ETS12-M3 1200V 1V fwd@10A,Diodes_ThroughHole_jl:Diode_TO_220AC_Horizonal,3,Vishay Semiconductor Diodes Division,VS-20ETS12-M3,digikey,VS-20ETS12-M3-ND
+U203,PCF8574ADWR,Housings_SOIC:SOIC-16W_7.5x10.3mm_Pitch1.27mm,1,Texas Instruments,PCF8574ADWR,digikey,296-13105-1-ND
+U102,UCC2800DTR,Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm,1,Texas Instruments,UCC2800DTR,digikey,296-39529-1-ND
+L302;L303,15uH 730mA Sat,Inductors_jl:Inductor_1210_HandSoldering,2,Taiyo Yuden,CBC3225T150KR,digikey,587-3066-1-ND
+L301,150uH 610mA,Inductors_jl:Inductor_Bourns_PM3308,1,Bourns Inc.,PM3308-151M-RC,digikey,PM3308-151M-RCCT-ND
+L101;L102,47uH 31A Sat 6.38m Ohm,Inductors_jl:Inductor_Wurth_7443763540470,2,Wurth Elektronik,7443763540470,digikey,732-13644-ND
+TP304;TP303;TP301;TP305;TP307;TP302;TP306;TP101;TP102;TP103;TP201;TP202;TP203,TestPoint,Measurement_Points:Measurement_Point_Square-SMD-Pad_Big,13,-,-,-,-
+U101,OPA2837IDGKR,Package_SO:VSSOP-8_3.0x3.0mm_P0.65mm,1,Texas Instruments,OPA2837IDGKR,digikey,296-49464-1-ND
+U304,TLV70430DBVT,Package_TO_SOT_SMD:SOT-23-5_HandSoldering,1,Texas Instruments,TLV70430DBVT,digikey,296-32419-1-ND
+U303;U306,TPS560200DBVR,Package_TO_SOT_SMD:SOT-23-5_HandSoldering,2,Texas Instruments,TPS560200DBVR,digikey,296-38559-1-ND
+D401;D402;D103;D102,BAT54S,Package_TO_SOT_SMD:SOT-23_Handsoldering,4,Toshiba Semiconductor and Storage,"TBAT54S,LM",digikey,TBAT54SLMCT-ND
+Q301;Q102,BC847B-13-F,Package_TO_SOT_SMD:SOT-23_Handsoldering,2,Diodes Incorporated,BC847B-13-F,digikey,BC847B-13-FDICT-ND
+Q302,BC856B-13-F,Package_TO_SOT_SMD:SOT-23_Handsoldering,1,Diodes Incorporated,BC856B-13-F,digikey,BC856B-13-FDICT-ND
+U305,REF2925AIDBZT,Package_TO_SOT_SMD:SOT-23_Handsoldering,1,Texas Instruments,REF2925AIDBZT,digikey,296-13482-1-ND
+Q104;Q203,SSM3J334R,Package_TO_SOT_SMD:SOT-23_Handsoldering,2,Toshiba Semiconductor and Storage,"SSM3J334R,LF",digikey,SSM3J334RLFCT-ND
+Q103;Q201;Q202,SSM3K329R,Package_TO_SOT_SMD:SOT-23_Handsoldering,3,Toshiba Semiconductor and Storage,"SSM3K329R,LF",digikey,SSM3K329RLFCT-ND
+JP203,BOOT_OPTION,Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm,1,Sullins Connector Solutions,PREC002SAAN-RC,digikey,S1012EC-02-ND
+JP202,SCL_EN,Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm,1,Sullins Connector Solutions,PREC002SAAN-RC,digikey,S1012EC-02-ND
+JP201,SDA_EN,Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm,1,Sullins Connector Solutions,PREC002SAAN-RC,digikey,S1012EC-02-ND
+J202,Conn_01x03_Female,Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm,1,Sullins Connector Solutions,PREC003SAAN-RC,digikey,S1012EC-03-ND
+J203,I2C_BUS,Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm,1,Adam Tech,PH1-04-UA,digikey,2057-PH1-04-UA-ND
+RV201,5K,Potentiometers:Potentiometer_Trimmer_Bourns_3006P,1,Bourns Inc,3006P-7-502LF,digikey,3006P-7-502LF-ND
+U204,ESP-WROOM-02U,RF_Module_jl:MODULE_ESP-WROOM-02U,1,Espressif Systems,ESP-WROOM-02U,digikey,1904-1022-1-ND
+R101,0R Ohms,Resistors_SMD:R_0805_HandSoldering,1,Stackpole Electronics Inc,RMCF0805ZT0R00,digikey,RMCF0805ZT0R00CT-ND
+R104;Rint2,1.5K 0.1%,Resistors_SMD:R_0805_HandSoldering,2,Panasonic Electronic Components,ERA-6AEB152V,digikey,P1.5KDACT-ND
+R205,100K 1%,Resistors_SMD:R_0805_HandSoldering,1,Yageo,RC0805FR-07100KL,digikey,311-100KCRCT-ND
+R206,100R 1%,Resistors_SMD:R_0805_HandSoldering,1,Yageo,RC0805FR-07100RL,digikey,311-100CRCT-ND
+R310,105k 0.1%,Resistors_SMD:R_0805_HandSoldering,1,Panasonic Electronic Components,ERA-6AEB1053V,digikey,P105KDACT-ND
+R405;R406;R110;R109;R117;R116,10K 0.1%,Resistors_SMD:R_0805_HandSoldering,6,Panasonic Electronic Components,ERA-6AEB103V,digikey,P10KDACT-ND
+R113,10R 1%,Resistors_SMD:R_0805_HandSoldering,1,Yageo,RC0805FR-0710RL,digikey,311-10.0CRCT-ND
+R107;R207;R210;R209;R213,15K 1%,Resistors_SMD:R_0805_HandSoldering,5,TE Connectivity Passive Product,CRGCQ0805F15K,digikey,A129763CT-ND
+R309,196K 0.1%,Resistors_SMD:R_0805_HandSoldering,1,Panasonic Electronic Components,ERA-6AEB1963V,digikey,P196KDACT-ND
+R402;Rint1;R105,1K 0.1%,Resistors_SMD:R_0805_HandSoldering,3,Panasonic Electronic Components,ERA-6AEB102V,digikey,P1.0KDACT-ND
+R312;R301;R106;R108;R201;R202;R203;R204,1K 1%,Resistors_SMD:R_0805_HandSoldering,8,Yageo,RC0805FR-071KL,digikey,311-1.00KCRCT-ND
+R115,1M 1%,Resistors_SMD:R_0805_HandSoldering,1,Yageo,RC0805FR-071ML,digikey,311-1.00MCRCT-ND
+R311;R304,20K 0.1%,Resistors_SMD:R_0805_HandSoldering,2,Panasonic Electronic Components,ERA-6AEB203V,digikey,P20KDACT-ND
+R308,226k 0.1%,Resistors_SMD:R_0805_HandSoldering,1,Panasonic Electronic Components,ERA-6AEB2263V,digikey,P226KDACT-ND
+Rt101,30K 0.1%,Resistors_SMD:R_0805_HandSoldering,1,Panasonic Electronic Components,ERA-6AEB303V,digikey,P30KDACT-ND
+R111;R112;R118;R119,330R 0.1%,Resistors_SMD:R_0805_HandSoldering,4,Panasonic Electronic Components,ERA-6AEB331V,digikey,P330DACT-ND
+R302,330R 1%,Resistors_SMD:R_0805_HandSoldering,1,TE Connectivity Passive Product,CRGCQ0805F330R,digikey,A129743CT-ND
+R404,41.2  0.1%,Resistors_SMD:R_0805_HandSoldering,1,Panasonic Electronic Components,ERA-6AEB4122V,digikey,P41.2KDACT-ND
+R211;R212;R208,4K7 1%,Resistors_SMD:R_0805_HandSoldering,3,Yageo,RC0805FR-074K7L,digikey,311-4.70KCRCT-ND
+R401,5.9K 0 .1%,Resistors_SMD:R_0805_HandSoldering,1,Panasonic Electronic Components,ERA-6AEB5901V,digikey,P5.9KDACT-ND
+R303,61.9K 0.1%,Resistors_SMD:R_0805_HandSoldering,1,Panasonic Electronic Components,ERA-6AEB6192V,digikey,P61.9KDACT-ND
+R103,75K 0.1%,Resistors_SMD:R_0805_HandSoldering,1,Panasonic Electronic Components,ERJ-PB6B7502V,digikey,P20808CT-ND
+R102,82K 0.1%,Resistors_SMD:R_0805_HandSoldering,1,Panasonic Electronic Components,ERA-6AEB823V,digikey,P82KDACT-ND
+R114;R120,2 mOhm Thick Film 1% 1W,Resistors_SMD:R_1210_HandSoldering,2,Rohm Semiconductor,PMR25HZPFV2L00,digikey,RHM.002APCT-ND
+U301,FDA217,SMD_Packages:DIP-8_SMD,1,IXYS Integrated Circuits Division,FDA217S,digikey,CLA408-ND
+TR401,FS-10-110-C2,Transformers_ThroughHole_jl:FS10-110-C2,1,Triad Magnetics,FS10-110-C2,digikey,237-1578-ND
+Q101,IXFP36N20X3,Transistors_ThroughHole_jl:TO-220,1,IXYS,IXFP36N20X3,digikey,IXFP36N20X3-ND
+Q306;Q305,"TK32A12N1,S4X",Transistors_ThroughHole_jl:TO-220,2,Toshiba Semiconductor and Storage,"TK32A12N1,S4X",digikey,TK32A12N1S4X-ND
+J401,Screw_Terminal_01x02,digikey-footprints:Term_Block_1x2_P5mm,1,Phoenix Contact,1792863,digikey,277-2518-ND
+J101,Battery Connection,digikey-footprints:Term_Block_1x4_P5mm,1,Phoenix Contact,1935792,digikey,277-14426-ND
+U302,LTC7138EMSE-PBF,ltc7138:LTC7138EMSE-PBF,1,Linear Technology/Analog Devices,LTC7138EMSE#PBF,digikey,LTC7138EMSE#PBF-ND
+U202,Teensy-LC,teensy:Teensy30_31_32_LC,1,SparkFun Electronics,DEV-13305,digikey,1568-1233-ND
