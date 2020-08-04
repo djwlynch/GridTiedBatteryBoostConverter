@@ -430,8 +430,8 @@ U 1 1 5ECCB06E
 P 9900 5750
 AR Path="/5ECCB06E" Ref="Q?"  Part="1" 
 AR Path="/5EBD6442/5ECCB06E" Ref="Q306"  Part="1" 
-F 0 "Q306" H 10104 5796 50  0000 L CNN
-F 1 "TK32A12N1,S4X" H 10104 5705 50  0000 L CNN
+F 0 "Q306" V 10150 5450 50  0000 L CNN
+F 1 "TK32A12N1,S4X" V 10250 5450 50  0000 L CNN
 F 2 "Transistors_ThroughHole_jl:TO-220" H 10100 5850 50  0001 C CNN
 F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=13563&prodName=TK32A12N1" H 9900 5750 50  0001 C CNN
 F 4 "Toshiba Semiconductor and Storage" H 0   0   50  0001 C CNN "MFR"
@@ -448,8 +448,8 @@ U 1 1 5ECCD1C3
 P 8950 5750
 AR Path="/5ECCD1C3" Ref="Q?"  Part="1" 
 AR Path="/5EBD6442/5ECCD1C3" Ref="Q305"  Part="1" 
-F 0 "Q305" H 9154 5796 50  0000 L CNN
-F 1 "TK32A12N1,S4X" H 9154 5705 50  0000 L CNN
+F 0 "Q305" V 9200 5850 50  0000 L CNN
+F 1 "TK32A12N1,S4X" V 9300 5450 50  0000 L CNN
 F 2 "Transistors_ThroughHole_jl:TO-220" H 9150 5850 50  0001 C CNN
 F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=13563&prodName=TK32A12N1" H 8950 5750 50  0001 C CNN
 F 4 "Toshiba Semiconductor and Storage" H 0   0   50  0001 C CNN "MFR"

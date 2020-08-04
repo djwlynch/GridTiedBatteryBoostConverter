@@ -1737,4 +1737,6 @@ Connection ~ 4700 2950
 Connection ~ 1450 6300
 Connection ~ 7650 2300
 Connection ~ 7850 2300
+Text Notes 1500 1400 0    50   ~ 0
+SUT-H-6332-25A00-CTG-TT-NI\ndigi-key 486-7266-ND
 $EndSCHEMATC

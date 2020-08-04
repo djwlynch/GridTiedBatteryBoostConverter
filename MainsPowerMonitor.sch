@@ -17,15 +17,15 @@ $Comp
 L Transformer:TRANSF6 TR401
 U 1 1 5F15E54A
 P 2700 4000
-F 0 "TR401" H 2700 4482 50  0000 C CNN
-F 1 "FS-10-110-C2" H 2700 4391 50  0000 C CNN
-F 2 "Transformers_ThroughHole_jl:FS10-110-C2" H 2700 4000 50  0001 C CNN
-F 3 "http://catalog.triadmagnetics.com/Asset/FS10-110-C2.pdf" H 2700 4000 50  0001 C CNN
-F 4 "Triad Magnetics" H 0   0   50  0001 C CNN "MFR"
-F 5 "FS10-110-C2" H 0   0   50  0001 C CNN "MPN"
-F 6 "digikey" H 0   0   50  0001 C CNN "SPR"
-F 7 "237-1578-ND" H 0   0   50  0001 C CNN "SPN"
-F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+F 0 "TR401" H 2700 4482 50 0000 C CNN
+F 1 "FS-10-110-C2" H 2700 4391 50 0000 C CNN
+F 2 "Transformers_ThroughHole_jl:FS10-110-C2" H 2700 4000 50 0001 C CNN
+F 3 "http://catalog.triadmagnetics.com/Asset/FS10-110-C2.pdf" H 2700 4000 50 0001 C CNN
+F 4 "Triad Magnetics" H 0 0 50 0001 C CNN "MFR"
+F 5 "FS10-110-C2" H 0 0 50 0001 C CNN "MPN"
+F 6 "digikey" H 0 0 50 0001 C CNN "SPR"
+F 7 "237-1578-ND" H 0 0 50 0001 C CNN "SPN"
+F 8 "-" H 0 0 50 0001 C CNN "SPURL"
 	1    2700 4000
 	1    0    0    -1  
 $EndComp
@@ -33,15 +33,15 @@ $Comp
 L Connector:Screw_Terminal_01x02 J401
 U 1 1 5F163AA8
 P 1500 3900
-F 0 "J401" H 1418 4117 50  0000 C CNN
-F 1 "Screw_Terminal_01x02" H 1418 4026 50  0000 C CNN
-F 2 "digikey-footprints:Term_Block_1x2_P5mm" H 1500 3900 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1792863.pdf" H 1500 3900 50  0001 C CNN
-F 4 "Phoenix Contact" H 0   0   50  0001 C CNN "MFR"
-F 5 "1792863" H 0   0   50  0001 C CNN "MPN"
-F 6 "digikey" H 0   0   50  0001 C CNN "SPR"
-F 7 "277-2518-ND" H 0   0   50  0001 C CNN "SPN"
-F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+F 0 "J401" H 1418 4117 50 0000 C CNN
+F 1 "Screw_Terminal_01x02" H 1418 4026 50 0000 C CNN
+F 2 "digikey-footprints:Term_Block_1x2_P5mm" H 1500 3900 50 0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1792863.pdf" H 1500 3900 50 0001 C CNN
+F 4 "Phoenix Contact" H 0 0 50 0001 C CNN "MFR"
+F 5 "1792863" H 0 0 50 0001 C CNN "MPN"
+F 6 "digikey" H 0 0 50 0001 C CNN "SPR"
+F 7 "277-2518-ND" H 0 0 50 0001 C CNN "SPN"
+F 8 "-" H 0 0 50 0001 C CNN "SPURL"
 	1    1500 3900
 	-1   0    0    -1  
 $EndComp
@@ -49,15 +49,15 @@ $Comp
 L Device:R_Small R401
 U 1 1 5F166727
 P 3650 3800
-F 0 "R401" H 3709 3846 50  0000 L CNN
-F 1 "5.9K 0 .1%" H 3709 3755 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 3650 3800 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 3650 3800 50  0001 C CNN
-F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "MFR"
-F 5 "ERA-6AEB5901V" H 0   0   50  0001 C CNN "MPN"
-F 6 "digikey" H 0   0   50  0001 C CNN "SPR"
-F 7 "P5.9KDACT-ND" H 0   0   50  0001 C CNN "SPN"
-F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+F 0 "R401" H 3709 3846 50 0000 L CNN
+F 1 "5.9K 0 .1%" H 3709 3755 50 0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 3650 3800 50 0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 3650 3800 50 0001 C CNN
+F 4 "Panasonic Electronic Components" H 0 0 50 0001 C CNN "MFR"
+F 5 "ERA-6AEB5901V" H 0 0 50 0001 C CNN "MPN"
+F 6 "digikey" H 0 0 50 0001 C CNN "SPR"
+F 7 "P5.9KDACT-ND" H 0 0 50 0001 C CNN "SPN"
+F 8 "-" H 0 0 50 0001 C CNN "SPURL"
 	1    3650 3800
 	1    0    0    -1  
 $EndComp
@@ -65,15 +65,15 @@ $Comp
 L Device:R_Small R402
 U 1 1 5F166D2B
 P 3650 4100
-F 0 "R402" H 3709 4146 50  0000 L CNN
-F 1 "1K 0.1%" H 3709 4055 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 3650 4100 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 3650 4100 50  0001 C CNN
-F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "MFR"
-F 5 "ERA-6AEB102V" H 0   0   50  0001 C CNN "MPN"
-F 6 "digikey" H 0   0   50  0001 C CNN "SPR"
-F 7 "P1.0KDACT-ND" H 0   0   50  0001 C CNN "SPN"
-F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+F 0 "R402" H 3709 4146 50 0000 L CNN
+F 1 "1K 0.1%" H 3709 4055 50 0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 3650 4100 50 0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 3650 4100 50 0001 C CNN
+F 4 "Panasonic Electronic Components" H 0 0 50 0001 C CNN "MFR"
+F 5 "ERA-6AEB102V" H 0 0 50 0001 C CNN "MPN"
+F 6 "digikey" H 0 0 50 0001 C CNN "SPR"
+F 7 "P1.0KDACT-ND" H 0 0 50 0001 C CNN "SPN"
+F 8 "-" H 0 0 50 0001 C CNN "SPURL"
 	1    3650 4100
 	1    0    0    -1  
 $EndComp
@@ -81,15 +81,15 @@ $Comp
 L Device:C_Small C401
 U 1 1 5F16B5A3
 P 3650 4700
-F 0 "C401" H 3742 4746 50  0000 L CNN
-F 1 "1uF X7R 25V 10%" H 3742 4655 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3650 4700 50  0001 C CNN
-F 3 "~" H 3650 4700 50  0001 C CNN
-F 4 "Wurth Elektronik" H 0   0   50  0001 C CNN "MFR"
-F 5 "885012207078" H 0   0   50  0001 C CNN "MPN"
-F 6 "digikey" H 0   0   50  0001 C CNN "SPR"
-F 7 "732-7672-1-ND" H 0   0   50  0001 C CNN "SPN"
-F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+F 0 "C401" H 3742 4746 50 0000 L CNN
+F 1 "1uF X7R 25V 10%" H 3742 4655 50 0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3650 4700 50 0001 C CNN
+F 3 "~" H 3650 4700 50 0001 C CNN
+F 4 "Wurth Elektronik" H 0 0 50 0001 C CNN "MFR"
+F 5 "885012207078" H 0 0 50 0001 C CNN "MPN"
+F 6 "digikey" H 0 0 50 0001 C CNN "SPR"
+F 7 "732-7672-1-ND" H 0 0 50 0001 C CNN "SPN"
+F 8 "-" H 0 0 50 0001 C CNN "SPURL"
 	1    3650 4700
 	1    0    0    -1  
 $EndComp
@@ -97,10 +97,10 @@ $Comp
 L power:GNDPWR #PWR0401
 U 1 1 5F16B947
 P 3650 4950
-F 0 "#PWR0401" H 3650 4750 50  0001 C CNN
-F 1 "GNDPWR" H 3654 4796 50  0000 C CNN
-F 2 "" H 3650 4900 50  0001 C CNN
-F 3 "" H 3650 4900 50  0001 C CNN
+F 0 "#PWR0401" H 3650 4750 50 0001 C CNN
+F 1 "GNDPWR" H 3654 4796 50 0000 C CNN
+F 2 "" H 3650 4900 50 0001 C CNN
+F 3 "" H 3650 4900 50 0001 C CNN
 	1    3650 4950
 	1    0    0    -1  
 $EndComp
@@ -108,15 +108,15 @@ $Comp
 L Device:R_Small R405
 U 1 1 5F16C4AD
 P 4600 4450
-F 0 "R405" H 4659 4496 50  0000 L CNN
-F 1 "10K 0.1%" H 4659 4405 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 4600 4450 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 4600 4450 50  0001 C CNN
-F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "MFR"
-F 5 "ERA-6AEB103V" H 0   0   50  0001 C CNN "MPN"
-F 6 "digikey" H 0   0   50  0001 C CNN "SPR"
-F 7 "P10KDACT-ND" H 0   0   50  0001 C CNN "SPN"
-F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+F 0 "R405" H 4659 4496 50 0000 L CNN
+F 1 "10K 0.1%" H 4659 4405 50 0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 4600 4450 50 0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 4600 4450 50 0001 C CNN
+F 4 "Panasonic Electronic Components" H 0 0 50 0001 C CNN "MFR"
+F 5 "ERA-6AEB103V" H 0 0 50 0001 C CNN "MPN"
+F 6 "digikey" H 0 0 50 0001 C CNN "SPR"
+F 7 "P10KDACT-ND" H 0 0 50 0001 C CNN "SPN"
+F 8 "-" H 0 0 50 0001 C CNN "SPURL"
 	1    4600 4450
 	1    0    0    -1  
 $EndComp
@@ -124,15 +124,15 @@ $Comp
 L Device:R_Small R406
 U 1 1 5F16C8AE
 P 4600 4750
-F 0 "R406" H 4659 4796 50  0000 L CNN
-F 1 "10K 0.1%" H 4659 4705 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 4600 4750 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 4600 4750 50  0001 C CNN
-F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "MFR"
-F 5 "ERA-6AEB103V" H 0   0   50  0001 C CNN "MPN"
-F 6 "digikey" H 0   0   50  0001 C CNN "SPR"
-F 7 "P10KDACT-ND" H 0   0   50  0001 C CNN "SPN"
-F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+F 0 "R406" H 4659 4796 50 0000 L CNN
+F 1 "10K 0.1%" H 4659 4705 50 0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 4600 4750 50 0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 4600 4750 50 0001 C CNN
+F 4 "Panasonic Electronic Components" H 0 0 50 0001 C CNN "MFR"
+F 5 "ERA-6AEB103V" H 0 0 50 0001 C CNN "MPN"
+F 6 "digikey" H 0 0 50 0001 C CNN "SPR"
+F 7 "P10KDACT-ND" H 0 0 50 0001 C CNN "SPN"
+F 8 "-" H 0 0 50 0001 C CNN "SPURL"
 	1    4600 4750
 	1    0    0    -1  
 $EndComp
@@ -140,10 +140,10 @@ $Comp
 L power:GNDPWR #PWR0402
 U 1 1 5F16CEDF
 P 4600 4950
-F 0 "#PWR0402" H 4600 4750 50  0001 C CNN
-F 1 "GNDPWR" H 4604 4796 50  0000 C CNN
-F 2 "" H 4600 4900 50  0001 C CNN
-F 3 "" H 4600 4900 50  0001 C CNN
+F 0 "#PWR0402" H 4600 4750 50 0001 C CNN
+F 1 "GNDPWR" H 4604 4796 50 0000 C CNN
+F 2 "" H 4600 4900 50 0001 C CNN
+F 3 "" H 4600 4900 50 0001 C CNN
 	1    4600 4950
 	1    0    0    -1  
 $EndComp
@@ -151,10 +151,10 @@ $Comp
 L power:GNDPWR #PWR0404
 U 1 1 5F1789B6
 P 5550 5000
-F 0 "#PWR0404" H 5550 4800 50  0001 C CNN
-F 1 "GNDPWR" H 5554 4846 50  0000 C CNN
-F 2 "" H 5550 4950 50  0001 C CNN
-F 3 "" H 5550 4950 50  0001 C CNN
+F 0 "#PWR0404" H 5550 4800 50 0001 C CNN
+F 1 "GNDPWR" H 5554 4846 50 0000 C CNN
+F 2 "" H 5550 4950 50 0001 C CNN
+F 3 "" H 5550 4950 50 0001 C CNN
 	1    5550 5000
 	1    0    0    -1  
 $EndComp
@@ -162,15 +162,15 @@ $Comp
 L Device:R_Small R404
 U 1 1 5F17C992
 P 4300 3200
-F 0 "R404" H 4359 3246 50  0000 L CNN
-F 1 "41.2  0.1%" H 4359 3155 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 4300 3200 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 4300 3200 50  0001 C CNN
-F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "MFR"
-F 5 "ERA-6AEB4122V" H 0   0   50  0001 C CNN "MPN"
-F 6 "digikey" H 0   0   50  0001 C CNN "SPR"
-F 7 "P41.2KDACT-ND" H 0   0   50  0001 C CNN "SPN"
-F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+F 0 "R404" H 4359 3246 50 0000 L CNN
+F 1 "41.2  0.1%" H 4359 3155 50 0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 4300 3200 50 0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 4300 3200 50 0001 C CNN
+F 4 "Panasonic Electronic Components" H 0 0 50 0001 C CNN "MFR"
+F 5 "ERA-6AEB4122V" H 0 0 50 0001 C CNN "MPN"
+F 6 "digikey" H 0 0 50 0001 C CNN "SPR"
+F 7 "P41.2KDACT-ND" H 0 0 50 0001 C CNN "SPN"
+F 8 "-" H 0 0 50 0001 C CNN "SPURL"
 	1    4300 3200
 	1    0    0    -1  
 $EndComp
@@ -178,15 +178,15 @@ $Comp
 L Connector:AudioJack3 J402
 U 1 1 5F18094B
 P 3400 2900
-F 0 "J402" H 3350 3350 50  0000 C CNN
-F 1 "AudioJack2_SwitchT" H 3400 3250 50  0000 C CNN
-F 2 "Connect_jl:Audio_StereoJack_3.5mm_ASJ-99H-R-HT-T" H 3400 2900 50  0001 C CNN
-F 3 "http://www.adam-tech.com/downloader.php?p=ASJ-99H-X-HT-TR.pdf" H 3400 2900 50  0001 C CNN
-F 4 "Adam Tech" H 0   0   50  0001 C CNN "MFR"
-F 5 "ASJ-99H-R-HT-T/R" H 0   0   50  0001 C CNN "MPN"
-F 6 "digikey" H 0   0   50  0001 C CNN "SPR"
-F 7 "2057-ASJ-99H-R-HT-T/RCT-ND" H 0   0   50  0001 C CNN "SPN"
-F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+F 0 "J402" H 3350 3350 50 0000 C CNN
+F 1 "AudioJack2_SwitchT" H 3400 3250 50 0000 C CNN
+F 2 "Connect_jl:Audio_StereoJack_3.5mm_ASJ-99H-R-HT-T" H 3400 2900 50 0001 C CNN
+F 3 "http://www.adam-tech.com/downloader.php?p=ASJ-99H-X-HT-TR.pdf" H 3400 2900 50 0001 C CNN
+F 4 "Adam Tech" H 0 0 50 0001 C CNN "MFR"
+F 5 "ASJ-99H-R-HT-T/R" H 0 0 50 0001 C CNN "MPN"
+F 6 "digikey" H 0 0 50 0001 C CNN "SPR"
+F 7 "2057-ASJ-99H-R-HT-T/RCT-ND" H 0 0 50 0001 C CNN "SPN"
+F 8 "-" H 0 0 50 0001 C CNN "SPURL"
 	1    3400 2900
 	1    0    0    1   
 $EndComp
@@ -194,15 +194,15 @@ $Comp
 L Diode:BAT54S D401
 U 1 1 5F1847B9
 P 5200 3050
-F 0 "D401" V 5246 3129 50  0000 L CNN
-F 1 "BAT54S" V 5155 3129 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 5200 2550 50  0001 C CNN
-F 3 "http://toshiba.semicon-storage.com/info/docget.jsp?did=37137&prodName=TBAT54" H 5200 3050 50  0001 C CNN
-F 4 "Toshiba Semiconductor and Storage" H 0   0   50  0001 C CNN "MFR"
-F 5 "TBAT54S,LM" H 0   0   50  0001 C CNN "MPN"
-F 6 "digikey" H 0   0   50  0001 C CNN "SPR"
-F 7 "TBAT54SLMCT-ND" H 0   0   50  0001 C CNN "SPN"
-F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+F 0 "D401" V 5246 3129 50 0000 L CNN
+F 1 "BAT54S" V 5155 3129 50 0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 5200 2550 50 0001 C CNN
+F 3 "http://toshiba.semicon-storage.com/info/docget.jsp?did=37137&prodName=TBAT54" H 5200 3050 50 0001 C CNN
+F 4 "Toshiba Semiconductor and Storage" H 0 0 50 0001 C CNN "MFR"
+F 5 "TBAT54S,LM" H 0 0 50 0001 C CNN "MPN"
+F 6 "digikey" H 0 0 50 0001 C CNN "SPR"
+F 7 "TBAT54SLMCT-ND" H 0 0 50 0001 C CNN "SPN"
+F 8 "-" H 0 0 50 0001 C CNN "SPURL"
 	1    5200 3050
 	0    1    -1   0   
 $EndComp
@@ -210,10 +210,10 @@ $Comp
 L power:GNDPWR #PWR0403
 U 1 1 5F185A64
 P 5200 3500
-F 0 "#PWR0403" H 5200 3300 50  0001 C CNN
-F 1 "GNDPWR" H 5204 3346 50  0000 C CNN
-F 2 "" H 5200 3450 50  0001 C CNN
-F 3 "" H 5200 3450 50  0001 C CNN
+F 0 "#PWR0403" H 5200 3300 50 0001 C CNN
+F 1 "GNDPWR" H 5204 3346 50 0000 C CNN
+F 2 "" H 5200 3450 50 0001 C CNN
+F 3 "" H 5200 3450 50 0001 C CNN
 	1    5200 3500
 	1    0    0    -1  
 $EndComp
@@ -221,15 +221,15 @@ $Comp
 L Diode:BAT54S D402
 U 1 1 5EF7C6D1
 P 5550 3950
-F 0 "D402" V 5596 4029 50  0000 L CNN
-F 1 "BAT54S" V 5505 4029 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 5550 3450 50  0001 C CNN
-F 3 "http://toshiba.semicon-storage.com/info/docget.jsp?did=37137&prodName=TBAT54" H 5550 3950 50  0001 C CNN
-F 4 "Toshiba Semiconductor and Storage" H 0   0   50  0001 C CNN "MFR"
-F 5 "TBAT54S,LM" H 0   0   50  0001 C CNN "MPN"
-F 6 "digikey" H 0   0   50  0001 C CNN "SPR"
-F 7 "TBAT54SLMCT-ND" H 0   0   50  0001 C CNN "SPN"
-F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+F 0 "D402" V 5596 4029 50 0000 L CNN
+F 1 "BAT54S" V 5505 4029 50 0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 5550 3450 50 0001 C CNN
+F 3 "http://toshiba.semicon-storage.com/info/docget.jsp?did=37137&prodName=TBAT54" H 5550 3950 50 0001 C CNN
+F 4 "Toshiba Semiconductor and Storage" H 0 0 50 0001 C CNN "MFR"
+F 5 "TBAT54S,LM" H 0 0 50 0001 C CNN "MPN"
+F 6 "digikey" H 0 0 50 0001 C CNN "SPR"
+F 7 "TBAT54SLMCT-ND" H 0 0 50 0001 C CNN "SPN"
+F 8 "-" H 0 0 50 0001 C CNN "SPURL"
 	1    5550 3950
 	0    1    -1   0   
 $EndComp
