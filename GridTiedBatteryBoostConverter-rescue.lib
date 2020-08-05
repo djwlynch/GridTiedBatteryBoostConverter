@@ -1,6 +1,27 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# C_4_pin-CustomDevice
+#
+DEF C_4_pin-CustomDevice C 0 40 N N 1 F N
+F0 "C" 200 300 50 H V C CNN
+F1 "C_4_pin-CustomDevice" 200 400 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 5 200 0 200 200 N
+P 2 0 1 5 200 100 250 100 N
+P 2 0 1 20 250 150 250 50 N
+P 2 0 1 20 300 150 300 50 N
+P 2 0 1 5 350 0 350 200 N
+P 2 0 1 5 350 100 300 100 N
+X ~ 1 0 0 200 R 50 50 1 1 P
+X ~ 2 550 0 200 L 50 50 1 1 P
+X ~ 3 550 200 200 L 50 50 1 1 P
+X ~ 4 0 200 200 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # NE555-Timer
 #
 DEF NE555-Timer U 0 20 Y Y 1 F N

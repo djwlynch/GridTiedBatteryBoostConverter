@@ -238,21 +238,21 @@ $Comp
 L Device:Fuse_Small F101
 U 1 1 5E48470A
 P 2000 1700
-F 0 "F101" H 2000 1850 50  0000 C CNN
-F 1 "fuse 25A 100V DC" H 1850 1950 50  0000 C CNN
+F 0 "F101" H 2000 1800 50  0000 C CNN
+F 1 "Fuse Holder" H 2000 1900 50  0000 C CNN
 F 2 "Connect_jl:BellFuse_6.3mmX32mm_FC_102-22" H 2050 1500 50  0001 L CNN
 F 3 "https://us.schurter.com/en/datasheet/typ_SUT-H_6.3x32.pdf" H 2000 1700 50  0001 C CNN
 F 4 "https://belfuse.com/resources/datasheets/circuitprotection/ds-cp-0672-fuse-clips-series.pdf" H 2000 1700 50  0001 C CNN "Holder DataSheet"
-F 5 "Schurter Inc" H 0   0   50  0001 C CNN "MFR"
-F 6 "SUT-H-6332-25A00-CTG-TT-NI" H 0   0   50  0001 C CNN "MPN"
+F 5 "Bel Fuse Inc." H 0   0   50  0001 C CNN "MFR"
+F 6 "FC-102-22" H 0   0   50  0001 C CNN "MPN"
 F 7 "digikey" H 0   0   50  0001 C CNN "SPR"
-F 8 "486-7266-ND" H 0   0   50  0001 C CNN "SPN"
+F 8 "507-1702-ND" H 0   0   50  0001 C CNN "SPN"
 F 9 "-" H 0   0   50  0001 C CNN "SPURL"
 	1    2000 1700
 	1    0    0    -1  
 $EndComp
 $Comp
-L UCC2800DTR:UCC2800DTR U102
+L TI:UCC2800DTR U102
 U 1 1 5E48C5DC
 P 4050 4750
 F 0 "U102" H 4850 5300 60  0000 C CNN
@@ -691,7 +691,7 @@ F 8 "-" H 0   0   50  0001 C CNN "SPURL"
 	0    1    1    0   
 $EndComp
 $Comp
-L 2020-03-11_04-11-57:OPA2837DGK U101
+L TI:OPA2837DGK U101
 U 1 1 5E85AC5C
 P 4200 3550
 F 0 "U101" H 4450 3300 50  0000 C CNN
@@ -707,7 +707,7 @@ F 8 "-" H 0   0   50  0001 C CNN "SPURL"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L 2020-03-11_04-11-57:OPA2837DGK U101
+L TI:OPA2837DGK U101
 U 3 1 5E8E89BB
 P 3300 3000
 F 0 "U101" V 2975 3000 50  0000 C CNN
@@ -723,7 +723,7 @@ F 8 "-" H 0   0   50  0001 C CNN "SPURL"
 	0    1    1    0   
 $EndComp
 $Comp
-L 2020-03-11_04-11-57:OPA2837DGK U101
+L TI:OPA2837DGK U101
 U 2 1 5E8F4FEC
 P 7700 3450
 F 0 "U101" H 7700 3700 50  0000 C CNN
@@ -1244,6 +1244,8 @@ Text Label 9300 1000 0    50   ~ 0
 Vout
 Text Label 9450 3200 0    50   ~ 0
 +2.5V_REF
+Text Notes 1500 1450 0    50   ~ 0
+fuse 25A 100V DC\nSUT-H-6332-25A00-CTG-TT-NI\ndigi-key 486-7266-ND
 Wire Wire Line
 	2600 2600 2600 2550
 Wire Wire Line
@@ -1737,6 +1739,4 @@ Connection ~ 4700 2950
 Connection ~ 1450 6300
 Connection ~ 7650 2300
 Connection ~ 7850 2300
-Text Notes 1500 1400 0    50   ~ 0
-SUT-H-6332-25A00-CTG-TT-NI\ndigi-key 486-7266-ND
 $EndSCHEMATC

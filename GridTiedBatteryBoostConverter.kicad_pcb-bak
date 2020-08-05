@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 36)
+    (drawings 38)
     (tracks 1099)
     (zones 0)
     (modules 161)
@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 2)
+    (last_trace_width 0.25)
     (user_trace_width 0.5)
     (user_trace_width 1)
     (user_trace_width 2)
@@ -1617,7 +1617,7 @@
     (fp_text reference C101 (at -8.7 -9.5 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value "220uF 200V 905 mOhm" (at -9.1 12.2 180) (layer F.Fab)
+    (fp_text value "220uF ALUM 200V 905 mOhm 20%" (at -9.1 12.2 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_circle (center 5 0) (end 16 0) (layer F.Fab) (width 0.1))
@@ -2037,7 +2037,7 @@
     (fp_text reference C102 (at -3.6 0.4 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value "15uF 250VDC 3.9mOhm" (at -5.6 -0.1 180) (layer F.Fab)
+    (fp_text value "15uF PP 250VDC 3.9mOhm" (at -5.6 -0.1 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 3 -13.2) (end 3 13.2) (layer F.SilkS) (width 0.15))
@@ -2058,7 +2058,7 @@
     (fp_text reference C103 (at -13.9 0.4 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value "470uF 400V 130mOhm" (at -15.9 0 180) (layer F.Fab)
+    (fp_text value "470uF ALUM 400V 130mOhm 20%" (at -15.9 0 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_circle (center 5 0) (end 22.5 0) (layer F.Fab) (width 0.1))
@@ -3068,7 +3068,7 @@
     (fp_text reference C303 (at -3.3 -4.4) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value "1uF X7R 250V" (at 0 3.75) (layer F.Fab) hide
+    (fp_text value "1uF X7R 250V 10%" (at 0 3.75) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.75 2.5) (end -2.75 -2.5) (layer F.Fab) (width 0.1))
@@ -3104,7 +3104,7 @@
     (fp_text reference C306 (at -6.05 -0.65) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value "33uF X7R 16V" (at 0 2.75) (layer F.Fab) hide
+    (fp_text value "33uF X7R 16V 20%" (at 0 2.75) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.25 1.6) (end -2.25 -1.6) (layer F.Fab) (width 0.1))
@@ -3140,7 +3140,7 @@
     (fp_text reference C308 (at -6.3 0 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value "10uF X7R 16V" (at 0 2 90) (layer F.Fab) hide
+    (fp_text value "10uF X7R 25V 10%" (at 0 2 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.6 0.8) (end -1.6 -0.8) (layer F.Fab) (width 0.1))
@@ -3212,7 +3212,7 @@
     (fp_text reference C310 (at -4.9 -1.4 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value "10uF X7R 16V" (at 0 2 90) (layer F.Fab) hide
+    (fp_text value "10uF X7R 25V 10%" (at 0 2 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.6 0.8) (end -1.6 -0.8) (layer F.Fab) (width 0.1))
@@ -3248,7 +3248,7 @@
     (fp_text reference C311 (at -4.8 -0.2 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value "10uF X7R 16V" (at 0 2 90) (layer F.Fab) hide
+    (fp_text value "10uF X7R 25V 10%" (at 0 2 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.6 0.8) (end -1.6 -0.8) (layer F.Fab) (width 0.1))
@@ -3356,7 +3356,7 @@
     (fp_text reference C314 (at 0 -3.5) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value "1uF X7R 250V" (at 0 3.75) (layer F.Fab) hide
+    (fp_text value "1uF X7R 250V 10%" (at 0 3.75) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.75 2.5) (end -2.75 -2.5) (layer F.Fab) (width 0.1))
@@ -3533,7 +3533,7 @@
     (fp_text reference D101 (at -0.05 14.1) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value "8A 200V 0.950V fwd" (at 0.2 15.9) (layer F.Fab)
+    (fp_text value "8A 200V 0.950V" (at 0.2 15.9) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 8.1 -2.9) (end -2.9 -2.9) (layer F.SilkS) (width 0.15))
@@ -3693,7 +3693,7 @@
     (fp_text reference F101 (at 15.4 -8.4) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value "fuse 25A 100V DC" (at 16.2 -11) (layer F.Fab)
+    (fp_text value "Fuse Holder" (at 16.2 -11) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 10.3886 -0.0508) (end 21.8948 -0.0508) (layer F.SilkS) (width 0.15))
@@ -3721,7 +3721,7 @@
     (fp_text reference J101 (at 7.9 -4.75 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value "Battery Connection" (at 7.8 4.9 90) (layer F.Fab)
+    (fp_text value "Battery Connection" (at 7.8 4.9 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.5 -3.75) (end -2.5 3.75) (layer F.Fab) (width 0.1))
@@ -3740,7 +3740,7 @@
     (fp_line (start -2.6 3.85) (end -2.6 3.35) (layer F.SilkS) (width 0.1))
     (fp_line (start 17.6 3.85) (end 17.6 3.35) (layer F.SilkS) (width 0.1))
     (fp_line (start 17.6 3.85) (end 17.1 3.85) (layer F.SilkS) (width 0.1))
-    (fp_text user %R (at 7.6 0.1 90) (layer F.Fab)
+    (fp_text user %R (at 7.6 0.1 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (pad 4 thru_hole circle (at 15 0 270) (size 2.5 2.5) (drill 1.3) (layers *.Cu *.Mask)
@@ -5845,7 +5845,7 @@
     (fp_text reference U101 (at 0.1 2.6) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value OPA2837DGK (at 0.02 2.73) (layer F.Fab) hide
+    (fp_text value OPA2837IDGKR (at 0.02 2.73) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 1.5 -1.5) (end 1.5 1.5) (layer F.Fab) (width 0.1))
@@ -6029,7 +6029,7 @@
     (fp_text reference U303 (at 1.3 3.9) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value TPS560200 (at 0 2.9) (layer F.Fab) hide
+    (fp_text value TPS560200DBVR (at 0 2.9) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 2.38 1.8) (end -2.38 1.8) (layer F.CrtYd) (width 0.05))
@@ -6173,7 +6173,7 @@
     (fp_text reference U201 (at -2.9 4.35 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value "LCD 2004A" (at 6.75 -7.65 180) (layer F.Fab)
+    (fp_text value "LCD 2004A Right Angle Header 16 pin 2.54mm" (at 6.75 -7.65 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.8 86.2) (end -1.8 39.9) (layer F.SilkS) (width 0.15))
@@ -6553,7 +6553,7 @@
     (fp_text reference C204 (at 15 -0.05) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value "10uF X7R 16V" (at 0 2) (layer F.Fab) hide
+    (fp_text value "10uF X7R 25V 10%" (at 0 2) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.6 0.8) (end -1.6 -0.8) (layer F.Fab) (width 0.1))
@@ -6625,7 +6625,7 @@
     (fp_text reference C301 (at -5.7 0.1 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value "10uF X7R 16V" (at 0 2 90) (layer F.Fab) hide
+    (fp_text value "10uF X7R 25V 10%" (at 0 2 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 3.25 1.05) (end -3.25 1.05) (layer F.CrtYd) (width 0.05))
@@ -6733,7 +6733,7 @@
     (fp_text reference C305 (at -5.6 -0.05 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value "10uF X7R 16V" (at 0 2 90) (layer F.Fab) hide
+    (fp_text value "10uF X7R 25V 10%" (at 0 2 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.6 0.8) (end -1.6 -0.8) (layer F.Fab) (width 0.1))
@@ -6769,7 +6769,7 @@
     (fp_text reference C307 (at -5.65 0 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value "10uF X7R 16V" (at 0 2 90) (layer F.Fab) hide
+    (fp_text value "10uF X7R 25V 10%" (at 0 2 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 3.25 1.05) (end -3.25 1.05) (layer F.CrtYd) (width 0.05))
@@ -7402,7 +7402,7 @@
     (fp_text reference U306 (at -1.8 -3.45) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value TPS560200 (at 0 2.9) (layer F.Fab) hide
+    (fp_text value TPS560200DBVR (at 0 2.9) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -0.9 1.61) (end 0.9 1.61) (layer F.SilkS) (width 0.12))
@@ -7821,7 +7821,7 @@
     (fp_text reference D102 (at -2.15 4.65 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value BAV54S (at 0 2.5 90) (layer F.Fab) hide
+    (fp_text value BAT54S (at 0 2.5 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 0.76 1.58) (end -0.7 1.58) (layer F.SilkS) (width 0.12))
@@ -7862,7 +7862,7 @@
     (fp_text reference D103 (at -0.15 -3.65) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value BAV54S (at 0 2.5) (layer F.Fab) hide
+    (fp_text value BAT54S (at 0 2.5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 0.76 1.58) (end 0.76 0.65) (layer F.SilkS) (width 0.12))
@@ -7903,7 +7903,7 @@
     (fp_text reference D401 (at -2.8 -2.75) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value BAV54S (at 0 2.5) (layer F.Fab) hide
+    (fp_text value BAT54S (at 0 2.5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 0.76 1.58) (end -0.7 1.58) (layer F.SilkS) (width 0.12))
@@ -7944,7 +7944,7 @@
     (fp_text reference D402 (at -1.8 -2.75) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value BAV54S (at 0 2.5) (layer F.Fab) hide
+    (fp_text value BAT54S (at 0 2.5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 0.76 1.58) (end 0.76 0.65) (layer F.SilkS) (width 0.12))
@@ -7985,7 +7985,7 @@
     (fp_text reference U304 (at 3.3 0 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value TLV70430_SOT23-5 (at 0 2.9 90) (layer F.Fab) hide
+    (fp_text value TLV70430DBVT (at 0 2.9 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -0.9 1.61) (end 0.9 1.61) (layer F.SilkS) (width 0.12))
@@ -8028,7 +8028,7 @@
     (fp_text reference C315 (at -5.85 -0.05) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value "33uF X7R 16V" (at 0 2.75) (layer F.Fab) hide
+    (fp_text value "33uF X7R 16V 20%" (at 0 2.75) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.25 1.6) (end -2.25 -1.6) (layer F.Fab) (width 0.1))
@@ -8055,6 +8055,12 @@
     )
   )
 
+  (gr_text "- Charger +" (at 14.45 46.7 270) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+  (gr_text "+ Bat -" (at 14.45 31.85 270) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
   (gr_text "+ Solar Panels -" (at 276.1 98.45 90) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -8106,15 +8112,6 @@
   (gr_line (start 283.1 14.5) (end 283.1 157.6) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 13 14.5) (end 283.1 14.5) (layer Edge.Cuts) (width 0.05))
 
-  (via (at 53.65 131.25) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 3))
-  (via (at 52.45 131.2) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 3))
-  (via (at 52.4 132.25) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 3))
-  (via (at 53.65 132.25) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 3))
-  (via (at 55.05 132.25) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 3))
-  (via (at 55.05 131.2) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 3))
-  (via (at 55.05 130.1) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 3))
-  (via (at 53.65 130.1) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 3))
-  (via (at 52.4 130.1) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 3))
   (segment (start 54.7 51.2) (end 54.7 62.2) (width 5) (layer F.Cu) (net 1))
   (segment (start 55.938 26.3) (end 64.3 26.3) (width 6) (layer F.Cu) (net 2))
   (segment (start 55.938 40.062) (end 54.7 41.3) (width 5) (layer F.Cu) (net 2))
@@ -8154,6 +8151,15 @@
   (segment (start 43.35 49.1) (end 43.35 60.85) (width 8) (layer F.Cu) (net 2))
   (segment (start 41.9 62.3) (end 43.35 60.85) (width 2.5) (layer F.Cu) (net 2))
   (segment (start 41.9 66.5) (end 41.9 62.3) (width 2.5) (layer F.Cu) (net 2))
+  (via (at 53.65 131.25) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 3))
+  (via (at 52.45 131.2) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 3))
+  (via (at 52.4 132.25) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 3))
+  (via (at 53.65 132.25) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 3))
+  (via (at 55.05 132.25) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 3))
+  (via (at 55.05 131.2) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 3))
+  (via (at 55.05 130.1) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 3))
+  (via (at 53.65 130.1) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 3))
+  (via (at 52.4 130.1) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 3))
   (via (at 118.8 89.1) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 3))
   (via (at 119.75 89.1) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 3))
   (via (at 119.7 88.15) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 3))
