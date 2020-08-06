@@ -22,10 +22,10 @@ The peak current mode control is based around the UCC2800 TI mosfet gate driver.
 Warning I am not an electrical engineer and this may kill you / burn down your house,
 all risks are your own.  I have not yet built this myself, but will update when I have.
 
-To install :
-change into your kicad projects directory and issue
+<b>To install :</b>
+change into your kicad projects directory and issue<br>
 git clone https://github.com/djwlynch/GridTiedBatteryBoostConverter
-also in you kicad project directory issue the following
+Also in you kicad project directory issue the following<br>
 git clone https://github.com/djwlynch/custom_kicad_library --recursive
 
 the --recursive is important and it pulls down the required submodules for kicad librarys I have used,
