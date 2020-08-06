@@ -1,3 +1,9 @@
 (sym_lib_table
+  (lib (name CustomDevice)(type Legacy)(uri ${KIPRJMOD}/../custom_kicad_library/CustomDevice.lib)(options "")(descr ""))
+  (lib (name Espressif)(type Legacy)(uri ${KIPRJMOD}/../custom_kicad_library/Espressif.lib)(options "")(descr ""))
+  (lib (name AnalogDevices)(type Legacy)(uri ${KIPRJMOD}/../custom_kicad_library/AnalogDevices.lib)(options "")(descr ""))
+  (lib (name little_fuse)(type Legacy)(uri ${KIPRJMOD}/../custom_kicad_library/little_fuse.lib)(options "")(descr ""))
+  (lib (name teensy)(type Legacy)(uri ${KIPRJMOD}/../custom_kicad_library/teensy_library/teensy.lib)(options "")(descr ""))
+  (lib (name TI)(type Legacy)(uri ${KIPRJMOD}/../custom_kicad_library/TI.lib)(options "")(descr ""))
   (lib (name GridTiedBatteryBoostConverter-rescue)(type Legacy)(uri ${KIPRJMOD}/GridTiedBatteryBoostConverter-rescue.lib)(options "")(descr ""))
 )
