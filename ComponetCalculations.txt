@@ -1,0 +1,60 @@
+>> CalcBoostComponents(89.6, 102.2, 160, 100, 1000, 250000, .01, .01,.80)
+Params:
+ Vin_min: 89.600000
+ Vin_max:102.200000
+ Vout: 160.000000
+ Pout_min: 100.000000
+Pout_max: 1000.000000
+Freq: 250000.000000
+ Vin_ripple: 0.010000
+, Vout_ripple: 0.010000
+, efficiency: 0.800000
+Min Duty 0.489000, Max Duty: 0.552000
+IL_avg: 13.950893
+IL_delta: 4.185268
+IL_pk: 16.043527
+inductance: 0.000047
+Inductance to avoid dcm, to reduce you can increase freq or increase Pout_min: 0.000082
+Enter the actual inductor size in henrys you are going to use.
+.000075
+IL_ripple: 3.008768 A, Vin_max_ripple: 0.896000 V
+Cin1 min: 0.000013 with Max ESR of: 0.148898
+Cin2 min: 0.000054 with ESR_min of 0.272854
+RHPZero_freq: 17036.284639
+Iout_max: 6.250000
+IL_pk: 15.455277
+IL_delta: 3.008768
+Freq: 250000.000000, Dmax 0.552000
+Vout_ripple 1.600000
+Cout due to stedy state maximum current draw : 0.000044 with a Max ESR: of 0.051762
+Idiode_rms: 9.355803
+IC_out_rms: 6.961936
+Enter you max expected Load Transient in Amps ?5.25
+Minimum Output capacitance 0.000123 with max ESR 0.152381 to handle Load transients
+Now Pick a MOSFET or IGBT that can handle at least 192.000000 Volts, and 15.455277 Amps.
+enter switch type MOSFET or IGBT
+MOSFET
+P_cond = 0
+Enter rds_on from data sheet to work out conduction losses ?
+0.045
+P_cond 0.970313 W
+Enter the rise time from the datasheet in seconds
+0.000000030
+Enter the Turn on delay from the datasheet in seconds
+0.000000019
+Enter the fall time from the datasheet in seconds
+0.000000020
+P_sw = 15.455277 W
+Total MOSFET power loss 0.970313 W + 15.455277 W = 16.425589 W
+Enter the gate charge Q in Coloumbs
+0.000000020
+Enter the gate driver switching voltage
+11
+Gate Driver source current 0.005000 A
+Gate Driver Power Dissapated 0.055000
+Gate driver Peak Current 0.408163 A
+Select a Schottky Diode with a Reverse break down greater than 192.000000 V
+and with average rectified current handling of 7.500000 A
+Enter forward Voltage from datasheet.
+0.95
+Power Dissapated in diode 5.937500 W
