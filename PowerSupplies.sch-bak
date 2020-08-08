@@ -426,38 +426,20 @@ F 8 "-" H 0   0   50  0001 C CNN "SPURL"
 $EndComp
 $Comp
 L Device:Q_NMOS_GDS Q?
-U 1 1 5ECCB06E
-P 9900 5750
-AR Path="/5ECCB06E" Ref="Q?"  Part="1" 
-AR Path="/5EBD6442/5ECCB06E" Ref="Q306"  Part="1" 
-F 0 "Q306" V 10150 5450 50  0000 L CNN
-F 1 "TK32A12N1,S4X" V 10250 5450 50  0000 L CNN
-F 2 "Transistors_ThroughHole_jl:TO-220" H 10100 5850 50  0001 C CNN
-F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=13563&prodName=TK32A12N1" H 9900 5750 50  0001 C CNN
-F 4 "Toshiba Semiconductor and Storage" H 0   0   50  0001 C CNN "MFR"
-F 5 "TK32A12N1,S4X" H 0   0   50  0001 C CNN "MPN"
-F 6 "digikey" H 0   0   50  0001 C CNN "SPR"
-F 7 "TK32A12N1S4X-ND" H 0   0   50  0001 C CNN "SPN"
-F 8 "-" H 0   0   50  0001 C CNN "SPURL"
-	1    9900 5750
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:Q_NMOS_GDS Q?
 U 1 1 5ECCD1C3
-P 8950 5750
+P 8800 5750
 AR Path="/5ECCD1C3" Ref="Q?"  Part="1" 
 AR Path="/5EBD6442/5ECCD1C3" Ref="Q305"  Part="1" 
-F 0 "Q305" V 9200 5850 50  0000 L CNN
-F 1 "TK32A12N1,S4X" V 9300 5450 50  0000 L CNN
-F 2 "Transistors_ThroughHole_jl:TO-220" H 9150 5850 50  0001 C CNN
-F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=13563&prodName=TK32A12N1" H 8950 5750 50  0001 C CNN
-F 4 "Toshiba Semiconductor and Storage" H 0   0   50  0001 C CNN "MFR"
-F 5 "TK32A12N1,S4X" H 0   0   50  0001 C CNN "MPN"
-F 6 "digikey" H 0   0   50  0001 C CNN "SPR"
-F 7 "TK32A12N1S4X-ND" H 0   0   50  0001 C CNN "SPN"
-F 8 "-" H 0   0   50  0001 C CNN "SPURL"
-	1    8950 5750
+F 0 "Q305" V 9050 5850 50  0000 L CNN
+F 1 "IRFP4321PBF" V 9150 5450 50  0000 L CNN
+F 2 "Transistors_ThroughHole_jl:TO-247-3_Horizontal_TabDown" H 9000 5850 50  0001 C CNN
+F 3 "https://www.infineon.com/dgdl/irfp4321pbf.pdf?fileId=5546d462533600a40153562c4f802011" H 8800 5750 50  0001 C CNN
+F 4 "Infineon Technologies" H -150 0   50  0001 C CNN "MFR"
+F 5 "IRFP4321PBF" H -150 0   50  0001 C CNN "MPN"
+F 6 "digikey" H -150 0   50  0001 C CNN "SPR"
+F 7 "IRFP4321PBF-ND" H -150 0   50  0001 C CNN "SPN"
+F 8 "-" H -150 0   50  0001 C CNN "SPURL"
+	1    8800 5750
 	0    -1   1    0   
 $EndComp
 $Comp
@@ -1178,7 +1160,7 @@ Wire Wire Line
 Wire Wire Line
 	9500 900  9700 900 
 Wire Wire Line
-	10100 5850 10500 5850
+	10350 5850 10500 5850
 Wire Wire Line
 	8200 3600 9150 3600
 Wire Wire Line
@@ -1212,15 +1194,15 @@ Wire Wire Line
 Wire Wire Line
 	9150 3750 9150 3600
 Wire Wire Line
-	9150 5850 9600 5850
+	9000 5850 9600 5850
 Wire Wire Line
 	9150 4150 9150 4250
 Wire Wire Line
-	8950 5550 9450 5550
+	8800 5550 9450 5550
 Wire Wire Line
 	9600 5000 9600 5850
 Wire Wire Line
-	9600 5850 9700 5850
+	9600 5850 9950 5850
 Wire Wire Line
 	9150 4250 9450 4250
 Wire Wire Line
@@ -1228,7 +1210,7 @@ Wire Wire Line
 Wire Wire Line
 	9150 4250 9150 4300
 Wire Wire Line
-	9450 5550 9900 5550
+	9450 5550 10150 5550
 Wire Wire Line
 	6800 4700 7200 4700
 Wire Wire Line
@@ -1256,7 +1238,7 @@ Wire Wire Line
 Wire Wire Line
 	2800 2550 3150 2550
 Wire Wire Line
-	6750 5850 8750 5850
+	6750 5850 8600 5850
 Wire Wire Line
 	9700 900  9850 900 
 Wire Wire Line
@@ -1411,4 +1393,26 @@ Connection ~ 3950 3700
 Connection ~ 5800 4700
 Connection ~ 3950 3000
 Connection ~ 3950 2250
+$Comp
+L Device:Q_NMOS_GDS Q?
+U 1 1 5F305B10
+P 10150 5750
+AR Path="/5F305B10" Ref="Q?"  Part="1" 
+AR Path="/5EBD6442/5F305B10" Ref="Q306"  Part="1" 
+F 0 "Q306" V 10400 5850 50  0000 L CNN
+F 1 "IRFP4321PBF" V 10500 5450 50  0000 L CNN
+F 2 "Transistors_ThroughHole_jl:TO-247-3_Horizontal_TabDown" H 10350 5850 50  0001 C CNN
+F 3 "https://www.infineon.com/dgdl/irfp4321pbf.pdf?fileId=5546d462533600a40153562c4f802011" H 10150 5750 50  0001 C CNN
+F 4 "Infineon Technologies" H 1200 0   50  0001 C CNN "MFR"
+F 5 "IRFP4321PBF" H 1200 0   50  0001 C CNN "MPN"
+F 6 "digikey" H 1200 0   50  0001 C CNN "SPR"
+F 7 "IRFP4321PBF-ND" H 1200 0   50  0001 C CNN "SPN"
+F 8 "-" H 1200 0   50  0001 C CNN "SPURL"
+	1    10150 5750
+	0    1    1    0   
+$EndComp
+Text Label 9400 4250 0    50   ~ 0
+Charger_Fets_GateDrive
+Text Label 9150 5850 0    50   ~ 0
+Charger_FETs_Source
 $EndSCHEMATC

@@ -1,4 +1,4 @@
-update=Thu 06 Aug 2020 22:29:14 AEST
+update=Sat 08 Aug 2020 16:29:29 AEST
 version=1
 last_client=kicad
 [general]
@@ -262,22 +262,33 @@ dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
-Name=DC In
+Name=ChargerConnection
 Clearance=1.1
-TrackWidth=5
-ViaDiameter=3.2
-ViaDrill=1.6
+TrackWidth=8
+ViaDiameter=5
+ViaDrill=2.5
 uViaDiameter=0.3
 uViaDrill=0.1
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/2]
-Name=u302
-Clearance=0.19
-TrackWidth=0.25
-ViaDiameter=0.8
-ViaDrill=0.4
+Name=ChargerFetsGateDrive
+Clearance=1.1
+TrackWidth=1
+ViaDiameter=1.2
+ViaDrill=0.6
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/3]
+Name=DC In
+Clearance=1.1
+TrackWidth=5
+ViaDiameter=3.2
+ViaDrill=1.6
 uViaDiameter=0.3
 uViaDrill=0.1
 dPairWidth=0.2

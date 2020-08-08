@@ -19,7 +19,7 @@ C103,470uF ALUM 400V 130mOhm 20%,Capacitors_ThroughHole:CP_Radial_D35.0mm_P10.00
 C102,15uF PP 250VDC 3.9mOhm,Capacitors_ThroughHole_jl:C_Axial_44mm_24.5mm_P50mm,1,KEMET,C4GADUD5150AA1J,digikey,399-13088-ND
 C104,70uF PP Film 500V 2.1mOhm,Capacitors_ThroughHole_jl:C_RECT_4PIN_L42mm_W30mm_P37.5mm_P20.3mm,1,KEMET,C4AQLBW5700A3LK,digikey,399-17006-ND
 J402,AudioJack2_SwitchT,Connect_jl:Audio_StereoJack_3.5mm_ASJ-99H-R-HT-T,1,Adam Tech,ASJ-99H-R-HT-T/R,digikey,2057-ASJ-99H-R-HT-T/RCT-ND
-F101,fuse 25A 100V DC,Connect_jl:BellFuse_6.3mmX32mm_FC_102-22,1,Schurter Inc,SUT-H-6332-25A00-CTG-TT-NI,digikey,486-7266-ND
+F101,Fuse Holder,Connect_jl:BellFuse_6.3mmX32mm_FC_102-22,1,Bel Fuse Inc.,FC-102-22,digikey,507-1702-ND
 U201,LCD 2004A Right Angle Header 16 pin 2.54mm,Connect_jl:LCD2004_Pin_Header_Angled_1x16_Pitch2.54mm,1,Adam Tech,PH1RB-16-UA,digikey,2057-PH1RB-16-UA-ND
 J103,Solar Panels,Connect_jl:TerminalBlock_4way_P6.35mm_P9.5mm_Holes1.7mm,1,Phoenix Contact,1017516,digikey,277-17506-ND
 D301,1A 150V 0.7V SMA,Diodes_SMD:D_SMA_Handsoldering,1,Diodes Incorporated,SBR1U150SA-13,digikey,SBR1U150SA-13DICT-ND
@@ -74,7 +74,7 @@ R114;R120,2 mOhm Thick Film 1% 1W,Resistors_SMD:R_1210_HandSoldering,2,Rohm Semi
 U301,FDA217,SMD_Packages:DIP-8_SMD,1,IXYS Integrated Circuits Division,FDA217S,digikey,CLA408-ND
 TR401,FS-10-110-C2,Transformers_ThroughHole_jl:FS10-110-C2,1,Triad Magnetics,FS10-110-C2,digikey,237-1578-ND
 Q101,IXFP36N20X3,Transistors_ThroughHole_jl:TO-220,1,IXYS,IXFP36N20X3,digikey,IXFP36N20X3-ND
-Q306;Q305,"TK32A12N1,S4X",Transistors_ThroughHole_jl:TO-220,2,Toshiba Semiconductor and Storage,"TK32A12N1,S4X",digikey,TK32A12N1S4X-ND
+Q305;Q306,IRFP4321PBF,Transistors_ThroughHole_jl:TO-247-3_Horizontal_TabDown,2,Infineon Technologies,IRFP4321PBF,digikey,IRFP4321PBF-ND
 J401,Screw_Terminal_01x02,digikey-footprints:Term_Block_1x2_P5mm,1,Phoenix Contact,1792863,digikey,277-2518-ND
 J101,Battery Connection,digikey-footprints:Term_Block_1x4_P5mm,1,Phoenix Contact,1935792,digikey,277-14426-ND
 U302,LTC7138EMSE-PBF,ltc7138:LTC7138EMSE-PBF,1,Linear Technology/Analog Devices,LTC7138EMSE#PBF,digikey,LTC7138EMSE#PBF-ND
