@@ -14,19 +14,19 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Transformer:TRANSF6 TR401
+L CustomDevice:TRANSF6 TR401
 U 1 1 5F15E54A
-P 2700 4000
-F 0 "TR401" H 2700 4482 50  0000 C CNN
-F 1 "FS-10-110-C2" H 2700 4391 50  0000 C CNN
-F 2 "Transformers_ThroughHole_jl:FS10-110-C2" H 2700 4000 50  0001 C CNN
-F 3 "http://catalog.triadmagnetics.com/Asset/FS10-110-C2.pdf" H 2700 4000 50  0001 C CNN
-F 4 "Triad Magnetics" H 0   0   50  0001 C CNN "MFR"
-F 5 "FS10-110-C2" H 0   0   50  0001 C CNN "MPN"
-F 6 "digikey" H 0   0   50  0001 C CNN "SPR"
-F 7 "237-1578-ND" H 0   0   50  0001 C CNN "SPN"
-F 8 "-" H 0   0   50  0001 C CNN "SPURL"
-	1    2700 4000
+P 2700 3950
+F 0 "TR401" H 2700 4432 50  0000 C CNN
+F 1 "FS-10-110-C2" H 2700 4341 50  0000 C CNN
+F 2 "Transformers_ThroughHole_jl:FS10-110-C2" H 2700 3950 50  0001 C CNN
+F 3 "http://catalog.triadmagnetics.com/Asset/FS10-110-C2.pdf" H 2700 3950 50  0001 C CNN
+F 4 "Triad Magnetics" H 0   -50 50  0001 C CNN "MFR"
+F 5 "FS10-110-C2" H 0   -50 50  0001 C CNN "MPN"
+F 6 "digikey" H 0   -50 50  0001 C CNN "SPR"
+F 7 "237-1578-ND" H 0   -50 50  0001 C CNN "SPN"
+F 8 "-" H 0   -50 50  0001 C CNN "SPURL"
+	1    2700 3950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -369,4 +369,8 @@ Connection ~ 3650 4500
 Connection ~ 4300 3450
 Connection ~ 4300 3050
 Connection ~ 4300 2900
+Text Label 1750 3900 0    50   ~ 0
+AC_Mains_Phase
+Text Label 1750 4000 0    50   ~ 0
+AC_Mains_Neutral
 $EndSCHEMATC
