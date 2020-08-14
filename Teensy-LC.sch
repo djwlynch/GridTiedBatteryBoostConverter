@@ -37,7 +37,7 @@ U 1 1 5E87AD20
 P 3050 4850
 F 0 "R201" V 3000 5100 50  0000 C CNN
 F 1 "1K 1%" V 3000 4700 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 3050 4850 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3050 4850 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 3050 4850 50  0001 C CNN
 F 4 "Yageo" H 0   0   50  0001 C CNN "MFR"
 F 5 "RC0805FR-071KL" H 0   0   50  0001 C CNN "MPN"
@@ -53,7 +53,7 @@ U 1 1 5E87B4B8
 P 3050 4950
 F 0 "R202" V 3000 5200 50  0000 C CNN
 F 1 "1K 1%" V 3000 4800 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 3050 4950 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3050 4950 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 3050 4950 50  0001 C CNN
 F 4 "Yageo" H 0   0   50  0001 C CNN "MFR"
 F 5 "RC0805FR-071KL" H 0   0   50  0001 C CNN "MPN"
@@ -69,7 +69,7 @@ U 1 1 5E87B8BB
 P 3050 5050
 F 0 "R203" V 3000 5300 50  0000 C CNN
 F 1 "1K 1%" V 3000 4900 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 3050 5050 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3050 5050 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 3050 5050 50  0001 C CNN
 F 4 "Yageo" H 0   0   50  0001 C CNN "MFR"
 F 5 "RC0805FR-071KL" H 0   0   50  0001 C CNN "MPN"
@@ -85,7 +85,7 @@ U 1 1 5E87BD73
 P 3050 5150
 F 0 "R204" V 3000 5400 50  0000 C CNN
 F 1 "1K 1%" V 3000 5000 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 3050 5150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3050 5150 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 3050 5150 50  0001 C CNN
 F 4 "Yageo" H 0   0   50  0001 C CNN "MFR"
 F 5 "RC0805FR-071KL" H 0   0   50  0001 C CNN "MPN"
@@ -185,7 +185,7 @@ U 1 1 5F76E215
 P 1650 2600
 F 0 "R205" H 2000 2450 50  0000 C CNN
 F 1 "100K 1%" H 1900 2600 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 1650 2600 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1650 2600 50  0001 C CNN
 F 3 "~" H 1650 2600 50  0001 C CNN
 F 4 "Yageo" H 0   0   50  0001 C CNN "MFR"
 F 5 "RC0805FR-07100KL" H 0   0   50  0001 C CNN "MPN"
@@ -219,7 +219,7 @@ U 1 1 5F7FE774
 P 1850 3900
 F 0 "R206" H 2200 3750 50  0000 C CNN
 F 1 "100R 1%" H 2200 3900 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 1850 3900 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1850 3900 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 1850 3900 50  0001 C CNN
 F 4 "Yageo" H 0   0   50  0001 C CNN "MFR"
 F 5 "RC0805FR-07100RL" H 0   0   50  0001 C CNN "MPN"
@@ -264,7 +264,7 @@ U 1 1 5F837F14
 P 3000 3150
 F 0 "R207" H 3350 3000 50  0000 C CNN
 F 1 "15K 1%" H 3350 3150 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 3000 3150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3000 3150 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English" H 3000 3150 50  0001 C CNN
 F 4 "TE Connectivity Passive Product" H 0   0   50  0001 C CNN "MFR"
 F 5 "CRGCQ0805F15K" H 0   0   50  0001 C CNN "MPN"
@@ -389,7 +389,7 @@ U 1 1 5F752147
 P 8200 4550
 F 0 "R211" H 8259 4596 50  0000 L CNN
 F 1 "4K7 1%" H 8259 4505 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 8200 4550 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8200 4550 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 8200 4550 50  0001 C CNN
 F 4 "Yageo" H 0   0   50  0001 C CNN "MFR"
 F 5 "RC0805FR-074K7L" H 0   0   50  0001 C CNN "MPN"
@@ -405,7 +405,7 @@ U 1 1 5F75BA86
 P 8650 4550
 F 0 "R212" H 8709 4596 50  0000 L CNN
 F 1 "4K7 1%" H 8709 4505 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 8650 4550 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8650 4550 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 8650 4550 50  0001 C CNN
 F 4 "Yageo" H 0   0   50  0001 C CNN "MFR"
 F 5 "RC0805FR-074K7L" H 0   0   50  0001 C CNN "MPN"
@@ -421,7 +421,7 @@ U 1 1 5F7C0954
 P 700 6550
 F 0 "R208" H 759 6596 50  0000 L CNN
 F 1 "4K7 1%" H 759 6505 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 700 6550 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 700 6550 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 700 6550 50  0001 C CNN
 F 4 "Yageo" H 0   0   50  0001 C CNN "MFR"
 F 5 "RC0805FR-074K7L" H 0   0   50  0001 C CNN "MPN"
@@ -437,7 +437,7 @@ U 1 1 5F7F346F
 P 1700 6100
 F 0 "C201" H 1650 6400 50  0000 L CNN
 F 1 "1uF X7R 25V 10%" H 1650 6300 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 1700 6100 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1700 6100 50  0001 C CNN
 F 3 "~" H 1700 6100 50  0001 C CNN
 F 4 "Wurth Elektronik" H 0   0   50  0001 C CNN "MFR"
 F 5 "885012207078" H 0   0   50  0001 C CNN "MPN"
@@ -453,7 +453,7 @@ U 1 1 5F7F4081
 P 3000 6100
 F 0 "C202" H 2950 6400 50  0000 L CNN
 F 1 "0.1uF X7R 25V 10%" H 2750 6300 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3000 6100 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3000 6100 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL21B104KACNNNC_Spec.pdf" H 3000 6100 50  0001 C CNN
 F 4 "Samsung" H 0   0   50  0001 C CNN "MFR"
 F 5 "CL21B104KACNNNC" H 0   0   50  0001 C CNN "MPN"
@@ -494,7 +494,7 @@ AR Path="/5EBD6442/5F9FA343" Ref="C?"  Part="1"
 AR Path="/5EF73D52/5F9FA343" Ref="C204"  Part="1" 
 F 0 "C204" H 5200 1200 50  0000 L CNN
 F 1 "10uF X7R 25V 10%" H 5350 1350 50  0000 R CNN
-F 2 "Capacitors_SMD:C_1206_HandSoldering" H 5488 1050 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 5488 1050 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL31B106KAHNNNE.jsp" H 5450 1200 50  0001 C CNN
 F 4 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "MFR"
 F 5 "CL31B106KAHNNNE" H 0   0   50  0001 C CNN "MPN"
@@ -521,7 +521,7 @@ U 1 1 5FA20335
 P 4550 1300
 F 0 "C203" H 4200 1400 50  0000 L CNN
 F 1 "0.1uF X7R 25V 10%" H 3850 1300 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 4550 1300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4550 1300 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL21B104KACNNNC_Spec.pdf" H 4550 1300 50  0001 C CNN
 F 4 "Samsung" H 0   0   50  0001 C CNN "MFR"
 F 5 "CL21B104KACNNNC" H 0   0   50  0001 C CNN "MPN"
@@ -537,7 +537,7 @@ U 1 1 5FA23083
 P 4550 1100
 F 0 "R210" H 4200 1000 50  0000 C CNN
 F 1 "15K 1%" H 4300 1100 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 4550 1100 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4550 1100 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English" H 4550 1100 50  0001 C CNN
 F 4 "TE Connectivity Passive Product" H 0   0   50  0001 C CNN "MFR"
 F 5 "CRGCQ0805F15K" H 0   0   50  0001 C CNN "MPN"
@@ -699,7 +699,7 @@ U 1 1 5FFF22F0
 P 3650 2500
 F 0 "R209" H 4000 2350 50  0000 C CNN
 F 1 "15K 1%" H 4000 2500 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 3650 2500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3650 2500 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English" H 3650 2500 50  0001 C CNN
 F 4 "TE Connectivity Passive Product" H 0   0   50  0001 C CNN "MFR"
 F 5 "CRGCQ0805F15K" H 0   0   50  0001 C CNN "MPN"
@@ -726,7 +726,7 @@ U 1 1 6002ADC0
 P 9650 1450
 F 0 "C205" H 9300 1550 50  0000 L CNN
 F 1 "0.1uF X7R 25V 10%" H 8950 1450 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 9650 1450 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9650 1450 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL21B104KACNNNC_Spec.pdf" H 9650 1450 50  0001 C CNN
 F 4 "Samsung" H 0   0   50  0001 C CNN "MFR"
 F 5 "CL21B104KACNNNC" H 0   0   50  0001 C CNN "MPN"
@@ -742,7 +742,7 @@ U 1 1 6002ADC6
 P 9650 1250
 F 0 "R213" H 9300 1150 50  0000 C CNN
 F 1 "15K 1%" H 9400 1250 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 9650 1250 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9650 1250 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English" H 9650 1250 50  0001 C CNN
 F 4 "TE Connectivity Passive Product" H 0   0   50  0001 C CNN "MFR"
 F 5 "CRGCQ0805F15K" H 0   0   50  0001 C CNN "MPN"
@@ -819,19 +819,19 @@ $EndComp
 $Comp
 L Connector:TestPoint TP?
 U 1 1 604F5CFE
-P 7700 4850
+P 9200 5500
 AR Path="/5EBD6442/604F5CFE" Ref="TP?"  Part="1" 
 AR Path="/5EF73D52/604F5CFE" Ref="TP203"  Part="1" 
-F 0 "TP203" H 7758 4968 50  0000 L CNN
-F 1 "TestPoint" H 7758 4877 50  0000 L CNN
-F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Big" H 7900 4850 50  0001 C CNN
-F 3 "~" H 7900 4850 50  0001 C CNN
-F 4 "-" H 0   0   50  0001 C CNN "MFR"
-F 5 "-" H 0   0   50  0001 C CNN "MPN"
-F 6 "-" H 0   0   50  0001 C CNN "SPR"
-F 7 "-" H 0   0   50  0001 C CNN "SPN"
-F 8 "-" H 0   0   50  0001 C CNN "SPURL"
-	1    7700 4850
+F 0 "TP203" H 9258 5618 50  0000 L CNN
+F 1 "TestPoint" H 9258 5527 50  0000 L CNN
+F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Big" H 9400 5500 50  0001 C CNN
+F 3 "~" H 9400 5500 50  0001 C CNN
+F 4 "-" H 1500 650 50  0001 C CNN "MFR"
+F 5 "-" H 1500 650 50  0001 C CNN "MPN"
+F 6 "-" H 1500 650 50  0001 C CNN "SPR"
+F 7 "-" H 1500 650 50  0001 C CNN "SPN"
+F 8 "-" H 1500 650 50  0001 C CNN "SPURL"
+	1    9200 5500
 	1    0    0    -1  
 $EndComp
 Text GLabel 7950 4250 2    50   Input ~ 0
@@ -852,7 +852,7 @@ Text GLabel 2400 2350 1    50   Input ~ 0
 +5V
 Text HLabel 5100 4550 0    50   Output ~ 0
 CHARGER_ON_OFF
-Text HLabel 8150 4850 2    50   Output ~ 0
+Text HLabel 9850 5500 2    50   Output ~ 0
 BOOST_ON_OFF
 Text GLabel 1650 2350 1    50   Input ~ 0
 +5V
@@ -1075,8 +1075,6 @@ Wire Wire Line
 Wire Wire Line
 	7550 4650 8200 4650
 Wire Wire Line
-	8200 4650 8200 4750
-Wire Wire Line
 	1450 6550 1900 6550
 Wire Wire Line
 	1450 6650 1900 6650
@@ -1211,7 +1209,7 @@ Wire Wire Line
 Wire Wire Line
 	8650 4650 9100 4650
 Wire Wire Line
-	8200 4750 9100 4750
+	8400 4750 9100 4750
 Wire Wire Line
 	9100 4650 9100 4600
 Wire Wire Line
@@ -1279,10 +1277,6 @@ Wire Wire Line
 Wire Wire Line
 	7700 4450 8200 4450
 Wire Wire Line
-	7550 4850 7700 4850
-Wire Wire Line
-	7700 4850 8150 4850
-Wire Wire Line
 	1150 4400 1150 5050
 Connection ~ 6450 6600
 Connection ~ 1650 2750
@@ -1297,7 +1291,6 @@ Connection ~ 1400 6000
 Connection ~ 8200 4450
 Connection ~ 8650 4450
 Connection ~ 8650 4650
-Connection ~ 8200 4650
 Connection ~ 5700 6600
 Connection ~ 9300 4450
 Connection ~ 5450 850 
@@ -1314,6 +1307,23 @@ Connection ~ 9100 4750
 Connection ~ 2400 2500
 Connection ~ 1150 3000
 Connection ~ 7700 4450
-Connection ~ 7700 4850
 Connection ~ 1150 4400
+Wire Wire Line
+	9850 5500 9200 5500
+Wire Wire Line
+	9200 5500 8850 5500
+Wire Wire Line
+	8850 5500 8850 4850
+Wire Wire Line
+	8850 4850 7550 4850
+Connection ~ 9200 5500
+Text GLabel 7700 4750 2    50   Input ~ 0
+Battery_Voltage
+Wire Wire Line
+	7700 4750 7550 4750
+Wire Wire Line
+	8400 4750 8400 4650
+Wire Wire Line
+	8400 4650 8200 4650
+Connection ~ 8200 4650
 $EndSCHEMATC

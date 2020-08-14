@@ -68,7 +68,7 @@ U 1 1 5E42C075
 P 2600 1850
 F 0 "C101" H 2718 1896 50  0000 L CNN
 F 1 "220uF ALUM 200V 905 mOhm 20%" H 3050 1700 50  0000 R CNN
-F 2 "Capacitors_ThroughHole:CP_Radial_D22.0mm_P10.00mm_SnapIn" H 2638 1700 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D22.0mm_P10.00mm_SnapIn" H 2638 1700 50  0001 C CNN
 F 3 "https://www.cde.com/resources/catalogs/SLP.pdf" H 2600 1850 50  0001 C CNN
 F 4 "Cornell Dubilier Electronics (CDE)" H 0   0   50  0001 C CNN "MFR"
 F 5 "SLP221M200A1P3" H 0   0   50  0001 C CNN "MPN"
@@ -84,7 +84,7 @@ U 1 1 5E42C8D9
 P 7300 1850
 F 0 "C103" H 7418 1896 50  0000 L CNN
 F 1 "470uF ALUM 400V 130mOhm 20%" H 7418 1805 50  0000 R CNN
-F 2 "Capacitors_ThroughHole:CP_Radial_D35.0mm_P10.00mm_SnapIn" H 7338 1700 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D35.0mm_P10.00mm_SnapIn" H 7338 1700 50  0001 C CNN
 F 3 "https://api.kemet.com/component-edge/download/specsheet/ELH477M400AT4AA.pdf" H 7300 1850 50  0001 C CNN
 F 4 "KEMET" H 0   0   50  0001 C CNN "MFR"
 F 5 "ELH477M400AT4AA" H 0   0   50  0001 C CNN "MPN"
@@ -164,7 +164,7 @@ U 1 1 5E43378E
 P 2600 2250
 F 0 "R101" H 2670 2296 50  0000 L CNN
 F 1 "0R Ohms" H 2670 2205 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 2530 2250 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2530 2250 50  0001 C CNN
 F 3 "https://www.seielect.com/catalog/sei-packaging.pdf" H 2600 2250 50  0001 C CNN
 F 4 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "MFR"
 F 5 "RMCF0805ZT0R00" H 0   0   50  0001 C CNN "MPN"
@@ -284,7 +284,7 @@ U 1 1 5E490B08
 P 2950 5450
 F 0 "Rt101" H 3020 5496 50  0000 L CNN
 F 1 "30K 0.1%" H 3020 5405 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 2880 5450 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2880 5450 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 2950 5450 50  0001 C CNN
 F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "MFR"
 F 5 "ERA-6AEB303V" H 0   0   50  0001 C CNN "MPN"
@@ -300,7 +300,7 @@ U 1 1 5E4913B3
 P 2950 5850
 F 0 "Ct101" H 3065 5896 50  0000 L CNN
 F 1 "200pF C0G 2%" H 3065 5805 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2988 5700 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2988 5700 50  0001 C CNN
 F 3 "http://datasheets.avx.com/C0GNP0-Dielectric.pdf" H 2950 5850 50  0001 C CNN
 F 4 "AVX Corporation" H 0   0   50  0001 C CNN "MFR"
 F 5 "08051A201GAT2A" H 0   0   50  0001 C CNN "MPN"
@@ -316,7 +316,7 @@ U 1 1 5E4A4E55
 P 5650 2900
 F 0 "R113" H 5720 2946 50  0000 L CNN
 F 1 "10R 1%" H 5720 2855 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 5580 2900 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5580 2900 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 5650 2900 50  0001 C CNN
 F 4 "Yageo" H 0   400 50  0001 C CNN "MFR"
 F 5 "RC0805FR-0710RL" H 0   400 50  0001 C CNN "MPN"
@@ -343,7 +343,7 @@ U 1 1 5E4DEBF6
 P 3850 5450
 F 0 "C109" H 3900 5350 50  0000 L CNN
 F 1 "0.1uF X7R 25V 10%" H 3800 5250 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3888 5300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3888 5300 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL21B104KACNNNC_Spec.pdf" H 3850 5450 50  0001 C CNN
 F 4 "Samsung" H 0   0   50  0001 C CNN "MFR"
 F 5 "CL21B104KACNNNC" H 0   0   50  0001 C CNN "MPN"
@@ -359,7 +359,7 @@ U 1 1 5E4DF441
 P 3650 5450
 F 0 "C108" H 3300 5700 50  0000 L CNN
 F 1 "1uF X7R 25V 10%" H 3050 5600 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3688 5300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3688 5300 50  0001 C CNN
 F 3 "~" H 3650 5450 50  0001 C CNN
 F 4 "Wurth Elektronik" H 0   0   50  0001 C CNN "MFR"
 F 5 "885012207078" H 0   0   50  0001 C CNN "MPN"
@@ -386,7 +386,7 @@ U 1 1 5E4F6FB2
 P 800 5600
 F 0 "R102" H 870 5646 50  0000 L CNN
 F 1 "82K 0.1%" H 870 5555 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 730 5600 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 730 5600 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 800 5600 50  0001 C CNN
 F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "MFR"
 F 5 "ERA-6AEB823V" H 0   0   50  0001 C CNN "MPN"
@@ -402,7 +402,7 @@ U 1 1 5E4FAF37
 P 800 6050
 F 0 "R103" H 870 6096 50  0000 L CNN
 F 1 "75K 0.1%" H 870 6005 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 730 6050 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 730 6050 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C328.pdf" H 800 6050 50  0001 C CNN
 F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "MFR"
 F 5 "ERJ-PB6B7502V" H 0   0   50  0001 C CNN "MPN"
@@ -418,7 +418,7 @@ U 1 1 5E4FD079
 P 800 6500
 F 0 "R104" H 870 6546 50  0000 L CNN
 F 1 "1.5K 0.1%" H 870 6455 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 730 6500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 730 6500 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 800 6500 50  0001 C CNN
 F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "MFR"
 F 5 "ERA-6AEB152V" H 0   0   50  0001 C CNN "MPN"
@@ -445,7 +445,7 @@ U 1 1 5E50F392
 P 5950 3600
 F 0 "R114" H 6020 3646 50  0000 L CNN
 F 1 "2 mOhm Thick Film 1% 1W" H 6020 3555 50  0000 L CNN
-F 2 "Resistors_SMD:R_1210_HandSoldering" V 5880 3600 50  0001 C CNN
+F 2 "Resistor_SMD:R_1210_3225Metric_Pad1.42x2.65mm_HandSolder" V 5880 3600 50  0001 C CNN
 F 3 "https://www.rohm.com/datasheet/PMR18EZPFV/pmr-e" H 5950 3600 50  0001 C CNN
 F 4 "Rohm Semiconductor" H 0   0   50  0001 C CNN "MFR"
 F 5 "PMR25HZPFV2L00" H 0   0   50  0001 C CNN "MPN"
@@ -461,7 +461,7 @@ U 1 1 5E5DB9A4
 P 5050 3450
 F 0 "R111" V 4950 3300 50  0000 C CNN
 F 1 "330R 0.1%" V 4950 3700 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 4980 3450 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4980 3450 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 5050 3450 50  0001 C CNN
 F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "MFR"
 F 5 "ERA-6AEB331V" H 0   0   50  0001 C CNN "MPN"
@@ -477,7 +477,7 @@ U 1 1 5E5FEFCE
 P 5050 3650
 F 0 "R112" V 5100 3400 50  0000 C CNN
 F 1 "330R 0.1%" V 5200 3650 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 4980 3650 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4980 3650 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 5050 3650 50  0001 C CNN
 F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "MFR"
 F 5 "ERA-6AEB331V" H 0   0   50  0001 C CNN "MPN"
@@ -493,7 +493,7 @@ U 1 1 5E630DAA
 P 4700 3300
 F 0 "R110" H 4400 3400 50  0000 L CNN
 F 1 "10K 0.1%" H 4250 3300 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 4630 3300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4630 3300 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 4700 3300 50  0001 C CNN
 F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "MFR"
 F 5 "ERA-6AEB103V" H 0   0   50  0001 C CNN "MPN"
@@ -509,7 +509,7 @@ U 1 1 5E632121
 P 4250 4000
 F 0 "R109" V 4050 3850 50  0000 L CNN
 F 1 "10K 0.1%" V 4150 3850 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 4180 4000 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4180 4000 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 4250 4000 50  0001 C CNN
 F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "MFR"
 F 5 "ERA-6AEB103V" H 0   0   50  0001 C CNN "MPN"
@@ -525,7 +525,7 @@ U 1 1 5E590608
 P 2350 4850
 F 0 "Cint101" H 2442 4896 50  0000 L CNN
 F 1 "0.56uF X7R 16V 10%" H 2442 4805 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2350 4850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2350 4850 50  0001 C CNN
 F 3 "https://api.kemet.com/component-edge/download/datasheet/C0805C564K4RACTU.pdf" H 2350 4850 50  0001 C CNN
 F 4 "KEMET" H 0   0   50  0001 C CNN "MFR"
 F 5 "C0805C564K4RACTU" H 0   0   50  0001 C CNN "MPN"
@@ -541,7 +541,7 @@ U 1 1 5E5930C0
 P 1900 4850
 F 0 "Crolloff101" H 1992 4896 50  0000 L CNN
 F 1 "68pF C0G 5%" H 1250 4800 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 1900 4850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1900 4850 50  0001 C CNN
 F 3 "https://katalog.we-online.de/pbs/datasheet/885012007081.pdf" H 1900 4850 50  0001 C CNN
 F 4 "Wurth Elektronik" H 0   0   50  0001 C CNN "MFR"
 F 5 "885012007081" H 0   0   50  0001 C CNN "MPN"
@@ -557,7 +557,7 @@ U 1 1 5E593AA7
 P 2350 5100
 F 0 "Rint1" H 2409 5146 50  0000 L CNN
 F 1 "1K 0.1%" H 2409 5055 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 2350 5100 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2350 5100 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 2350 5100 50  0001 C CNN
 F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "MFR"
 F 5 "ERA-6AEB102V" H 0   0   50  0001 C CNN "MPN"
@@ -573,7 +573,7 @@ U 1 1 5E5942BE
 P 2350 5300
 F 0 "Rint2" H 2409 5346 50  0000 L CNN
 F 1 "1.5K 0.1%" H 2409 5255 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 2350 5300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2350 5300 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 2350 5300 50  0001 C CNN
 F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "MFR"
 F 5 "ERA-6AEB152V" H 0   0   50  0001 C CNN "MPN"
@@ -589,7 +589,7 @@ U 1 1 5E6877A4
 P 1700 3900
 F 0 "R106" H 1759 3946 50  0000 L CNN
 F 1 "1K 1%" H 1759 3855 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 1700 3900 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1700 3900 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 1700 3900 50  0001 C CNN
 F 4 "Yageo" H 0   0   50  0001 C CNN "MFR"
 F 5 "RC0805FR-071KL" H 0   0   50  0001 C CNN "MPN"
@@ -616,7 +616,7 @@ U 1 1 5E6C1A49
 P 2050 4200
 F 0 "R107" H 1750 4250 50  0000 L CNN
 F 1 "15K 1%" H 1700 4150 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 2050 4200 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2050 4200 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English" H 2050 4200 50  0001 C CNN
 F 4 "TE Connectivity Passive Product" H 0   0   50  0001 C CNN "MFR"
 F 5 "CRGCQ0805F15K" H 0   0   50  0001 C CNN "MPN"
@@ -632,7 +632,7 @@ U 1 1 5E73862B
 P 2600 4250
 F 0 "R108" H 2250 4350 50  0000 L CNN
 F 1 "1K 1%" H 2250 4250 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 2600 4250 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2600 4250 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 2600 4250 50  0001 C CNN
 F 4 "Yageo" H 0   0   50  0001 C CNN "MFR"
 F 5 "RC0805FR-071KL" H 0   0   50  0001 C CNN "MPN"
@@ -648,7 +648,7 @@ U 1 1 5E773A39
 P 1950 3800
 F 0 "C105" V 2150 3700 50  0000 C CNN
 F 1 "100pF" V 2050 3600 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 1950 3800 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1950 3800 50  0001 C CNN
 F 3 "https://api.kemet.com/component-edge/download/datasheet/C0805C101JAGAC7800.pdf" H 1950 3800 50  0001 C CNN
 F 4 "KEMET" H 0   0   50  0001 C CNN "MFR"
 F 5 "C0805C101JAGAC7800" H 0   0   50  0001 C CNN "MPN"
@@ -664,7 +664,7 @@ U 1 1 5E797967
 P 4250 4150
 F 0 "C110" V 4350 3900 50  0000 C CNN
 F 1 "6pF C0G" V 4350 4150 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 4250 4150 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4250 4150 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GP_NP0_16V-to-50V_18.pdf" H 4250 4150 50  0001 C CNN
 F 4 "Yageo" H 0   0   50  0001 C CNN "MFR"
 F 5 "CC0805CRNPO9BN6R0" H 0   0   50  0001 C CNN "MPN"
@@ -680,7 +680,7 @@ U 1 1 5E8494B8
 P 9000 2300
 F 0 "R120" V 8804 2300 50  0000 C CNN
 F 1 "2 mOhm Thick Film 1% 1W" V 8895 2300 50  0000 C CNN
-F 2 "Resistors_SMD:R_1210_HandSoldering" H 9000 2300 50  0001 C CNN
+F 2 "Resistor_SMD:R_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 9000 2300 50  0001 C CNN
 F 3 "https://www.rohm.com/datasheet/PMR18EZPFV/pmr-e" H 9000 2300 50  0001 C CNN
 F 4 "Rohm Semiconductor" H 0   0   50  0001 C CNN "MFR"
 F 5 "PMR25HZPFV2L00" H 0   0   50  0001 C CNN "MPN"
@@ -744,7 +744,7 @@ U 1 1 5E8F86A9
 P 8450 3350
 F 0 "R118" V 8646 3350 50  0000 C CNN
 F 1 "330R 0.1%" V 8555 3350 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 8450 3350 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8450 3350 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 8450 3350 50  0001 C CNN
 F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "MFR"
 F 5 "ERA-6AEB331V" H 0   0   50  0001 C CNN "MPN"
@@ -760,7 +760,7 @@ U 1 1 5E911D72
 P 8450 3550
 F 0 "R119" V 8350 3550 50  0000 C CNN
 F 1 "330R 0.1%" V 8250 3550 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 8450 3550 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8450 3550 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 8450 3550 50  0001 C CNN
 F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "MFR"
 F 5 "ERA-6AEB331V" H 0   0   50  0001 C CNN "MPN"
@@ -787,7 +787,7 @@ U 1 1 5E983F53
 P 8150 2950
 F 0 "R117" H 8209 2996 50  0000 L CNN
 F 1 "10K 0.1%" H 8209 2905 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 8150 2950 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8150 2950 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 8150 2950 50  0001 C CNN
 F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "MFR"
 F 5 "ERA-6AEB103V" H 0   0   50  0001 C CNN "MPN"
@@ -803,7 +803,7 @@ U 1 1 5E985236
 P 7850 3850
 F 0 "R116" V 7950 4200 50  0000 C CNN
 F 1 "10K 0.1%" V 7950 3850 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 7850 3850 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7850 3850 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 7850 3850 50  0001 C CNN
 F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "MFR"
 F 5 "ERA-6AEB103V" H 0   0   50  0001 C CNN "MPN"
@@ -819,7 +819,7 @@ U 1 1 5EC3838A
 P 4950 5900
 F 0 "C112" H 5000 5800 50  0000 L CNN
 F 1 "0.1uF X7R 25V 10%" H 5100 5900 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 4988 5750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4988 5750 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL21B104KACNNNC_Spec.pdf" H 4950 5900 50  0001 C CNN
 F 4 "Samsung" H 0   0   50  0001 C CNN "MFR"
 F 5 "CL21B104KACNNNC" H 0   0   50  0001 C CNN "MPN"
@@ -846,7 +846,7 @@ U 1 1 5EC52489
 P 7850 4000
 F 0 "C114" V 7900 3750 50  0000 C CNN
 F 1 "1uF X7R 25V 10%" V 8000 4000 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 7850 4000 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7850 4000 50  0001 C CNN
 F 3 "~" H 7850 4000 50  0001 C CNN
 F 4 "Wurth Elektronik" H 0   0   50  0001 C CNN "MFR"
 F 5 "885012207078" H 0   0   50  0001 C CNN "MPN"
@@ -862,7 +862,7 @@ U 1 1 5EC93906
 P 3650 3250
 F 0 "C107" H 3800 3250 50  0000 L CNN
 F 1 "0.1uF X7R 25V 10%" H 3700 3100 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3688 3100 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3688 3100 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL21B104KACNNNC_Spec.pdf" H 3650 3250 50  0001 C CNN
 F 4 "Samsung" H 0   0   50  0001 C CNN "MFR"
 F 5 "CL21B104KACNNNC" H 0   0   50  0001 C CNN "MPN"
@@ -954,7 +954,7 @@ U 1 1 5F0909E0
 P 6750 5900
 F 0 "R115" H 6809 5946 50  0000 L CNN
 F 1 "1M 1%" H 6809 5855 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 6750 5900 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6750 5900 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 6750 5900 50  0001 C CNN
 F 4 "Yageo" H 0   0   50  0001 C CNN "MFR"
 F 5 "RC0805FR-071ML" H 0   0   50  0001 C CNN "MPN"
@@ -1035,7 +1035,7 @@ U 1 1 5F7A48C9
 P 800 6950
 F 0 "R105" H 870 6996 50  0000 L CNN
 F 1 "1K 0.1%" H 870 6905 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 730 6950 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 730 6950 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 800 6950 50  0001 C CNN
 F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "MFR"
 F 5 "ERA-6AEB102V" H 0   0   50  0001 C CNN "MPN"
@@ -1051,7 +1051,7 @@ U 1 1 5F8B672A
 P 5500 3450
 F 0 "C113" V 5650 3350 50  0000 C CNN
 F 1 "1nF" V 5650 3600 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5500 3450 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5500 3450 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 5500 3450 50  0001 C CNN
 F 4 "Yageo" H 0   0   50  0001 C CNN "MFR"
 F 5 "CC0805KRX7R9BB102" H 0   0   50  0001 C CNN "MPN"
@@ -1101,7 +1101,7 @@ U 1 1 5FB692A1
 P 3400 3250
 F 0 "C111" H 3300 3550 50  0000 L CNN
 F 1 "1uF X7R 25V 10%" H 3050 3450 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3438 3100 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3438 3100 50  0001 C CNN
 F 3 "~" H 3400 3250 50  0001 C CNN
 F 4 "Wurth Elektronik" H 0   0   50  0001 C CNN "MFR"
 F 5 "885012207078" H 0   0   50  0001 C CNN "MPN"
@@ -1117,7 +1117,7 @@ U 1 1 5FB7E88F
 P 3200 3250
 F 0 "C106" H 2750 3300 50  0000 L CNN
 F 1 "1uF X7R 25V 10%" H 2600 3200 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3238 3100 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3238 3100 50  0001 C CNN
 F 3 "~" H 3200 3250 50  0001 C CNN
 F 4 "Wurth Elektronik" H 0   0   50  0001 C CNN "MFR"
 F 5 "885012207078" H 0   0   50  0001 C CNN "MPN"
@@ -1133,7 +1133,7 @@ U 1 1 5FBA1D05
 P 4650 5900
 F 0 "C115" H 4200 5950 50  0000 L CNN
 F 1 "1uF X7R 25V 10%" H 4050 5850 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 4688 5750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4688 5750 50  0001 C CNN
 F 3 "~" H 4650 5900 50  0001 C CNN
 F 4 "Wurth Elektronik" H 0   0   50  0001 C CNN "MFR"
 F 5 "885012207078" H 0   0   50  0001 C CNN "MPN"
@@ -1741,4 +1741,104 @@ Connection ~ 7650 2300
 Connection ~ 7850 2300
 Text Label 5650 2450 0    50   ~ 0
 GateDrive
+Text GLabel 7400 4800 0    50   BiDi ~ 0
+Vin
+$Comp
+L Device:R R122
+U 1 1 5F4C1E3E
+P 7600 5400
+F 0 "R122" H 7670 5446 50  0000 L CNN
+F 1 "1.5K 0.1%" H 7670 5355 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7530 5400 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 7600 5400 50  0001 C CNN
+F 4 "Panasonic Electronic Components" H 6800 -1100 50  0001 C CNN "MFR"
+F 5 "ERA-6AEB152V" H 6800 -1100 50  0001 C CNN "MPN"
+F 6 "digikey" H 6800 -1100 50  0001 C CNN "SPR"
+F 7 "P1.5KDACT-ND" H 6800 -1100 50  0001 C CNN "SPN"
+F 8 "-" H 6800 -1100 50  0001 C CNN "SPURL"
+	1    7600 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR0116
+U 1 1 5F4C480C
+P 7600 5750
+F 0 "#PWR0116" H 7600 5550 50  0001 C CNN
+F 1 "GNDPWR" H 7604 5596 50  0000 C CNN
+F 2 "" H 7600 5700 50  0001 C CNN
+F 3 "" H 7600 5700 50  0001 C CNN
+	1    7600 5750
+	1    0    0    -1  
+$EndComp
+Text GLabel 8600 5200 2    50   Output ~ 0
+Battery_Voltage
+$Comp
+L Device:R R121
+U 1 1 5F4D36B5
+P 7600 4950
+AR Path="/5F4D36B5" Ref="R121"  Part="1" 
+AR Path="/5EBD6442/5F4D36B5" Ref="R?"  Part="1" 
+F 0 "R121" H 7700 4900 50  0000 L CNN
+F 1 "105k 0.1%" H 7950 4900 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7530 4950 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 7600 4950 50  0001 C CNN
+F 4 "Panasonic Electronic Components" H -700 3950 50  0001 C CNN "MFR"
+F 5 "ERA-6AEB1053V" H -700 3950 50  0001 C CNN "MPN"
+F 6 "digikey" H -700 3950 50  0001 C CNN "SPR"
+F 7 "P105KDACT-ND" H -700 3950 50  0001 C CNN "SPN"
+F 8 "-" H -700 3950 50  0001 C CNN "SPURL"
+	1    7600 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 4800 7600 4800
+Wire Wire Line
+	7600 5550 7600 5750
+Text GLabel 8050 4600 0    50   Input ~ 0
++3.0V
+$Comp
+L Diode:BAT54S D?
+U 1 1 5F53D777
+P 8200 5200
+AR Path="/5F15BF3C/5F53D777" Ref="D?"  Part="1" 
+AR Path="/5F53D777" Ref="D104"  Part="1" 
+F 0 "D104" V 8246 5279 50  0000 L CNN
+F 1 "BAT54S" V 8155 5279 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 8200 4700 50  0001 C CNN
+F 3 "http://toshiba.semicon-storage.com/info/docget.jsp?did=37137&prodName=TBAT54" H 8200 5200 50  0001 C CNN
+F 4 "Toshiba Semiconductor and Storage" H 3900 -1650 50  0001 C CNN "MFR"
+F 5 "TBAT54S,LM" H 3900 -1650 50  0001 C CNN "MPN"
+F 6 "digikey" H 3900 -1650 50  0001 C CNN "SPR"
+F 7 "TBAT54SLMCT-ND" H 3900 -1650 50  0001 C CNN "SPN"
+F 8 "-" H 3900 -1650 50  0001 C CNN "SPURL"
+	1    8200 5200
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	8050 4600 8200 4600
+Wire Wire Line
+	8200 4600 8200 4900
+$Comp
+L power:GNDPWR #PWR0117
+U 1 1 5F565480
+P 8200 5750
+F 0 "#PWR0117" H 8200 5550 50  0001 C CNN
+F 1 "GNDPWR" H 8204 5596 50  0000 C CNN
+F 2 "" H 8200 5700 50  0001 C CNN
+F 3 "" H 8200 5700 50  0001 C CNN
+	1    8200 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 5500 8200 5750
+Wire Wire Line
+	7600 5100 7600 5200
+Wire Wire Line
+	8600 5200 8000 5200
+Wire Wire Line
+	8000 5200 7600 5200
+Connection ~ 8000 5200
+Connection ~ 7600 5200
+Wire Wire Line
+	7600 5200 7600 5250
 $EndSCHEMATC
