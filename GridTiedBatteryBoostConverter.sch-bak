@@ -1200,11 +1200,85 @@ F 8 "-" H 0   0   50  0001 C CNN "SPURL"
 	1    4700 2950
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:R R122
+U 1 1 5F4C1E3E
+P 7600 5400
+F 0 "R122" H 7670 5446 50  0000 L CNN
+F 1 "1.5K 0.1%" H 7670 5355 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7530 5400 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 7600 5400 50  0001 C CNN
+F 4 "Panasonic Electronic Components" H 6800 -1100 50  0001 C CNN "MFR"
+F 5 "ERA-6AEB152V" H 6800 -1100 50  0001 C CNN "MPN"
+F 6 "digikey" H 6800 -1100 50  0001 C CNN "SPR"
+F 7 "P1.5KDACT-ND" H 6800 -1100 50  0001 C CNN "SPN"
+F 8 "-" H 6800 -1100 50  0001 C CNN "SPURL"
+	1    7600 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR0116
+U 1 1 5F4C480C
+P 7600 5750
+F 0 "#PWR0116" H 7600 5550 50  0001 C CNN
+F 1 "GNDPWR" H 7604 5596 50  0000 C CNN
+F 2 "" H 7600 5700 50  0001 C CNN
+F 3 "" H 7600 5700 50  0001 C CNN
+	1    7600 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R121
+U 1 1 5F4D36B5
+P 7600 4950
+AR Path="/5F4D36B5" Ref="R121"  Part="1" 
+AR Path="/5EBD6442/5F4D36B5" Ref="R?"  Part="1" 
+F 0 "R121" H 7700 4900 50  0000 L CNN
+F 1 "105k 0.1%" H 7950 4900 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7530 4950 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 7600 4950 50  0001 C CNN
+F 4 "Panasonic Electronic Components" H -700 3950 50  0001 C CNN "MFR"
+F 5 "ERA-6AEB1053V" H -700 3950 50  0001 C CNN "MPN"
+F 6 "digikey" H -700 3950 50  0001 C CNN "SPR"
+F 7 "P105KDACT-ND" H -700 3950 50  0001 C CNN "SPN"
+F 8 "-" H -700 3950 50  0001 C CNN "SPURL"
+	1    7600 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:BAT54S D?
+U 1 1 5F53D777
+P 8200 5200
+AR Path="/5F15BF3C/5F53D777" Ref="D?"  Part="1" 
+AR Path="/5F53D777" Ref="D104"  Part="1" 
+F 0 "D104" V 8246 5279 50  0000 L CNN
+F 1 "BAT54S" V 8155 5279 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 8200 4700 50  0001 C CNN
+F 3 "http://toshiba.semicon-storage.com/info/docget.jsp?did=37137&prodName=TBAT54" H 8200 5200 50  0001 C CNN
+F 4 "Toshiba Semiconductor and Storage" H 3900 -1650 50  0001 C CNN "MFR"
+F 5 "TBAT54S,LM" H 3900 -1650 50  0001 C CNN "MPN"
+F 6 "digikey" H 3900 -1650 50  0001 C CNN "SPR"
+F 7 "TBAT54SLMCT-ND" H 3900 -1650 50  0001 C CNN "SPN"
+F 8 "-" H 3900 -1650 50  0001 C CNN "SPURL"
+	1    8200 5200
+	0    1    -1   0   
+$EndComp
+$Comp
+L power:GNDPWR #PWR0117
+U 1 1 5F565480
+P 8200 5750
+F 0 "#PWR0117" H 8200 5550 50  0001 C CNN
+F 1 "GNDPWR" H 8204 5596 50  0000 C CNN
+F 2 "" H 8200 5700 50  0001 C CNN
+F 3 "" H 8200 5700 50  0001 C CNN
+	1    8200 5750
+	1    0    0    -1  
+$EndComp
 Text GLabel 7600 1100 0    50   Output ~ 0
 Vboost_out
 Text GLabel 800  5250 2    50   Output ~ 0
 Vboost_out
-Text GLabel 1450 1200 0    50   BiDi ~ 0
+Text GLabel 2300 1200 1    50   BiDi ~ 0
 Vin
 Text GLabel 6900 5750 2    50   Output ~ 0
 +11V
@@ -1246,6 +1320,14 @@ Text Label 9450 3200 0    50   ~ 0
 +2.5V_REF
 Text Notes 1500 1450 0    50   ~ 0
 fuse 25A 100V DC\nSUT-H-6332-25A00-CTG-TT-NI\ndigi-key 486-7266-ND
+Text Label 5650 2450 0    50   ~ 0
+GateDrive
+Text GLabel 7400 4800 0    50   BiDi ~ 0
+Vin
+Text GLabel 8600 5200 2    50   Output ~ 0
+Battery_Voltage
+Text GLabel 8050 4600 0    50   Input ~ 0
++3.0V
 Wire Wire Line
 	2600 2600 2600 2550
 Wire Wire Line
@@ -1533,8 +1615,6 @@ Wire Wire Line
 Wire Wire Line
 	6400 6050 6400 6450
 Wire Wire Line
-	1450 1200 2300 1200
-Wire Wire Line
 	2300 1200 2300 1700
 Wire Wire Line
 	2300 1700 2600 1700
@@ -1629,7 +1709,7 @@ Wire Wire Line
 Wire Wire Line
 	4650 5750 4950 5750
 Wire Wire Line
-	850  1700 1900 1700
+	850  1700 1400 1700
 Wire Wire Line
 	2100 1700 2300 1700
 Wire Wire Line
@@ -1680,6 +1760,24 @@ Wire Wire Line
 	1450 6300 2350 6300
 Wire Wire Line
 	7650 2300 7850 2300
+Wire Wire Line
+	7400 4800 7600 4800
+Wire Wire Line
+	7600 5550 7600 5750
+Wire Wire Line
+	8050 4600 8200 4600
+Wire Wire Line
+	8200 4600 8200 4900
+Wire Wire Line
+	8200 5500 8200 5750
+Wire Wire Line
+	7600 5100 7600 5200
+Wire Wire Line
+	8600 5200 8000 5200
+Wire Wire Line
+	8000 5200 7600 5200
+Wire Wire Line
+	7600 5200 7600 5250
 Connection ~ 2600 2550
 Connection ~ 3100 1700
 Connection ~ 7300 1700
@@ -1739,106 +1837,13 @@ Connection ~ 4700 2950
 Connection ~ 1450 6300
 Connection ~ 7650 2300
 Connection ~ 7850 2300
-Text Label 5650 2450 0    50   ~ 0
-GateDrive
-Text GLabel 7400 4800 0    50   BiDi ~ 0
-Vin
-$Comp
-L Device:R R122
-U 1 1 5F4C1E3E
-P 7600 5400
-F 0 "R122" H 7670 5446 50  0000 L CNN
-F 1 "1.5K 0.1%" H 7670 5355 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7530 5400 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 7600 5400 50  0001 C CNN
-F 4 "Panasonic Electronic Components" H 6800 -1100 50  0001 C CNN "MFR"
-F 5 "ERA-6AEB152V" H 6800 -1100 50  0001 C CNN "MPN"
-F 6 "digikey" H 6800 -1100 50  0001 C CNN "SPR"
-F 7 "P1.5KDACT-ND" H 6800 -1100 50  0001 C CNN "SPN"
-F 8 "-" H 6800 -1100 50  0001 C CNN "SPURL"
-	1    7600 5400
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDPWR #PWR0116
-U 1 1 5F4C480C
-P 7600 5750
-F 0 "#PWR0116" H 7600 5550 50  0001 C CNN
-F 1 "GNDPWR" H 7604 5596 50  0000 C CNN
-F 2 "" H 7600 5700 50  0001 C CNN
-F 3 "" H 7600 5700 50  0001 C CNN
-	1    7600 5750
-	1    0    0    -1  
-$EndComp
-Text GLabel 8600 5200 2    50   Output ~ 0
-Battery_Voltage
-$Comp
-L Device:R R121
-U 1 1 5F4D36B5
-P 7600 4950
-AR Path="/5F4D36B5" Ref="R121"  Part="1" 
-AR Path="/5EBD6442/5F4D36B5" Ref="R?"  Part="1" 
-F 0 "R121" H 7700 4900 50  0000 L CNN
-F 1 "105k 0.1%" H 7950 4900 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7530 4950 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 7600 4950 50  0001 C CNN
-F 4 "Panasonic Electronic Components" H -700 3950 50  0001 C CNN "MFR"
-F 5 "ERA-6AEB1053V" H -700 3950 50  0001 C CNN "MPN"
-F 6 "digikey" H -700 3950 50  0001 C CNN "SPR"
-F 7 "P105KDACT-ND" H -700 3950 50  0001 C CNN "SPN"
-F 8 "-" H -700 3950 50  0001 C CNN "SPURL"
-	1    7600 4950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7400 4800 7600 4800
-Wire Wire Line
-	7600 5550 7600 5750
-Text GLabel 8050 4600 0    50   Input ~ 0
-+3.0V
-$Comp
-L Diode:BAT54S D?
-U 1 1 5F53D777
-P 8200 5200
-AR Path="/5F15BF3C/5F53D777" Ref="D?"  Part="1" 
-AR Path="/5F53D777" Ref="D104"  Part="1" 
-F 0 "D104" V 8246 5279 50  0000 L CNN
-F 1 "BAT54S" V 8155 5279 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 8200 4700 50  0001 C CNN
-F 3 "http://toshiba.semicon-storage.com/info/docget.jsp?did=37137&prodName=TBAT54" H 8200 5200 50  0001 C CNN
-F 4 "Toshiba Semiconductor and Storage" H 3900 -1650 50  0001 C CNN "MFR"
-F 5 "TBAT54S,LM" H 3900 -1650 50  0001 C CNN "MPN"
-F 6 "digikey" H 3900 -1650 50  0001 C CNN "SPR"
-F 7 "TBAT54SLMCT-ND" H 3900 -1650 50  0001 C CNN "SPN"
-F 8 "-" H 3900 -1650 50  0001 C CNN "SPURL"
-	1    8200 5200
-	0    1    -1   0   
-$EndComp
-Wire Wire Line
-	8050 4600 8200 4600
-Wire Wire Line
-	8200 4600 8200 4900
-$Comp
-L power:GNDPWR #PWR0117
-U 1 1 5F565480
-P 8200 5750
-F 0 "#PWR0117" H 8200 5550 50  0001 C CNN
-F 1 "GNDPWR" H 8204 5596 50  0000 C CNN
-F 2 "" H 8200 5700 50  0001 C CNN
-F 3 "" H 8200 5700 50  0001 C CNN
-	1    8200 5750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8200 5500 8200 5750
-Wire Wire Line
-	7600 5100 7600 5200
-Wire Wire Line
-	8600 5200 8000 5200
-Wire Wire Line
-	8000 5200 7600 5200
 Connection ~ 8000 5200
 Connection ~ 7600 5200
+Text GLabel 1400 1400 1    50   Input ~ 0
+ChargerVin
 Wire Wire Line
-	7600 5200 7600 5250
+	1400 1400 1400 1700
+Connection ~ 1400 1700
+Wire Wire Line
+	1400 1700 1900 1700
 $EndSCHEMATC

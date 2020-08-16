@@ -908,6 +908,8 @@ Text Label 4600 3650 0    50   ~ 0
 mcu_wifi_rx
 Text Label 7750 1700 0    50   ~ 0
 ~wake_out
+Text GLabel 7700 4750 2    50   Input ~ 0
+Battery_Voltage
 Wire Wire Line
 	2950 4850 2800 4850
 Wire Wire Line
@@ -1278,6 +1280,20 @@ Wire Wire Line
 	7700 4450 8200 4450
 Wire Wire Line
 	1150 4400 1150 5050
+Wire Wire Line
+	9850 5500 9200 5500
+Wire Wire Line
+	9200 5500 8850 5500
+Wire Wire Line
+	8850 5500 8850 4850
+Wire Wire Line
+	8850 4850 7550 4850
+Wire Wire Line
+	7700 4750 7550 4750
+Wire Wire Line
+	8400 4750 8400 4650
+Wire Wire Line
+	8400 4650 8200 4650
 Connection ~ 6450 6600
 Connection ~ 1650 2750
 Connection ~ 2400 5650
@@ -1308,22 +1324,6 @@ Connection ~ 2400 2500
 Connection ~ 1150 3000
 Connection ~ 7700 4450
 Connection ~ 1150 4400
-Wire Wire Line
-	9850 5500 9200 5500
-Wire Wire Line
-	9200 5500 8850 5500
-Wire Wire Line
-	8850 5500 8850 4850
-Wire Wire Line
-	8850 4850 7550 4850
 Connection ~ 9200 5500
-Text GLabel 7700 4750 2    50   Input ~ 0
-Battery_Voltage
-Wire Wire Line
-	7700 4750 7550 4750
-Wire Wire Line
-	8400 4750 8400 4650
-Wire Wire Line
-	8400 4650 8200 4650
 Connection ~ 8200 4650
 $EndSCHEMATC

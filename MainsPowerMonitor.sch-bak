@@ -109,13 +109,13 @@ L Device:R_Small R405
 U 1 1 5F16C4AD
 P 4600 4450
 F 0 "R405" H 4659 4496 50  0000 L CNN
-F 1 "10K 0.1%" H 4659 4405 50  0000 L CNN
+F 1 "1K 1%" H 4659 4405 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4600 4450 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 4600 4450 50  0001 C CNN
-F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "MFR"
-F 5 "ERA-6AEB103V" H 0   0   50  0001 C CNN "MPN"
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 4600 4450 50  0001 C CNN
+F 4 "Yageo" H 0   0   50  0001 C CNN "MFR"
+F 5 "RC0805FR-071KL" H 0   0   50  0001 C CNN "MPN"
 F 6 "digikey" H 0   0   50  0001 C CNN "SPR"
-F 7 "P10KDACT-ND" H 0   0   50  0001 C CNN "SPN"
+F 7 "311-1.00KCRCT-ND" H 0   0   50  0001 C CNN "SPN"
 F 8 "-" H 0   0   50  0001 C CNN "SPURL"
 	1    4600 4450
 	1    0    0    -1  
@@ -125,13 +125,13 @@ L Device:R_Small R406
 U 1 1 5F16C8AE
 P 4600 4750
 F 0 "R406" H 4659 4796 50  0000 L CNN
-F 1 "10K 0.1%" H 4659 4705 50  0000 L CNN
+F 1 "1K 1%" H 4659 4705 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4600 4750 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 4600 4750 50  0001 C CNN
-F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "MFR"
-F 5 "ERA-6AEB103V" H 0   0   50  0001 C CNN "MPN"
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 4600 4750 50  0001 C CNN
+F 4 "Yageo" H 0   0   50  0001 C CNN "MFR"
+F 5 "RC0805FR-071KL" H 0   0   50  0001 C CNN "MPN"
 F 6 "digikey" H 0   0   50  0001 C CNN "SPR"
-F 7 "P10KDACT-ND" H 0   0   50  0001 C CNN "SPN"
+F 7 "311-1.00KCRCT-ND" H 0   0   50  0001 C CNN "SPN"
 F 8 "-" H 0   0   50  0001 C CNN "SPURL"
 	1    4600 4750
 	1    0    0    -1  
@@ -150,12 +150,12 @@ $EndComp
 $Comp
 L power:GNDPWR #PWR0404
 U 1 1 5F1789B6
-P 5550 5000
-F 0 "#PWR0404" H 5550 4800 50  0001 C CNN
-F 1 "GNDPWR" H 5554 4846 50  0000 C CNN
-F 2 "" H 5550 4950 50  0001 C CNN
-F 3 "" H 5550 4950 50  0001 C CNN
-	1    5550 5000
+P 6750 4250
+F 0 "#PWR0404" H 6750 4050 50  0001 C CNN
+F 1 "GNDPWR" H 6754 4096 50  0000 C CNN
+F 2 "" H 6750 4200 50  0001 C CNN
+F 3 "" H 6750 4200 50  0001 C CNN
+	1    6750 4250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -259,6 +259,10 @@ Text HLabel 4750 4050 2    50   Input ~ 0
 +2.5V_REF
 Text Notes 1200 4650 0    50   ~ 0
 This transformer could be replaced with \nTi's isolated precision amplifier: AMC1100\nsee slaa552.pdf
+Text Label 1750 3900 0    50   ~ 0
+AC_Mains_Phase
+Text Label 1750 4000 0    50   ~ 0
+AC_Mains_Neutral
 Wire Wire Line
 	2500 3900 2400 3900
 Wire Wire Line
@@ -312,7 +316,7 @@ Wire Wire Line
 Wire Wire Line
 	3650 3950 3650 3900
 Wire Wire Line
-	5550 5000 5550 4250
+	6750 4250 5550 4250
 Wire Wire Line
 	5550 3650 5550 3450
 Wire Wire Line
@@ -369,8 +373,6 @@ Connection ~ 3650 4500
 Connection ~ 4300 3450
 Connection ~ 4300 3050
 Connection ~ 4300 2900
-Text Label 1750 3900 0    50   ~ 0
-AC_Mains_Phase
-Text Label 1750 4000 0    50   ~ 0
-AC_Mains_Neutral
+Text Notes 5150 4850 0    50   ~ 0
+Note R405 and R406 put 1.25mA\nLoad on ultimately on the 3.0V supply\nwhich is used to privide input protection\nto the micro.  Without the load the \nvoltage would just rise.
 $EndSCHEMATC
