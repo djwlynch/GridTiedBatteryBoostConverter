@@ -788,7 +788,7 @@ AR Path="/5EBD6442/604D2532" Ref="TP?"  Part="1"
 AR Path="/5EF73D52/604D2532" Ref="TP201"  Part="1" 
 F 0 "TP201" H 1208 4518 50  0000 L CNN
 F 1 "TestPoint" H 1208 4427 50  0000 L CNN
-F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Big" H 1350 4400 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_3.0x3.0mm" H 1350 4400 50  0001 C CNN
 F 3 "~" H 1350 4400 50  0001 C CNN
 F 4 "-" H 0   0   50  0001 C CNN "MFR"
 F 5 "-" H 0   0   50  0001 C CNN "MPN"
@@ -806,7 +806,7 @@ AR Path="/5EBD6442/604DC721" Ref="TP?"  Part="1"
 AR Path="/5EF73D52/604DC721" Ref="TP202"  Part="1" 
 F 0 "TP202" H 7758 4568 50  0000 L CNN
 F 1 "TestPoint" H 7758 4477 50  0000 L CNN
-F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Big" H 7900 4450 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_3.0x3.0mm" H 7900 4450 50  0001 C CNN
 F 3 "~" H 7900 4450 50  0001 C CNN
 F 4 "-" H 0   0   50  0001 C CNN "MFR"
 F 5 "-" H 0   0   50  0001 C CNN "MPN"
@@ -824,7 +824,7 @@ AR Path="/5EBD6442/604F5CFE" Ref="TP?"  Part="1"
 AR Path="/5EF73D52/604F5CFE" Ref="TP203"  Part="1" 
 F 0 "TP203" H 9258 5618 50  0000 L CNN
 F 1 "TestPoint" H 9258 5527 50  0000 L CNN
-F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Big" H 9400 5500 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_3.0x3.0mm" H 9400 5500 50  0001 C CNN
 F 3 "~" H 9400 5500 50  0001 C CNN
 F 4 "-" H 1500 650 50  0001 C CNN "MFR"
 F 5 "-" H 1500 650 50  0001 C CNN "MPN"
@@ -850,7 +850,7 @@ Text GLabel 8050 5250 2    50   Input ~ 0
 Mains_Voltage
 Text GLabel 2400 2350 1    50   Input ~ 0
 +5V
-Text HLabel 5100 4550 0    50   Output ~ 0
+Text HLabel 4550 4550 0    50   Output ~ 0
 CHARGER_ON_OFF
 Text HLabel 9850 5500 2    50   Output ~ 0
 BOOST_ON_OFF
@@ -967,17 +967,13 @@ Wire Wire Line
 Wire Wire Line
 	5200 3150 5000 3150
 Wire Wire Line
-	5200 4550 5100 4550
+	5200 4550 4550 4550
 Wire Wire Line
 	8050 4050 7550 4050
 Wire Wire Line
 	6050 6350 6050 5800
 Wire Wire Line
 	6050 5800 4800 5800
-Wire Wire Line
-	4800 5800 4800 4850
-Wire Wire Line
-	4800 4850 5200 4850
 Wire Wire Line
 	5300 6350 4750 6350
 Wire Wire Line
@@ -1080,8 +1076,6 @@ Wire Wire Line
 	1450 6550 1900 6550
 Wire Wire Line
 	1450 6650 1900 6650
-Wire Wire Line
-	5200 4450 5000 4450
 Wire Wire Line
 	8050 5150 7550 5150
 Wire Wire Line
@@ -1205,10 +1199,6 @@ Wire Wire Line
 Wire Wire Line
 	10300 4050 10300 5000
 Wire Wire Line
-	4750 4750 4750 6350
-Wire Wire Line
-	4750 4750 5200 4750
-Wire Wire Line
 	8650 4650 9100 4650
 Wire Wire Line
 	8400 4750 9100 4750
@@ -1236,10 +1226,6 @@ Wire Wire Line
 	4650 6350 4650 5450
 Wire Wire Line
 	4650 5450 4400 5450
-Wire Wire Line
-	4400 5450 4400 4650
-Wire Wire Line
-	4400 4650 5200 4650
 Wire Wire Line
 	2400 2350 2400 2500
 Wire Wire Line
@@ -1326,4 +1312,20 @@ Connection ~ 7700 4450
 Connection ~ 1150 4400
 Connection ~ 9200 5500
 Connection ~ 8200 4650
+Wire Wire Line
+	4400 4250 5200 4250
+Wire Wire Line
+	4400 4250 4400 5450
+Wire Wire Line
+	4750 4350 5200 4350
+Wire Wire Line
+	4750 4350 4750 6350
+Wire Wire Line
+	4800 4450 4800 5800
+Wire Wire Line
+	4800 4450 5200 4450
+Text GLabel 8050 5050 2    50   Input ~ 0
+Solar_Voltage
+Wire Wire Line
+	8050 5050 7550 5050
 $EndSCHEMATC

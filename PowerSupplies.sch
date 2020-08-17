@@ -843,7 +843,7 @@ U 1 1 60423F90
 P 4250 950
 F 0 "TP304" H 4308 1068 50  0000 L CNN
 F 1 "TestPoint" H 4308 977 50  0000 L CNN
-F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Big" H 4450 950 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_3.0x3.0mm" H 4450 950 50  0001 C CNN
 F 3 "~" H 4450 950 50  0001 C CNN
 F 4 "-" H 0   0   50  0001 C CNN "MFR"
 F 5 "-" H 0   0   50  0001 C CNN "MPN"
@@ -859,7 +859,7 @@ U 1 1 6045A6ED
 P 4200 1550
 F 0 "TP303" V 4154 1738 50  0000 L CNN
 F 1 "TestPoint" V 4245 1738 50  0000 L CNN
-F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Big" H 4400 1550 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_3.0x3.0mm" H 4400 1550 50  0001 C CNN
 F 3 "~" H 4400 1550 50  0001 C CNN
 F 4 "-" H 0   0   50  0001 C CNN "MFR"
 F 5 "-" H 0   0   50  0001 C CNN "MPN"
@@ -875,7 +875,7 @@ U 1 1 60490DE8
 P 3800 4050
 F 0 "TP301" V 3754 4238 50  0000 L CNN
 F 1 "TestPoint" V 3845 4238 50  0000 L CNN
-F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Big" H 4000 4050 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_3.0x3.0mm" H 4000 4050 50  0001 C CNN
 F 3 "~" H 4000 4050 50  0001 C CNN
 F 4 "-" H 0   0   50  0001 C CNN "MFR"
 F 5 "-" H 0   0   50  0001 C CNN "MPN"
@@ -891,7 +891,7 @@ U 1 1 60497068
 P 4300 5900
 F 0 "TP305" H 4358 6018 50  0000 L CNN
 F 1 "TestPoint" H 4358 5927 50  0000 L CNN
-F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Big" H 4500 5900 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_3.0x3.0mm" H 4500 5900 50  0001 C CNN
 F 3 "~" H 4500 5900 50  0001 C CNN
 F 4 "-" H 0   0   50  0001 C CNN "MFR"
 F 5 "-" H 0   0   50  0001 C CNN "MPN"
@@ -907,7 +907,7 @@ U 1 1 6049E6F4
 P 10650 900
 F 0 "TP307" H 10708 1018 50  0000 L CNN
 F 1 "TestPoint" H 10708 927 50  0000 L CNN
-F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Big" H 10850 900 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_3.0x3.0mm" H 10850 900 50  0001 C CNN
 F 3 "~" H 10850 900 50  0001 C CNN
 F 4 "-" H 0   0   50  0001 C CNN "MFR"
 F 5 "-" H 0   0   50  0001 C CNN "MPN"
@@ -939,7 +939,7 @@ U 1 1 604A0C2F
 P 5800 4700
 F 0 "TP306" H 5858 4818 50  0000 L CNN
 F 1 "TestPoint" H 5858 4727 50  0000 L CNN
-F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Big" H 6000 4700 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_3.0x3.0mm" H 6000 4700 50  0001 C CNN
 F 3 "~" H 6000 4700 50  0001 C CNN
 F 4 "-" H 0   0   50  0001 C CNN "MFR"
 F 5 "-" H 0   0   50  0001 C CNN "MPN"
