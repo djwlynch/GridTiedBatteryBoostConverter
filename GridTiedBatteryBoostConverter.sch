@@ -224,7 +224,7 @@ U 1 1 5E47960F
 P 650 1800
 F 0 "J101" H 568 2017 50  0000 C CNN
 F 1 "Battery Connection" H 350 2150 50  0000 C CNN
-F 2 "digikey-footprints:Term_Block_1x4_P5mm" H 650 1800 50  0001 C CNN
+F 2 "Connect_jl:PhoenixContact_1x4_P5mm" H 650 1800 50  0001 C CNN
 F 3 "https://www.phoenixcontact.com/pxc-oc-itemdetail-pdf-web/eshop?lineItemType=LineItem&UID=1935792" H 650 1800 50  0001 C CNN
 F 4 "Phoenix Contact" H 0   0   50  0001 C CNN "MFR"
 F 5 "1935792" H 0   0   50  0001 C CNN "MPN"

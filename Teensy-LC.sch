@@ -186,7 +186,7 @@ P 1650 2600
 F 0 "R205" H 2000 2450 50  0000 C CNN
 F 1 "100K 1%" H 1900 2600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1650 2600 50  0001 C CNN
-F 3 "~" H 1650 2600 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 1650 2600 50  0001 C CNN
 F 4 "Yageo" H 0   0   50  0001 C CNN "MFR"
 F 5 "RC0805FR-07100KL" H 0   0   50  0001 C CNN "MPN"
 F 6 "digikey" H 0   0   50  0001 C CNN "SPR"

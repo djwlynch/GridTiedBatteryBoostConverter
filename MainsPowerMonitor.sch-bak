@@ -175,22 +175,6 @@ F 8 "-" H 0   0   50  0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:AudioJack3 J402
-U 1 1 5F18094B
-P 3400 2900
-F 0 "J402" H 3350 3350 50  0000 C CNN
-F 1 "AudioJack2_SwitchT" H 3400 3250 50  0000 C CNN
-F 2 "Connect_jl:Audio_StereoJack_3.5mm_ASJ-99H-R-HT-T" H 3400 2900 50  0001 C CNN
-F 3 "http://www.adam-tech.com/downloader.php?p=ASJ-99H-X-HT-TR.pdf" H 3400 2900 50  0001 C CNN
-F 4 "Adam Tech" H 0   0   50  0001 C CNN "MFR"
-F 5 "ASJ-99H-R-HT-T/R" H 0   0   50  0001 C CNN "MPN"
-F 6 "digikey" H 0   0   50  0001 C CNN "SPR"
-F 7 "2057-ASJ-99H-R-HT-T/RCT-ND" H 0   0   50  0001 C CNN "SPN"
-F 8 "-" H 0   0   50  0001 C CNN "SPURL"
-	1    3400 2900
-	1    0    0    1   
-$EndComp
-$Comp
 L Diode:BAT54S D401
 U 1 1 5F1847B9
 P 5200 3050
@@ -354,10 +338,6 @@ Wire Wire Line
 Wire Wire Line
 	4300 3450 4300 4600
 Wire Wire Line
-	3600 2800 4300 2800
-Wire Wire Line
-	4300 2800 4300 2900
-Wire Wire Line
 	3600 2900 4300 2900
 Wire Wire Line
 	4300 2900 4300 3050
@@ -372,7 +352,26 @@ Connection ~ 5350 3950
 Connection ~ 3650 4500
 Connection ~ 4300 3450
 Connection ~ 4300 3050
-Connection ~ 4300 2900
 Text Notes 5150 4850 0    50   ~ 0
 Note R405 and R406 put 1.25mA\nLoad on ultimately on the 3.0V supply\nwhich is used to privide input protection\nto the micro.  Without the load the \nvoltage would just rise.
+$Comp
+L Connector:Screw_Terminal_01x02 J402
+U 1 1 5F7AFA6B
+P 3400 2900
+F 0 "J402" H 3318 3117 50  0000 C CNN
+F 1 "Screw_Terminal_01x02" H 3318 3026 50  0000 C CNN
+F 2 "digikey-footprints:Term_Block_1x2_P5mm" H 3400 2900 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1792863.pdf" H 3400 2900 50  0001 C CNN
+F 4 "Phoenix Contact" H 1900 -1000 50  0001 C CNN "MFR"
+F 5 "1792863" H 1900 -1000 50  0001 C CNN "MPN"
+F 6 "digikey" H 1900 -1000 50  0001 C CNN "SPR"
+F 7 "277-2518-ND" H 1900 -1000 50  0001 C CNN "SPN"
+F 8 "-" H 1900 -1000 50  0001 C CNN "SPURL"
+	1    3400 2900
+	-1   0    0    -1  
+$EndComp
+Text Label 3850 2900 0    50   ~ 0
+AC_CurrentSense_P
+Text Label 4000 3450 0    50   ~ 0
+AC_CurrentSense_N
 $EndSCHEMATC
