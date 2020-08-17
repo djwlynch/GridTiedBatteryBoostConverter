@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/jlynch/work/kicad/GridTiedBatteryBoostConverter/GridTiedBatteryBoostConverter.sch)
-    (date "Mon 17 Aug 2020 15:35:36 AEST")
+    (date "Mon 17 Aug 2020 16:05:03 AEST")
     (tool "Eeschema 5.1.6-c6e7f7d~87~ubuntu18.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -1870,7 +1870,7 @@
       (tstamp 6049E6F4))
     (comp (ref TP302)
       (value TestPoint)
-      (footprint Measurement_Points:Measurement_Point_Square-SMD-Pad_Big)
+      (footprint TestPoint:TestPoint_Pad_3.0x3.0mm)
       (datasheet ~)
       (fields
         (field (name MFR) -)

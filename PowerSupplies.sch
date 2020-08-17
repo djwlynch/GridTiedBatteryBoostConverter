@@ -923,7 +923,7 @@ U 1 1 6049EF33
 P 3950 3700
 F 0 "TP302" H 4008 3818 50  0000 L CNN
 F 1 "TestPoint" H 4008 3727 50  0000 L CNN
-F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Big" H 4150 3700 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_3.0x3.0mm" H 4150 3700 50  0001 C CNN
 F 3 "~" H 4150 3700 50  0001 C CNN
 F 4 "-" H 0   0   50  0001 C CNN "MFR"
 F 5 "-" H 0   0   50  0001 C CNN "MPN"
