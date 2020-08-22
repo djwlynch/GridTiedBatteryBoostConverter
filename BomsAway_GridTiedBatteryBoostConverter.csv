@@ -2,7 +2,7 @@ Refs,Value,Footprint,Quantity,MFR,MPN,SPR,SPN
 SW202,SW_Down,Buttons_Switches_ThroughHole_jl:SW_Tactile_SPST_Angled_FSM104,1,TE Connectivity ALCOSWITCH Switches,FSM104,digikey,450-1127-ND
 SW203,SW_Enter,Buttons_Switches_ThroughHole_jl:SW_Tactile_SPST_Angled_FSM104,1,TE Connectivity ALCOSWITCH Switches,FSM104,digikey,450-1127-ND
 SW201,SW_Up,Buttons_Switches_ThroughHole_jl:SW_Tactile_SPST_Angled_FSM104,1,TE Connectivity ALCOSWITCH Switches,FSM104,digikey,450-1127-ND
-C309;C312;C304;C109;C112;C107;C202;C203;C205,0.1uF X7R 25V 10%,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,9,Samsung,CL21B104KACNNNC,digikey,1276-1099-1-ND
+C402;C403;C309;C312;C304;C109;C112;C107;C202;C203;C205,0.1uF X7R 25V 10%,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,11,Samsung,CL21B104KACNNNC,digikey,1276-1099-1-ND
 C302,0.47uF X7R 25V 10%,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,Samsung Electro-Mechanics,CL21B474KAFNNNE,digikey,1276-1074-1-ND
 Cint101,0.56uF X7R 16V 10%,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,KEMET,C0805C564K4RACTU,dikikey,399-10074-1-ND
 C105,100pF,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,KEMET,C0805C101JAGAC7800,digikey,399-15000-1-ND
@@ -31,14 +31,16 @@ L302;L303,15uH 730mA Sat,Inductors_jl:Inductor_1210_HandSoldering,2,Taiyo Yuden,
 L301,150uH 610mA,Inductors_jl:Inductor_Bourns_PM3308,1,Bourns Inc.,PM3308-151M-RC,digikey,PM3308-151M-RCCT-ND
 L101;L102,47uH 31A Sat 6.38m Ohm,Inductors_jl:Inductor_Wurth_7443763540470,2,Wurth Elektronik,7443763540470,digikey,732-13644-ND
 U101,OPA2837IDGKR,Package_SO:VSSOP-8_3.0x3.0mm_P0.65mm,1,Texas Instruments,OPA2837IDGKR,digikey,296-49464-1-ND
+U402,LMC7101BYM5-TR,Package_TO_SOT_SMD:SOT-23-5_HandSoldering,1,Microchip Technology,LMC7101BYM5-TR,digi-key,576-2575-1-ND
+U401,MIC7211YM5-TR,Package_TO_SOT_SMD:SOT-23-5_HandSoldering,1,Microchip Technology,MIC7211YM5-TR,digi-key,576-1318-1-ND
 U304,TLV70430DBVT,Package_TO_SOT_SMD:SOT-23-5_HandSoldering,1,Texas Instruments,TLV70430DBVT,digikey,296-32419-1-ND
 U303;U306,TPS560200DBVR,Package_TO_SOT_SMD:SOT-23-5_HandSoldering,2,Texas Instruments,TPS560200DBVR,digikey,296-38559-1-ND
-D401;D402;D103;D102;D104;D504,BAT54S,Package_TO_SOT_SMD:SOT-23_Handsoldering,6,Toshiba Semiconductor and Storage,"TBAT54S,LM",digikey,TBAT54SLMCT-ND
+D401;D402;D403;D103;D102;D104;D504,BAT54S,Package_TO_SOT_SMD:SOT-23_Handsoldering,7,Toshiba Semiconductor and Storage,"TBAT54S,LM",digikey,TBAT54SLMCT-ND
 Q301;Q102,BC847B-13-F,Package_TO_SOT_SMD:SOT-23_Handsoldering,2,Diodes Incorporated,BC847B-13-F,digikey,BC847B-13-FDICT-ND
 Q302,BC856B-13-F,Package_TO_SOT_SMD:SOT-23_Handsoldering,1,Diodes Incorporated,BC856B-13-F,digikey,BC856B-13-FDICT-ND
 U305,REF2925AIDBZT,Package_TO_SOT_SMD:SOT-23_Handsoldering,1,Texas Instruments,REF2925AIDBZT,digikey,296-13482-1-ND
 Q104;Q203,SSM3J334R,Package_TO_SOT_SMD:SOT-23_Handsoldering,2,Toshiba Semiconductor and Storage,"SSM3J334R,LF",digikey,SSM3J334RLFCT-ND
-Q103;Q201;Q202,SSM3K329R,Package_TO_SOT_SMD:SOT-23_Handsoldering,3,Toshiba Semiconductor and Storage,"SSM3K329R,LF",digikey,SSM3K329RLFCT-ND
+Q401;Q103;Q201;Q202,SSM3K329R,Package_TO_SOT_SMD:SOT-23_Handsoldering,4,Toshiba Semiconductor and Storage,"SSM3K329R,LF",digikey,SSM3K329RLFCT-ND
 JP203,BOOT_OPTION,Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm,1,Sullins Connector Solutions,PREC002SAAN-RC,digikey,S1012EC-02-ND
 JP202,SCL_EN,Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm,1,Sullins Connector Solutions,PREC002SAAN-RC,digikey,S1012EC-02-ND
 JP201,SDA_EN,Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm,1,Sullins Connector Solutions,PREC002SAAN-RC,digikey,S1012EC-02-ND
@@ -47,8 +49,10 @@ J203,I2C_BUS,Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm,1,Adam Tech,PH1-04
 RV201,5K,Potentiometers:Potentiometer_Trimmer_Bourns_3006P,1,Bourns Inc,3006P-7-502LF,digikey,3006P-7-502LF-ND
 U204,ESP-WROOM-02U,RF_Module_jl:MODULE_ESP-WROOM-02U,1,Espressif Systems,ESP-WROOM-02U,digikey,1904-1022-1-ND
 R101,0R Ohms,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,Stackpole Electronics Inc,RMCF0805ZT0R00,digikey,RMCF0805ZT0R00CT-ND
+R412,1.15K 1%,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,Yageo,RC0805FR-071K15L,digikey,311-1.00KCRCT-ND
+R407,1.27K 1%,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,Yageo,RC0805FR-071K27L,digikey,311-1.27KCRCT-ND
 R104;Rint2;R122,1.5K 0.1%,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,3,Panasonic Electronic Components,ERA-6AEB152V,digikey,P1.5KDACT-ND
-R501;R502;R503;R504;R505;R205,100K 1%,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,6,Yageo,RC0805FR-07100KL,digikey,311-100KCRCT-ND
+R410;R411;R501;R502;R503;R504;R505;R205,100K 1%,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,8,Yageo,RC0805FR-07100KL,digikey,311-100KCRCT-ND
 R206,100R 1%,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,Yageo,RC0805FR-07100RL,digikey,311-100CRCT-ND
 R310;R121,105k 0.1%,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,2,Panasonic Electronic Components,ERA-6AEB1053V,digikey,P105KDACT-ND
 R110;R109;R117;R116,10K 0.1%,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,4,Panasonic Electronic Components,ERA-6AEB103V,digikey,P10KDACT-ND
@@ -56,14 +60,15 @@ R113,10R 1%,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,Yageo,RC0
 R107;R207;R210;R209;R213,15K 1%,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,5,TE Connectivity Passive Product,CRGCQ0805F15K,digikey,A129763CT-ND
 R309,196K 0.1%,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,Panasonic Electronic Components,ERA-6AEB1963V,digikey,P196KDACT-ND
 R402;Rint1;R105,1K 0.1%,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,3,Panasonic Electronic Components,ERA-6AEB102V,digikey,P1.0KDACT-ND
-R405;R406;R312;R301;R106;R108;R506;R201;R202;R203;R204,1K 1%,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,11,Yageo,RC0805FR-071KL,digikey,311-1.00KCRCT-ND
+R405;R408;R406;R413;R409;R312;R301;R106;R108;R506;R201;R202;R203;R204,1K 1%,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,14,Yageo,RC0805FR-071KL,digikey,311-1.00KCRCT-ND
 R115,1M 1%,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,Yageo,RC0805FR-071ML,digikey,311-1.00MCRCT-ND
 R311;R304,20K 0.1%,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,2,Panasonic Electronic Components,ERA-6AEB203V,digikey,P20KDACT-ND
 R308,226k 0.1%,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,Panasonic Electronic Components,ERA-6AEB2263V,digikey,P226KDACT-ND
+R403,240  0.1%,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,Panasonic Electronic Components,ERA-6AEB241V,digikey,P240DACT-ND
 Rt101,30K 0.1%,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,Panasonic Electronic Components,ERA-6AEB303V,digikey,P30KDACT-ND
 R111;R112;R118;R119,330R 0.1%,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,4,Panasonic Electronic Components,ERA-6AEB331V,digikey,P330DACT-ND
 R302,330R 1%,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,TE Connectivity Passive Product,CRGCQ0805F330R,digikey,A129743CT-ND
-R404,41.2  0.1%,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,Panasonic Electronic Components,ERA-6AEB4122V,digikey,P41.2KDACT-ND
+R404,41.2  0.1%,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,TE Connectivity Passive Product,8-1625868-6,digikey,A110410CT-ND
 R211;R212;R208,4K7 1%,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,3,Yageo,RC0805FR-074K7L,digikey,311-4.70KCRCT-ND
 R401,5.9K 0 .1%,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,Panasonic Electronic Components,ERA-6AEB5901V,digikey,P5.9KDACT-ND
 R303,61.9K 0.1%,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,Panasonic Electronic Components,ERA-6AEB6192V,digikey,P61.9KDACT-ND
