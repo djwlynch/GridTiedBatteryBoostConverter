@@ -1153,7 +1153,7 @@ AR Path="/5EBD6442/6050D700" Ref="TP?"  Part="1"
 AR Path="/5EF73D52/6050D700" Ref="TP?"  Part="1" 
 AR Path="/6050D700" Ref="TP101"  Part="1" 
 F 0 "TP101" H 1508 6418 50  0000 L CNN
-F 1 "TestPoint" H 1508 6327 50  0000 L CNN
+F 1 "TP 2.5V" H 1508 6327 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_3.0x3.0mm" H 1650 6300 50  0001 C CNN
 F 3 "~" H 1650 6300 50  0001 C CNN
 F 4 "-" H 0   0   50  0001 C CNN "MFR"
@@ -1172,7 +1172,7 @@ AR Path="/5EBD6442/60519D43" Ref="TP?"  Part="1"
 AR Path="/5EF73D52/60519D43" Ref="TP?"  Part="1" 
 AR Path="/60519D43" Ref="TP102"  Part="1" 
 F 0 "TP102" V 3754 2938 50  0000 L CNN
-F 1 "TestPoint" V 3845 2938 50  0000 L CNN
+F 1 "TP_UCC_5V_REF" V 3845 2938 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_3.0x3.0mm" H 4000 2750 50  0001 C CNN
 F 3 "~" H 4000 2750 50  0001 C CNN
 F 4 "-" H 0   0   50  0001 C CNN "MFR"
@@ -1191,7 +1191,7 @@ AR Path="/5EBD6442/6051C0A5" Ref="TP?"  Part="1"
 AR Path="/5EF73D52/6051C0A5" Ref="TP?"  Part="1" 
 AR Path="/6051C0A5" Ref="TP103"  Part="1" 
 F 0 "TP103" H 4758 3068 50  0000 L CNN
-F 1 "TestPoint" H 4758 2977 50  0000 L CNN
+F 1 "TP_DAC" H 4758 2977 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_3.0x3.0mm" H 4900 2950 50  0001 C CNN
 F 3 "~" H 4900 2950 50  0001 C CNN
 F 4 "-" H 0   0   50  0001 C CNN "MFR"
@@ -1310,8 +1310,6 @@ Text Notes 10100 1050 0    50   ~ 0
 Solar Inverter
 Text Notes 5750 5000 0    50   ~ 0
 Pd_max=(125-40)/107.5 \n= 0.79W
-Text Notes 1850 6250 0    50   ~ 0
-+2.5V
 Text Notes 800  5150 0    50   ~ 0
 +160V
 Text Label 9300 1350 0    50   ~ 0

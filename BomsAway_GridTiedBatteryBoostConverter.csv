@@ -40,7 +40,7 @@ Q301;Q102,BC847B-13-F,Package_TO_SOT_SMD:SOT-23_Handsoldering,2,Diodes Incorpora
 Q302,BC856B-13-F,Package_TO_SOT_SMD:SOT-23_Handsoldering,1,Diodes Incorporated,BC856B-13-F,digikey,BC856B-13-FDICT-ND
 U305,REF2925AIDBZT,Package_TO_SOT_SMD:SOT-23_Handsoldering,1,Texas Instruments,REF2925AIDBZT,digikey,296-13482-1-ND
 Q104;Q203,SSM3J334R,Package_TO_SOT_SMD:SOT-23_Handsoldering,2,Toshiba Semiconductor and Storage,"SSM3J334R,LF",digikey,SSM3J334RLFCT-ND
-Q401;Q103;Q201;Q202,SSM3K329R,Package_TO_SOT_SMD:SOT-23_Handsoldering,4,Toshiba Semiconductor and Storage,"SSM3K329R,LF",digikey,SSM3K329RLFCT-ND
+Q401;Q402;Q103;Q201;Q202,SSM3K329R,Package_TO_SOT_SMD:SOT-23_Handsoldering,5,Toshiba Semiconductor and Storage,"SSM3K329R,LF",digikey,SSM3K329RLFCT-ND
 JP203,BOOT_OPTION,Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm,1,Sullins Connector Solutions,PREC002SAAN-RC,digikey,S1012EC-02-ND
 JP202,SCL_EN,Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm,1,Sullins Connector Solutions,PREC002SAAN-RC,digikey,S1012EC-02-ND
 JP201,SDA_EN,Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm,1,Sullins Connector Solutions,PREC002SAAN-RC,digikey,S1012EC-02-ND
@@ -52,7 +52,7 @@ R101,0R Ohms,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,Stackpol
 R412,1.15K 1%,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,Yageo,RC0805FR-071K15L,digikey,311-1.00KCRCT-ND
 R407,1.27K 1%,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,Yageo,RC0805FR-071K27L,digikey,311-1.27KCRCT-ND
 R104;Rint2;R122,1.5K 0.1%,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,3,Panasonic Electronic Components,ERA-6AEB152V,digikey,P1.5KDACT-ND
-R410;R411;R501;R502;R503;R504;R505;R205,100K 1%,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,8,Yageo,RC0805FR-07100KL,digikey,311-100KCRCT-ND
+R501;R502;R503;R504;R505;R205,100K 1%,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,6,Yageo,RC0805FR-07100KL,digikey,311-100KCRCT-ND
 R206,100R 1%,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,Yageo,RC0805FR-07100RL,digikey,311-100CRCT-ND
 R310;R121,105k 0.1%,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,2,Panasonic Electronic Components,ERA-6AEB1053V,digikey,P105KDACT-ND
 R110;R109;R117;R116,10K 0.1%,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,4,Panasonic Electronic Components,ERA-6AEB103V,digikey,P10KDACT-ND
@@ -61,7 +61,7 @@ R107;R207;R210;R209;R213,15K 1%,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_Ha
 R309,196K 0.1%,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,Panasonic Electronic Components,ERA-6AEB1963V,digikey,P196KDACT-ND
 R402;Rint1;R105,1K 0.1%,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,3,Panasonic Electronic Components,ERA-6AEB102V,digikey,P1.0KDACT-ND
 R405;R408;R406;R413;R409;R312;R301;R106;R108;R506;R201;R202;R203;R204,1K 1%,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,14,Yageo,RC0805FR-071KL,digikey,311-1.00KCRCT-ND
-R115,1M 1%,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,Yageo,RC0805FR-071ML,digikey,311-1.00MCRCT-ND
+R410;R115,1M 1%,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,2,Yageo,RC0805FR-071ML,digikey,311-1.00MCRCT-ND
 R311;R304,20K 0.1%,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,2,Panasonic Electronic Components,ERA-6AEB203V,digikey,P20KDACT-ND
 R308,226k 0.1%,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,Panasonic Electronic Components,ERA-6AEB2263V,digikey,P226KDACT-ND
 R403,240  0.1%,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,Panasonic Electronic Components,ERA-6AEB241V,digikey,P240DACT-ND
@@ -76,7 +76,22 @@ R103,75K 0.1%,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,Panason
 R102,82K 0.1%,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,Panasonic Electronic Components,ERA-6AEB823V,digikey,P82KDACT-ND
 R114;R120,2 mOhm Thick Film 1% 1W,Resistor_SMD:R_1210_3225Metric_Pad1.42x2.65mm_HandSolder,2,Rohm Semiconductor,PMR25HZPFV2L00,digikey,RHM.002APCT-ND
 U301,FDA217,SMD_Packages:DIP-8_SMD,1,IXYS Integrated Circuits Division,FDA217S,digikey,CLA408-ND
-TP304;TP303;TP301;TP305;TP307;TP302;TP306;TP101;TP102;TP103;TP501;TP201;TP202;TP203,TestPoint,TestPoint:TestPoint_Pad_3.0x3.0mm,14,-,-,-,-
+TP301,TP +0.8V,TestPoint:TestPoint_Pad_3.0x3.0mm,1,-,-,-,-
+TP304,TP +11.0V,TestPoint:TestPoint_Pad_3.0x3.0mm,1,-,-,-,-
+TP305,TP +2.5V,TestPoint:TestPoint_Pad_3.0x3.0mm,1,-,-,-,-
+TP307,TP +3.0V,TestPoint:TestPoint_Pad_3.0x3.0mm,1,-,-,-,-
+TP302;TP202,TP +3.3V,TestPoint:TestPoint_Pad_3.0x3.0mm,2,-,-,-,-
+TP303,TP +5V,TestPoint:TestPoint_Pad_3.0x3.0mm,1,-,-,-,-
+TP401,TP 1.25V,TestPoint:TestPoint_Pad_3.0x3.0mm,1,-,-,-,-
+TP403,TP 1.395V,TestPoint:TestPoint_Pad_3.0x3.0mm,1,-,-,-,-
+TP101,TP 2.5V,TestPoint:TestPoint_Pad_3.0x3.0mm,1,-,-,-,-
+TP203,TP_Boost_On,TestPoint:TestPoint_Pad_3.0x3.0mm,1,-,-,-,-
+TP306,TP_Charger_On,TestPoint:TestPoint_Pad_3.0x3.0mm,1,-,-,-,-
+TP103,TP_DAC,TestPoint:TestPoint_Pad_3.0x3.0mm,1,-,-,-,-
+TP201,TP_LCD_On,TestPoint:TestPoint_Pad_3.0x3.0mm,1,-,-,-,-
+TP402,TP_Peak_Current,TestPoint:TestPoint_Pad_3.0x3.0mm,1,-,-,-,-
+TP501,TP_Solar_Voltage,TestPoint:TestPoint_Pad_3.0x3.0mm,1,-,-,-,-
+TP102,TP_UCC_5V_REF,TestPoint:TestPoint_Pad_3.0x3.0mm,1,-,-,-,-
 TR401,FS-10-110-C2,Transformers_ThroughHole_jl:FS10-110-C2,1,Triad Magnetics,FS10-110-C2,digikey,237-1578-ND
 Q101,IXFP36N20X3,Transistors_ThroughHole_jl:TO-220_Horizontal_Offset_Drain,1,IXYS,IXFP36N20X3,digikey,IXFP36N20X3-ND
 Q305;Q306,IRFP4321PBF,Transistors_ThroughHole_jl:TO-247-3_Horizontal_TabDown,2,Infineon Technologies,IRFP4321PBF,digikey,IRFP4321PBF-ND

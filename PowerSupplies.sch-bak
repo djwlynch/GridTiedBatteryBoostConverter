@@ -842,7 +842,7 @@ L Connector:TestPoint TP304
 U 1 1 60423F90
 P 4250 950
 F 0 "TP304" H 4308 1068 50  0000 L CNN
-F 1 "TestPoint" H 4308 977 50  0000 L CNN
+F 1 "TP +11.0V" H 4308 977 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_3.0x3.0mm" H 4450 950 50  0001 C CNN
 F 3 "~" H 4450 950 50  0001 C CNN
 F 4 "-" H 0   0   50  0001 C CNN "MFR"
@@ -858,7 +858,7 @@ L Connector:TestPoint TP303
 U 1 1 6045A6ED
 P 4200 1550
 F 0 "TP303" V 4154 1738 50  0000 L CNN
-F 1 "TestPoint" V 4245 1738 50  0000 L CNN
+F 1 "TP +5V" V 4245 1738 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_3.0x3.0mm" H 4400 1550 50  0001 C CNN
 F 3 "~" H 4400 1550 50  0001 C CNN
 F 4 "-" H 0   0   50  0001 C CNN "MFR"
@@ -874,7 +874,7 @@ L Connector:TestPoint TP301
 U 1 1 60490DE8
 P 3800 4050
 F 0 "TP301" V 3754 4238 50  0000 L CNN
-F 1 "TestPoint" V 3845 4238 50  0000 L CNN
+F 1 "TP +0.8V" V 3845 4238 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_3.0x3.0mm" H 4000 4050 50  0001 C CNN
 F 3 "~" H 4000 4050 50  0001 C CNN
 F 4 "-" H 0   0   50  0001 C CNN "MFR"
@@ -890,7 +890,7 @@ L Connector:TestPoint TP305
 U 1 1 60497068
 P 4300 5900
 F 0 "TP305" H 4358 6018 50  0000 L CNN
-F 1 "TestPoint" H 4358 5927 50  0000 L CNN
+F 1 "TP +2.5V" H 4358 5927 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_3.0x3.0mm" H 4500 5900 50  0001 C CNN
 F 3 "~" H 4500 5900 50  0001 C CNN
 F 4 "-" H 0   0   50  0001 C CNN "MFR"
@@ -905,8 +905,8 @@ $Comp
 L Connector:TestPoint TP307
 U 1 1 6049E6F4
 P 10650 900
-F 0 "TP307" H 10708 1018 50  0000 L CNN
-F 1 "TestPoint" H 10708 927 50  0000 L CNN
+F 0 "TP307" H 10700 1150 50  0000 L CNN
+F 1 "TP +3.0V" H 10700 1050 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_3.0x3.0mm" H 10850 900 50  0001 C CNN
 F 3 "~" H 10850 900 50  0001 C CNN
 F 4 "-" H 0   0   50  0001 C CNN "MFR"
@@ -922,7 +922,7 @@ L Connector:TestPoint TP302
 U 1 1 6049EF33
 P 3950 3700
 F 0 "TP302" H 4008 3818 50  0000 L CNN
-F 1 "TestPoint" H 4008 3727 50  0000 L CNN
+F 1 "TP +3.3V" H 4008 3727 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_3.0x3.0mm" H 4150 3700 50  0001 C CNN
 F 3 "~" H 4150 3700 50  0001 C CNN
 F 4 "-" H 0   0   50  0001 C CNN "MFR"
@@ -938,7 +938,7 @@ L Connector:TestPoint TP306
 U 1 1 604A0C2F
 P 5800 4700
 F 0 "TP306" H 5858 4818 50  0000 L CNN
-F 1 "TestPoint" H 5858 4727 50  0000 L CNN
+F 1 "TP_Charger_On" H 5858 4727 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_3.0x3.0mm" H 6000 4700 50  0001 C CNN
 F 3 "~" H 6000 4700 50  0001 C CNN
 F 4 "-" H 0   0   50  0001 C CNN "MFR"
@@ -1008,8 +1008,6 @@ Text GLabel 3450 2550 2    50   Input ~ 0
 Vin
 Text GLabel 4700 950  2    50   Output ~ 0
 +11V
-Text Notes 4750 1550 0    50   ~ 0
-5V
 Text GLabel 5450 950  0    50   BiDi ~ 0
 +11V
 Text Notes 8400 1200 0    50   ~ 0
@@ -1042,8 +1040,6 @@ Text HLabel 4750 5900 2    50   Output ~ 0
 +2.5V_REF
 Text GLabel 950  3800 0    50   BiDi ~ 0
 +11V
-Text Notes 4350 4100 0    50   ~ 0
-0.8V
 Text GLabel 4400 3700 2    50   Output ~ 0
 +3.3V_wifi_only
 Text Notes 3600 3500 0    50   ~ 0

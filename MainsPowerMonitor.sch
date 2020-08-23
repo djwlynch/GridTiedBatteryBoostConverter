@@ -424,24 +424,6 @@ F 8 "-" H -100 2800 50  0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R?
-U 1 1 5F65A3B7
-P 9400 3700
-AR Path="/5EF73D52/5F65A3B7" Ref="R?"  Part="1" 
-AR Path="/5F15BF3C/5F65A3B7" Ref="R410"  Part="1" 
-F 0 "R410" V 9600 3700 50  0000 C CNN
-F 1 "100K 1%" V 9500 3700 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9400 3700 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 9400 3700 50  0001 C CNN
-F 4 "Yageo" H 7750 1100 50  0001 C CNN "MFR"
-F 5 "RC0805FR-07100KL" H 7750 1100 50  0001 C CNN "MPN"
-F 6 "digikey" H 7750 1100 50  0001 C CNN "SPR"
-F 7 "311-100KCRCT-ND" H 7750 1100 50  0001 C CNN "SPN"
-F 8 "-" H 7750 1100 50  0001 C CNN "SPURL"
-	1    9400 3700
-	-1   0    0    1   
-$EndComp
-$Comp
 L MicroChip:LMC7101BYM5-TR U402
 U 1 1 5F6CC53E
 P 9050 1800
@@ -505,24 +487,6 @@ F 2 "" H 10100 4850 50  0001 C CNN
 F 3 "" H 10100 4850 50  0001 C CNN
 	1    10100 4900
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R?
-U 1 1 5F8DBFA7
-P 9400 4050
-AR Path="/5EF73D52/5F8DBFA7" Ref="R?"  Part="1" 
-AR Path="/5F15BF3C/5F8DBFA7" Ref="R411"  Part="1" 
-F 0 "R411" V 9600 4050 50  0000 C CNN
-F 1 "100K 1%" V 9500 4050 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9400 4050 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 9400 4050 50  0001 C CNN
-F 4 "Yageo" H 7750 1450 50  0001 C CNN "MFR"
-F 5 "RC0805FR-07100KL" H 7750 1450 50  0001 C CNN "MPN"
-F 6 "digikey" H 7750 1450 50  0001 C CNN "SPR"
-F 7 "311-100KCRCT-ND" H 7750 1450 50  0001 C CNN "SPN"
-F 8 "-" H 7750 1450 50  0001 C CNN "SPURL"
-	1    9400 4050
-	-1   0    0    1   
 $EndComp
 Text Notes 700  5800 0    50   ~ 0
 230V AC Nom\n277V AC Max\n392V Peak
@@ -657,25 +621,19 @@ Wire Wire Line
 Wire Wire Line
 	3900 3000 4250 3000
 Wire Wire Line
-	4250 3000 4250 6300
+	4250 3000 4250 3400
 Wire Wire Line
 	3550 1700 4250 1700
 Wire Wire Line
-	3650 6300 4250 6300
+	3650 6300 3800 6300
 Wire Wire Line
 	4250 6300 4600 6300
-Wire Wire Line
-	4250 3000 4250 2850
 Wire Wire Line
 	4250 2100 4250 2450
 Wire Wire Line
 	5450 2450 4250 2450
 Wire Wire Line
 	4250 2450 4250 2500
-Wire Wire Line
-	5450 2850 4250 2850
-Wire Wire Line
-	4250 2850 4250 2700
 Wire Wire Line
 	8700 4900 8700 4650
 Wire Wire Line
@@ -699,7 +657,7 @@ Wire Wire Line
 Wire Wire Line
 	6450 3800 6100 3800
 Wire Wire Line
-	6100 3800 6100 3200
+	6100 3800 6100 3550
 Wire Wire Line
 	6100 2650 5750 2650
 Wire Wire Line
@@ -735,8 +693,6 @@ Wire Wire Line
 Wire Wire Line
 	9150 3500 9400 3500
 Wire Wire Line
-	9400 3500 9400 3600
-Wire Wire Line
 	9400 3500 9600 3500
 Wire Wire Line
 	7400 3200 8050 3200
@@ -751,10 +707,6 @@ Wire Wire Line
 Wire Wire Line
 	8950 3500 8200 3500
 Wire Wire Line
-	9400 3800 9400 3950
-Wire Wire Line
-	9400 4150 9400 4200
-Wire Wire Line
 	9600 3500 9600 3700
 Wire Wire Line
 	9600 4000 9600 4200
@@ -767,7 +719,7 @@ Wire Wire Line
 Wire Wire Line
 	8900 4000 8050 4000
 Wire Wire Line
-	8900 4550 10100 4550
+	8900 4550 9600 4550
 Connection ~ 3150 5400
 Connection ~ 3100 5900
 Connection ~ 3650 6300
@@ -778,7 +730,6 @@ Connection ~ 5350 5650
 Connection ~ 3650 6200
 Connection ~ 4250 6300
 Connection ~ 4250 2450
-Connection ~ 4250 2850
 Connection ~ 8700 4650
 Connection ~ 4250 1700
 Connection ~ 4250 3000
@@ -795,4 +746,129 @@ Current_Range_Hi_Lo
 Wire Wire Line
 	6100 3800 5550 3800
 Connection ~ 6100 3800
+$Comp
+L Device:R_Small R?
+U 1 1 5F9F2143
+P 9400 3850
+AR Path="/5F9F2143" Ref="R?"  Part="1" 
+AR Path="/5F15BF3C/5F9F2143" Ref="R410"  Part="1" 
+F 0 "R410" H 9459 3896 50  0000 L CNN
+F 1 "1M 1%" H 9459 3805 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9400 3850 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 9400 3850 50  0001 C CNN
+F 4 "Yageo" H 2650 -2050 50  0001 C CNN "MFR"
+F 5 "RC0805FR-071ML" H 2650 -2050 50  0001 C CNN "MPN"
+F 6 "digikey" H 2650 -2050 50  0001 C CNN "SPR"
+F 7 "311-1.00MCRCT-ND" H 2650 -2050 50  0001 C CNN "SPN"
+F 8 "-" H 2650 -2050 50  0001 C CNN "SPURL"
+	1    9400 3850
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9400 3500 9400 3750
+Wire Wire Line
+	9400 3950 9400 4200
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 5F9FF42A
+P 5350 3050
+AR Path="/5F9FF42A" Ref="Q?"  Part="1" 
+AR Path="/5F15BF3C/5F9FF42A" Ref="Q402"  Part="1" 
+F 0 "Q402" H 5554 3096 50  0000 L CNN
+F 1 "SSM3K329R" H 5554 3005 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 5550 3150 50  0001 C CNN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=2157&prodName=SSM3K329R" H 5350 3050 50  0001 C CNN
+F 4 "Toshiba Semiconductor and Storage" H -1150 -3600 50  0001 C CNN "MFR"
+F 5 "SSM3K329R,LF" H -1150 -3600 50  0001 C CNN "MPN"
+F 6 "digikey" H -1150 -3600 50  0001 C CNN "SPR"
+F 7 "SSM3K329RLFCT-ND" H -1150 -3600 50  0001 C CNN "SPN"
+F 8 "-" H -1150 -3600 50  0001 C CNN "SPURL"
+	1    5350 3050
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	4250 2700 4250 3000
+Wire Wire Line
+	5450 3250 5450 3400
+Wire Wire Line
+	5450 3400 4250 3400
+Connection ~ 4250 3400
+Wire Wire Line
+	4250 3400 4250 6300
+Wire Wire Line
+	5150 3050 5000 3050
+Wire Wire Line
+	5000 3050 5000 3550
+Wire Wire Line
+	5000 3550 6100 3550
+Connection ~ 6100 3550
+Wire Wire Line
+	6100 3550 6100 3200
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5FA2A174
+P 9600 4550
+AR Path="/5EBD6442/5FA2A174" Ref="TP?"  Part="1" 
+AR Path="/5EF73D52/5FA2A174" Ref="TP?"  Part="1" 
+AR Path="/5FA2A174" Ref="TP?"  Part="1" 
+AR Path="/5F15BF3C/5FA2A174" Ref="TP403"  Part="1" 
+F 0 "TP403" H 9658 4668 50  0000 L CNN
+F 1 "TP 1.395V" H 9658 4577 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_3.0x3.0mm" H 9800 4550 50  0001 C CNN
+F 3 "~" H 9800 4550 50  0001 C CNN
+F 4 "-" H 8150 -1750 50  0001 C CNN "MFR"
+F 5 "-" H 8150 -1750 50  0001 C CNN "MPN"
+F 6 "-" H 8150 -1750 50  0001 C CNN "SPR"
+F 7 "-" H 8150 -1750 50  0001 C CNN "SPN"
+F 8 "-" H 8150 -1750 50  0001 C CNN "SPURL"
+	1    9600 4550
+	1    0    0    -1  
+$EndComp
+Connection ~ 9600 4550
+Wire Wire Line
+	9600 4550 10100 4550
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5FA32312
+P 3800 6300
+AR Path="/5EBD6442/5FA32312" Ref="TP?"  Part="1" 
+AR Path="/5EF73D52/5FA32312" Ref="TP?"  Part="1" 
+AR Path="/5FA32312" Ref="TP?"  Part="1" 
+AR Path="/5F15BF3C/5FA32312" Ref="TP401"  Part="1" 
+F 0 "TP401" H 3858 6418 50  0000 L CNN
+F 1 "TP 1.25V" H 3858 6327 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_3.0x3.0mm" H 4000 6300 50  0001 C CNN
+F 3 "~" H 4000 6300 50  0001 C CNN
+F 4 "-" H 2350 0   50  0001 C CNN "MFR"
+F 5 "-" H 2350 0   50  0001 C CNN "MPN"
+F 6 "-" H 2350 0   50  0001 C CNN "SPR"
+F 7 "-" H 2350 0   50  0001 C CNN "SPN"
+F 8 "-" H 2350 0   50  0001 C CNN "SPURL"
+	1    3800 6300
+	1    0    0    -1  
+$EndComp
+Connection ~ 3800 6300
+Wire Wire Line
+	3800 6300 4250 6300
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5FA3BECA
+P 9600 3500
+AR Path="/5EBD6442/5FA3BECA" Ref="TP?"  Part="1" 
+AR Path="/5EF73D52/5FA3BECA" Ref="TP?"  Part="1" 
+AR Path="/5FA3BECA" Ref="TP?"  Part="1" 
+AR Path="/5F15BF3C/5FA3BECA" Ref="TP402"  Part="1" 
+F 0 "TP402" H 9658 3618 50  0000 L CNN
+F 1 "TP_Peak_Current" H 9658 3527 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_3.0x3.0mm" H 9800 3500 50  0001 C CNN
+F 3 "~" H 9800 3500 50  0001 C CNN
+F 4 "-" H 8150 -2800 50  0001 C CNN "MFR"
+F 5 "-" H 8150 -2800 50  0001 C CNN "MPN"
+F 6 "-" H 8150 -2800 50  0001 C CNN "SPR"
+F 7 "-" H 8150 -2800 50  0001 C CNN "SPN"
+F 8 "-" H 8150 -2800 50  0001 C CNN "SPURL"
+	1    9600 3500
+	1    0    0    -1  
+$EndComp
+Connection ~ 9600 3500
 $EndSCHEMATC

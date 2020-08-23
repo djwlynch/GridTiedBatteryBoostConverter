@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/jlynch/work/kicad/GridTiedBatteryBoostConverter/GridTiedBatteryBoostConverter.sch</source>
-    <date>Sat 22 Aug 2020 17:52:04 AEST</date>
+    <date>Sun 23 Aug 2020 16:55:25 AEST</date>
     <tool>Eeschema 5.1.6-c6e7f7d~87~ubuntu18.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -898,7 +898,7 @@
       <tstamp>5FBA1D05</tstamp>
     </comp>
     <comp ref="TP101">
-      <value>TestPoint</value>
+      <value>TP 2.5V</value>
       <footprint>TestPoint:TestPoint_Pad_3.0x3.0mm</footprint>
       <datasheet>~</datasheet>
       <fields>
@@ -913,7 +913,7 @@
       <tstamp>6050D700</tstamp>
     </comp>
     <comp ref="TP102">
-      <value>TestPoint</value>
+      <value>TP_UCC_5V_REF</value>
       <footprint>TestPoint:TestPoint_Pad_3.0x3.0mm</footprint>
       <datasheet>~</datasheet>
       <fields>
@@ -928,7 +928,7 @@
       <tstamp>60519D43</tstamp>
     </comp>
     <comp ref="TP103">
-      <value>TestPoint</value>
+      <value>TP_DAC</value>
       <footprint>TestPoint:TestPoint_Pad_3.0x3.0mm</footprint>
       <datasheet>~</datasheet>
       <fields>
@@ -1499,7 +1499,7 @@
       <tstamp>5E86612A</tstamp>
     </comp>
     <comp ref="TP201">
-      <value>TestPoint</value>
+      <value>TP_LCD_On</value>
       <footprint>TestPoint:TestPoint_Pad_3.0x3.0mm</footprint>
       <datasheet>~</datasheet>
       <fields>
@@ -1514,7 +1514,7 @@
       <tstamp>604D2532</tstamp>
     </comp>
     <comp ref="TP202">
-      <value>TestPoint</value>
+      <value>TP +3.3V</value>
       <footprint>TestPoint:TestPoint_Pad_3.0x3.0mm</footprint>
       <datasheet>~</datasheet>
       <fields>
@@ -1529,7 +1529,7 @@
       <tstamp>604DC721</tstamp>
     </comp>
     <comp ref="TP203">
-      <value>TestPoint</value>
+      <value>TP_Boost_On</value>
       <footprint>TestPoint:TestPoint_Pad_3.0x3.0mm</footprint>
       <datasheet>~</datasheet>
       <fields>
@@ -2084,7 +2084,7 @@
       <tstamp>5FB88319</tstamp>
     </comp>
     <comp ref="TP304">
-      <value>TestPoint</value>
+      <value>TP +11.0V</value>
       <footprint>TestPoint:TestPoint_Pad_3.0x3.0mm</footprint>
       <datasheet>~</datasheet>
       <fields>
@@ -2099,7 +2099,7 @@
       <tstamp>60423F90</tstamp>
     </comp>
     <comp ref="TP303">
-      <value>TestPoint</value>
+      <value>TP +5V</value>
       <footprint>TestPoint:TestPoint_Pad_3.0x3.0mm</footprint>
       <datasheet>~</datasheet>
       <fields>
@@ -2114,7 +2114,7 @@
       <tstamp>6045A6ED</tstamp>
     </comp>
     <comp ref="TP301">
-      <value>TestPoint</value>
+      <value>TP +0.8V</value>
       <footprint>TestPoint:TestPoint_Pad_3.0x3.0mm</footprint>
       <datasheet>~</datasheet>
       <fields>
@@ -2129,7 +2129,7 @@
       <tstamp>60490DE8</tstamp>
     </comp>
     <comp ref="TP305">
-      <value>TestPoint</value>
+      <value>TP +2.5V</value>
       <footprint>TestPoint:TestPoint_Pad_3.0x3.0mm</footprint>
       <datasheet>~</datasheet>
       <fields>
@@ -2144,7 +2144,7 @@
       <tstamp>60497068</tstamp>
     </comp>
     <comp ref="TP307">
-      <value>TestPoint</value>
+      <value>TP +3.0V</value>
       <footprint>TestPoint:TestPoint_Pad_3.0x3.0mm</footprint>
       <datasheet>~</datasheet>
       <fields>
@@ -2159,7 +2159,7 @@
       <tstamp>6049E6F4</tstamp>
     </comp>
     <comp ref="TP302">
-      <value>TestPoint</value>
+      <value>TP +3.3V</value>
       <footprint>TestPoint:TestPoint_Pad_3.0x3.0mm</footprint>
       <datasheet>~</datasheet>
       <fields>
@@ -2174,7 +2174,7 @@
       <tstamp>6049EF33</tstamp>
     </comp>
     <comp ref="TP306">
-      <value>TestPoint</value>
+      <value>TP_Charger_On</value>
       <footprint>TestPoint:TestPoint_Pad_3.0x3.0mm</footprint>
       <datasheet>~</datasheet>
       <fields>
@@ -2549,21 +2549,6 @@
       <sheetpath names="/MainsPowerMonitor/" tstamps="/5F15BF3C/"/>
       <tstamp>5F5B0409</tstamp>
     </comp>
-    <comp ref="R410">
-      <value>100K 1%</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
-      <fields>
-        <field name="MFR">Yageo</field>
-        <field name="MPN">RC0805FR-07100KL</field>
-        <field name="SPN">311-100KCRCT-ND</field>
-        <field name="SPR">digikey</field>
-        <field name="SPURL">-</field>
-      </fields>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <sheetpath names="/MainsPowerMonitor/" tstamps="/5F15BF3C/"/>
-      <tstamp>5F65A3B7</tstamp>
-    </comp>
     <comp ref="U402">
       <value>LMC7101BYM5-TR</value>
       <footprint>Package_TO_SOT_SMD:SOT-23-5_HandSoldering</footprint>
@@ -2594,20 +2579,80 @@
       <sheetpath names="/MainsPowerMonitor/" tstamps="/5F15BF3C/"/>
       <tstamp>5F84E807</tstamp>
     </comp>
-    <comp ref="R411">
-      <value>100K 1%</value>
+    <comp ref="R410">
+      <value>1M 1%</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
       <fields>
         <field name="MFR">Yageo</field>
-        <field name="MPN">RC0805FR-07100KL</field>
-        <field name="SPN">311-100KCRCT-ND</field>
+        <field name="MPN">RC0805FR-071ML</field>
+        <field name="SPN">311-1.00MCRCT-ND</field>
         <field name="SPR">digikey</field>
         <field name="SPURL">-</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <sheetpath names="/MainsPowerMonitor/" tstamps="/5F15BF3C/"/>
-      <tstamp>5F8DBFA7</tstamp>
+      <tstamp>5F9F2143</tstamp>
+    </comp>
+    <comp ref="Q402">
+      <value>SSM3K329R</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23_Handsoldering</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/docget.jsp?did=2157&amp;prodName=SSM3K329R</datasheet>
+      <fields>
+        <field name="MFR">Toshiba Semiconductor and Storage</field>
+        <field name="MPN">SSM3K329R,LF</field>
+        <field name="SPN">SSM3K329RLFCT-ND</field>
+        <field name="SPR">digikey</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/MainsPowerMonitor/" tstamps="/5F15BF3C/"/>
+      <tstamp>5F9FF42A</tstamp>
+    </comp>
+    <comp ref="TP403">
+      <value>TP 1.395V</value>
+      <footprint>TestPoint:TestPoint_Pad_3.0x3.0mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">-</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/MainsPowerMonitor/" tstamps="/5F15BF3C/"/>
+      <tstamp>5FA2A174</tstamp>
+    </comp>
+    <comp ref="TP401">
+      <value>TP 1.25V</value>
+      <footprint>TestPoint:TestPoint_Pad_3.0x3.0mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">-</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/MainsPowerMonitor/" tstamps="/5F15BF3C/"/>
+      <tstamp>5FA32312</tstamp>
+    </comp>
+    <comp ref="TP402">
+      <value>TP_Peak_Current</value>
+      <footprint>TestPoint:TestPoint_Pad_3.0x3.0mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">-</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/MainsPowerMonitor/" tstamps="/5F15BF3C/"/>
+      <tstamp>5FA3BECA</tstamp>
     </comp>
     <comp ref="D501">
       <value>VS-20ETS12-M3 1200V 1V fwd@10A</value>
@@ -2760,7 +2805,7 @@
       <tstamp>5F407A9C</tstamp>
     </comp>
     <comp ref="TP501">
-      <value>TestPoint</value>
+      <value>TP_Solar_Voltage</value>
       <footprint>TestPoint:TestPoint_Pad_3.0x3.0mm</footprint>
       <datasheet>~</datasheet>
       <fields>
@@ -3509,279 +3554,281 @@
     </library>
   </libraries>
   <nets>
-    <net code="1" name="DAC">
-      <node ref="R110" pin="1"/>
-      <node ref="U202" pin="19"/>
-      <node ref="TP103" pin="1"/>
-    </net>
-    <net code="2" name="UCC_5V_REF">
-      <node ref="C108" pin="1"/>
-      <node ref="Q102" pin="3"/>
-      <node ref="U102" pin="8"/>
-      <node ref="Rt101" pin="1"/>
-      <node ref="C109" pin="1"/>
+    <net code="1" name="UCC_5V_REF">
       <node ref="C111" pin="1"/>
-      <node ref="C107" pin="1"/>
-      <node ref="TP102" pin="1"/>
-      <node ref="C106" pin="1"/>
       <node ref="U101" pin="8"/>
+      <node ref="C108" pin="1"/>
+      <node ref="C109" pin="1"/>
+      <node ref="Rt101" pin="1"/>
+      <node ref="U102" pin="8"/>
+      <node ref="Q102" pin="3"/>
+      <node ref="C106" pin="1"/>
+      <node ref="TP102" pin="1"/>
+      <node ref="C107" pin="1"/>
     </net>
-    <net code="3" name="Avg_Current">
-      <node ref="C114" pin="2"/>
-      <node ref="D103" pin="3"/>
+    <net code="2" name="+11V">
+      <node ref="R115" pin="1"/>
+      <node ref="C301" pin="1"/>
+      <node ref="C309" pin="1"/>
+      <node ref="U303" pin="4"/>
+      <node ref="R308" pin="1"/>
+      <node ref="C308" pin="1"/>
+      <node ref="C306" pin="1"/>
+      <node ref="L301" pin="1"/>
+      <node ref="Q104" pin="2"/>
+      <node ref="C304" pin="1"/>
+      <node ref="U306" pin="4"/>
+      <node ref="TP304" pin="1"/>
+      <node ref="C315" pin="1"/>
+    </net>
+    <net code="3" name="DAC">
+      <node ref="R110" pin="1"/>
+      <node ref="TP103" pin="1"/>
+      <node ref="U202" pin="19"/>
+    </net>
+    <net code="4" name="/Teensy-LC/BOOST_ON_OFF">
+      <node ref="U202" pin="27"/>
+      <node ref="TP203" pin="1"/>
+      <node ref="Q103" pin="1"/>
+    </net>
+    <net code="5" name="Net-(C113-Pad2)">
+      <node ref="C113" pin="2"/>
+      <node ref="R111" pin="1"/>
+    </net>
+    <net code="6" name="Net-(J103-Pad2)">
+      <node ref="R120" pin="1"/>
+      <node ref="J103" pin="3"/>
+      <node ref="J103" pin="2"/>
+      <node ref="R118" pin="2"/>
+    </net>
+    <net code="7" name="Avg_Current">
       <node ref="U202" pin="21"/>
       <node ref="R116" pin="1"/>
       <node ref="U101" pin="7"/>
+      <node ref="C114" pin="2"/>
+      <node ref="D103" pin="3"/>
     </net>
-    <net code="4" name="Net-(C113-Pad2)">
-      <node ref="R111" pin="1"/>
-      <node ref="C113" pin="2"/>
-    </net>
-    <net code="5" name="Net-(J103-Pad2)">
-      <node ref="J103" pin="3"/>
-      <node ref="J103" pin="2"/>
-      <node ref="R120" pin="1"/>
-      <node ref="R118" pin="2"/>
-    </net>
-    <net code="6" name="Net-(Q103-Pad3)">
-      <node ref="Q103" pin="3"/>
+    <net code="8" name="Net-(Q103-Pad3)">
       <node ref="Q104" pin="1"/>
+      <node ref="Q103" pin="3"/>
       <node ref="R115" pin="2"/>
     </net>
-    <net code="7" name="+11V">
-      <node ref="C306" pin="1"/>
-      <node ref="C309" pin="1"/>
-      <node ref="U303" pin="4"/>
-      <node ref="C308" pin="1"/>
-      <node ref="L301" pin="1"/>
-      <node ref="U306" pin="4"/>
-      <node ref="TP304" pin="1"/>
-      <node ref="C304" pin="1"/>
-      <node ref="Q104" pin="2"/>
-      <node ref="R115" pin="1"/>
-      <node ref="C315" pin="1"/>
-      <node ref="R308" pin="1"/>
-      <node ref="C301" pin="1"/>
+    <net code="9" name="Net-(C110-Pad1)">
+      <node ref="R109" pin="1"/>
+      <node ref="C110" pin="1"/>
+      <node ref="R112" pin="2"/>
+      <node ref="U101" pin="2"/>
     </net>
-    <net code="8" name="Net-(C105-Pad2)">
-      <node ref="C105" pin="2"/>
+    <net code="10" name="Net-(C105-Pad2)">
       <node ref="R107" pin="1"/>
+      <node ref="C105" pin="2"/>
     </net>
-    <net code="9" name="Net-(C105-Pad1)">
-      <node ref="R106" pin="1"/>
+    <net code="11" name="Net-(C105-Pad1)">
       <node ref="Q102" pin="2"/>
       <node ref="C105" pin="1"/>
+      <node ref="R106" pin="1"/>
     </net>
-    <net code="10" name="Net-(C110-Pad1)">
-      <node ref="U101" pin="2"/>
-      <node ref="R109" pin="1"/>
-      <node ref="R112" pin="2"/>
-      <node ref="C110" pin="1"/>
-    </net>
-    <net code="11" name="Voltage">
-      <node ref="U102" pin="2"/>
-      <node ref="Rint2" pin="2"/>
-      <node ref="U202" pin="22"/>
+    <net code="12" name="Voltage">
       <node ref="Crolloff101" pin="2"/>
+      <node ref="U202" pin="22"/>
+      <node ref="Rint2" pin="2"/>
+      <node ref="D102" pin="3"/>
+      <node ref="U102" pin="2"/>
+      <node ref="TP101" pin="1"/>
       <node ref="R104" pin="1"/>
       <node ref="R103" pin="2"/>
-      <node ref="TP101" pin="1"/>
-      <node ref="D102" pin="3"/>
-    </net>
-    <net code="12" name="Net-(Cint101-Pad2)">
-      <node ref="Rint1" pin="1"/>
-      <node ref="Cint101" pin="2"/>
     </net>
     <net code="13" name="Net-(C114-Pad1)">
-      <node ref="R119" pin="1"/>
       <node ref="U101" pin="6"/>
       <node ref="R116" pin="2"/>
+      <node ref="R119" pin="1"/>
       <node ref="C114" pin="1"/>
     </net>
     <net code="14" name="Net-(R117-Pad2)">
-      <node ref="U101" pin="5"/>
-      <node ref="R118" pin="1"/>
       <node ref="R117" pin="2"/>
+      <node ref="R118" pin="1"/>
+      <node ref="U101" pin="5"/>
     </net>
     <net code="15" name="Net-(C110-Pad2)">
-      <node ref="R109" pin="2"/>
+      <node ref="U101" pin="1"/>
       <node ref="C110" pin="2"/>
       <node ref="R108" pin="1"/>
-      <node ref="U101" pin="1"/>
+      <node ref="R109" pin="2"/>
     </net>
-    <net code="16" name="ChargerVin">
+    <net code="16" name="/MainsPowerMonitor/Current_Range_Hi_Lo">
+      <node ref="U401" pin="1"/>
+      <node ref="Q401" pin="1"/>
+      <node ref="U202" pin="13"/>
+      <node ref="Q402" pin="1"/>
+      <node ref="R407" pin="1"/>
+    </net>
+    <net code="17" name="ChargerVin">
       <node ref="F101" pin="1"/>
-      <node ref="J101" pin="1"/>
       <node ref="Q306" pin="2"/>
+      <node ref="J101" pin="1"/>
     </net>
-    <net code="17" name="Battery_Voltage">
-      <node ref="R122" pin="1"/>
+    <net code="18" name="Battery_Voltage">
+      <node ref="D104" pin="3"/>
       <node ref="U202" pin="28"/>
       <node ref="R121" pin="2"/>
-      <node ref="D104" pin="3"/>
+      <node ref="R122" pin="1"/>
     </net>
-    <net code="18" name="Net-(C112-Pad1)">
-      <node ref="C115" pin="1"/>
-      <node ref="Q104" pin="3"/>
-      <node ref="U102" pin="7"/>
+    <net code="19" name="Net-(C112-Pad1)">
       <node ref="C112" pin="1"/>
+      <node ref="U102" pin="7"/>
+      <node ref="Q104" pin="3"/>
+      <node ref="C115" pin="1"/>
     </net>
-    <net code="19" name="/PowerSupplies/CHARGER_ON_OFF">
+    <net code="20" name="/PowerSupplies/CHARGER_ON_OFF">
       <node ref="U202" pin="11"/>
       <node ref="TP306" pin="1"/>
       <node ref="R302" pin="1"/>
     </net>
-    <net code="20" name="/Teensy-LC/BOOST_ON_OFF">
-      <node ref="Q103" pin="1"/>
-      <node ref="U202" pin="27"/>
-      <node ref="TP203" pin="1"/>
-    </net>
     <net code="21" name="+3.0V">
-      <node ref="TP307" pin="1"/>
-      <node ref="D102" pin="2"/>
       <node ref="D103" pin="2"/>
-      <node ref="C402" pin="1"/>
-      <node ref="C313" pin="1"/>
-      <node ref="C302" pin="1"/>
-      <node ref="D104" pin="2"/>
-      <node ref="U402" pin="2"/>
-      <node ref="U304" pin="4"/>
-      <node ref="R412" pin="1"/>
       <node ref="U304" pin="3"/>
+      <node ref="R412" pin="1"/>
+      <node ref="C313" pin="1"/>
+      <node ref="U402" pin="2"/>
       <node ref="D402" pin="2"/>
+      <node ref="U401" pin="2"/>
+      <node ref="D102" pin="2"/>
+      <node ref="D104" pin="2"/>
+      <node ref="C402" pin="1"/>
+      <node ref="C302" pin="1"/>
+      <node ref="U305" pin="1"/>
+      <node ref="TP307" pin="1"/>
       <node ref="D504" pin="2"/>
       <node ref="D401" pin="2"/>
-      <node ref="U401" pin="2"/>
-      <node ref="U305" pin="1"/>
+      <node ref="U304" pin="4"/>
     </net>
     <net code="22" name="Vin">
+      <node ref="C102" pin="1"/>
+      <node ref="C101" pin="1"/>
+      <node ref="R121" pin="1"/>
+      <node ref="L101" pin="2"/>
       <node ref="F101" pin="2"/>
+      <node ref="C303" pin="1"/>
       <node ref="U302" pin="3"/>
       <node ref="U302" pin="14"/>
-      <node ref="L101" pin="2"/>
-      <node ref="R121" pin="1"/>
-      <node ref="C101" pin="1"/>
-      <node ref="C303" pin="1"/>
-      <node ref="C102" pin="1"/>
     </net>
     <net code="23" name="ChargerConnection">
       <node ref="J101" pin="4"/>
       <node ref="F301" pin="1"/>
     </net>
     <net code="24" name="0">
-      <node ref="C202" pin="2"/>
-      <node ref="JP203" pin="1"/>
-      <node ref="C201" pin="2"/>
-      <node ref="J202" pin="3"/>
-      <node ref="C204" pin="2"/>
-      <node ref="C203" pin="2"/>
-      <node ref="C309" pin="2"/>
-      <node ref="U301" pin="1"/>
-      <node ref="U301" pin="3"/>
-      <node ref="C308" pin="2"/>
-      <node ref="U303" pin="2"/>
-      <node ref="C312" pin="2"/>
-      <node ref="C313" pin="2"/>
-      <node ref="U304" pin="1"/>
-      <node ref="D402" pin="1"/>
       <node ref="D401" pin="1"/>
-      <node ref="D502" pin="2"/>
-      <node ref="C403" pin="2"/>
-      <node ref="U402" pin="5"/>
-      <node ref="R506" pin="2"/>
-      <node ref="D504" pin="1"/>
-      <node ref="U401" pin="5"/>
-      <node ref="C402" pin="2"/>
-      <node ref="C401" pin="2"/>
-      <node ref="R411" pin="1"/>
-      <node ref="R406" pin="2"/>
-      <node ref="R413" pin="2"/>
-      <node ref="C205" pin="2"/>
-      <node ref="U201" pin="1"/>
-      <node ref="U202" pin="32"/>
-      <node ref="SW201" pin="1"/>
-      <node ref="SW202" pin="2"/>
-      <node ref="U202" pin="1"/>
-      <node ref="U202" pin="17"/>
-      <node ref="U203" pin="1"/>
-      <node ref="U203" pin="2"/>
       <node ref="U203" pin="3"/>
+      <node ref="R413" pin="2"/>
       <node ref="U203" pin="8"/>
-      <node ref="U204" pin="13"/>
+      <node ref="U201" pin="1"/>
+      <node ref="U202" pin="17"/>
+      <node ref="U202" pin="32"/>
+      <node ref="U203" pin="1"/>
+      <node ref="C401" pin="2"/>
       <node ref="J203" pin="2"/>
-      <node ref="R209" pin="1"/>
+      <node ref="U203" pin="2"/>
       <node ref="U204" pin="18"/>
-      <node ref="U204" pin="19"/>
-      <node ref="SW203" pin="2"/>
-      <node ref="Q201" pin="2"/>
-      <node ref="Q202" pin="2"/>
+      <node ref="C403" pin="2"/>
+      <node ref="C308" pin="2"/>
       <node ref="RV201" pin="3"/>
-      <node ref="U204" pin="9"/>
-      <node ref="R119" pin="2"/>
-      <node ref="U101" pin="4"/>
-      <node ref="R120" pin="2"/>
-      <node ref="C315" pin="2"/>
-      <node ref="C307" pin="2"/>
-      <node ref="R101" pin="2"/>
-      <node ref="C103" pin="2"/>
-      <node ref="C102" pin="2"/>
-      <node ref="C108" pin="2"/>
-      <node ref="C304" pin="2"/>
-      <node ref="U305" pin="3"/>
-      <node ref="R112" pin="1"/>
-      <node ref="R114" pin="2"/>
-      <node ref="C302" pin="2"/>
-      <node ref="U306" pin="2"/>
-      <node ref="C301" pin="2"/>
-      <node ref="R304" pin="2"/>
-      <node ref="C305" pin="2"/>
-      <node ref="C112" pin="2"/>
-      <node ref="R117" pin="1"/>
-      <node ref="C107" pin="2"/>
-      <node ref="Q103" pin="2"/>
-      <node ref="D104" pin="1"/>
-      <node ref="D103" pin="1"/>
-      <node ref="D102" pin="1"/>
-      <node ref="C111" pin="2"/>
-      <node ref="C104" pin="3"/>
-      <node ref="C104" pin="2"/>
-      <node ref="C109" pin="2"/>
-      <node ref="R105" pin="2"/>
-      <node ref="Ct101" pin="2"/>
-      <node ref="U102" pin="5"/>
-      <node ref="C106" pin="2"/>
-      <node ref="C115" pin="2"/>
-      <node ref="J101" pin="3"/>
-      <node ref="J101" pin="2"/>
-      <node ref="R122" pin="2"/>
-      <node ref="U302" pin="12"/>
-      <node ref="U302" pin="6"/>
-      <node ref="R106" pin="2"/>
-      <node ref="U302" pin="17"/>
-      <node ref="U302" pin="8"/>
-      <node ref="R311" pin="2"/>
-      <node ref="C310" pin="2"/>
-      <node ref="C311" pin="2"/>
-      <node ref="R309" pin="2"/>
+      <node ref="Q202" pin="2"/>
+      <node ref="Q201" pin="2"/>
+      <node ref="U402" pin="5"/>
+      <node ref="SW203" pin="2"/>
+      <node ref="U204" pin="19"/>
+      <node ref="U303" pin="2"/>
+      <node ref="U301" pin="3"/>
+      <node ref="U301" pin="1"/>
+      <node ref="U204" pin="13"/>
       <node ref="C303" pin="2"/>
       <node ref="C306" pin="2"/>
+      <node ref="U202" pin="1"/>
+      <node ref="U304" pin="1"/>
+      <node ref="C313" pin="2"/>
+      <node ref="C312" pin="2"/>
+      <node ref="C309" pin="2"/>
+      <node ref="SW202" pin="2"/>
+      <node ref="SW201" pin="1"/>
+      <node ref="R410" pin="2"/>
+      <node ref="C203" pin="2"/>
+      <node ref="C402" pin="2"/>
+      <node ref="U401" pin="5"/>
+      <node ref="R406" pin="2"/>
+      <node ref="JP203" pin="1"/>
+      <node ref="C205" pin="2"/>
+      <node ref="J202" pin="3"/>
+      <node ref="U204" pin="9"/>
+      <node ref="R209" pin="1"/>
+      <node ref="D402" pin="1"/>
+      <node ref="C201" pin="2"/>
+      <node ref="C202" pin="2"/>
+      <node ref="C204" pin="2"/>
+      <node ref="U102" pin="5"/>
+      <node ref="J101" pin="3"/>
+      <node ref="J101" pin="2"/>
+      <node ref="Ct101" pin="2"/>
+      <node ref="C109" pin="2"/>
+      <node ref="C102" pin="2"/>
+      <node ref="R101" pin="2"/>
+      <node ref="C103" pin="2"/>
+      <node ref="R120" pin="2"/>
+      <node ref="U101" pin="4"/>
+      <node ref="C108" pin="2"/>
+      <node ref="R119" pin="2"/>
+      <node ref="C104" pin="2"/>
+      <node ref="R105" pin="2"/>
+      <node ref="C111" pin="2"/>
+      <node ref="C106" pin="2"/>
+      <node ref="C115" pin="2"/>
+      <node ref="R122" pin="2"/>
+      <node ref="D104" pin="1"/>
+      <node ref="C107" pin="2"/>
+      <node ref="Q103" pin="2"/>
+      <node ref="D103" pin="1"/>
+      <node ref="D102" pin="1"/>
+      <node ref="R117" pin="1"/>
+      <node ref="C112" pin="2"/>
+      <node ref="R114" pin="2"/>
+      <node ref="R112" pin="1"/>
+      <node ref="R106" pin="2"/>
+      <node ref="U302" pin="12"/>
+      <node ref="C311" pin="2"/>
+      <node ref="R506" pin="2"/>
+      <node ref="C305" pin="2"/>
+      <node ref="R311" pin="2"/>
+      <node ref="C310" pin="2"/>
+      <node ref="C307" pin="2"/>
+      <node ref="R309" pin="2"/>
+      <node ref="U302" pin="8"/>
+      <node ref="U306" pin="2"/>
+      <node ref="C301" pin="2"/>
+      <node ref="C104" pin="3"/>
+      <node ref="R304" pin="2"/>
+      <node ref="C315" pin="2"/>
+      <node ref="C304" pin="2"/>
+      <node ref="D502" pin="2"/>
+      <node ref="U302" pin="6"/>
+      <node ref="U302" pin="17"/>
+      <node ref="U305" pin="3"/>
+      <node ref="C302" pin="2"/>
+      <node ref="D504" pin="1"/>
     </net>
     <net code="25" name="Net-(Rint1-Pad2)">
-      <node ref="Rint2" pin="1"/>
       <node ref="Rint1" pin="2"/>
+      <node ref="Rint2" pin="1"/>
     </net>
-    <net code="26" name="Net-(Cint101-Pad1)">
-      <node ref="Crolloff101" pin="1"/>
-      <node ref="U102" pin="1"/>
-      <node ref="Cint101" pin="1"/>
+    <net code="26" name="Net-(Cint101-Pad2)">
+      <node ref="Rint1" pin="1"/>
+      <node ref="Cint101" pin="2"/>
     </net>
     <net code="27" name="Net-(R104-Pad2)">
-      <node ref="R105" pin="1"/>
       <node ref="R104" pin="2"/>
+      <node ref="R105" pin="1"/>
     </net>
     <net code="28" name="Net-(R102-Pad2)">
-      <node ref="R102" pin="2"/>
       <node ref="R103" pin="1"/>
+      <node ref="R102" pin="2"/>
     </net>
     <net code="29" name="Net-(R110-Pad2)">
       <node ref="R110" pin="2"/>
@@ -3798,8 +3845,8 @@
       <node ref="L101" pin="1"/>
     </net>
     <net code="32" name="Net-(D101-Pad2)">
-      <node ref="D101" pin="2"/>
       <node ref="Q101" pin="2"/>
+      <node ref="D101" pin="2"/>
       <node ref="L102" pin="1"/>
     </net>
     <net code="33" name="Net-(C101-Pad2)">
@@ -3811,78 +3858,77 @@
       <node ref="U102" pin="6"/>
     </net>
     <net code="35" name="Net-(Ct101-Pad1)">
+      <node ref="Rt101" pin="2"/>
       <node ref="Q102" pin="1"/>
       <node ref="U102" pin="4"/>
-      <node ref="Rt101" pin="2"/>
       <node ref="Ct101" pin="1"/>
     </net>
     <net code="36" name="Net-(R107-Pad2)">
-      <node ref="U102" pin="3"/>
       <node ref="R108" pin="2"/>
       <node ref="R107" pin="2"/>
+      <node ref="U102" pin="3"/>
     </net>
-    <net code="37" name="/Vout">
-      <node ref="J103" pin="1"/>
-      <node ref="D502" pin="1"/>
-      <node ref="D503" pin="1"/>
-      <node ref="D501" pin="1"/>
+    <net code="37" name="Net-(Cint101-Pad1)">
+      <node ref="Cint101" pin="1"/>
+      <node ref="Crolloff101" pin="1"/>
+      <node ref="U102" pin="1"/>
     </net>
-    <net code="38" name="/GateDrive">
-      <node ref="R113" pin="1"/>
-      <node ref="Q101" pin="1"/>
-    </net>
-    <net code="39" name="/+2.5V_REF">
-      <node ref="TP305" pin="1"/>
+    <net code="38" name="/+2.5V_REF">
       <node ref="U202" pin="35"/>
-      <node ref="U305" pin="2"/>
+      <node ref="TP305" pin="1"/>
       <node ref="R405" pin="1"/>
+      <node ref="U305" pin="2"/>
     </net>
-    <net code="40" name="/Vsolar_in">
+    <net code="39" name="/GateDrive">
+      <node ref="Q101" pin="1"/>
+      <node ref="R113" pin="1"/>
+    </net>
+    <net code="40" name="/Vout">
+      <node ref="D503" pin="1"/>
+      <node ref="D502" pin="1"/>
+      <node ref="D501" pin="1"/>
+      <node ref="J103" pin="1"/>
+    </net>
+    <net code="41" name="/Vsolar_in">
       <node ref="J103" pin="4"/>
       <node ref="R501" pin="2"/>
       <node ref="D503" pin="2"/>
     </net>
-    <net code="41" name="Vboost_out">
+    <net code="42" name="Vboost_out">
       <node ref="C104" pin="4"/>
       <node ref="C104" pin="1"/>
-      <node ref="D501" pin="2"/>
-      <node ref="R102" pin="1"/>
       <node ref="C103" pin="1"/>
       <node ref="D101" pin="1"/>
+      <node ref="R102" pin="1"/>
+      <node ref="D501" pin="2"/>
     </net>
-    <net code="42" name="Net-(R303-Pad2)">
-      <node ref="R303" pin="2"/>
-      <node ref="R304" pin="1"/>
-      <node ref="TP301" pin="1"/>
-      <node ref="U306" pin="5"/>
+    <net code="43" name="+3.3V_wifi_only">
+      <node ref="U204" pin="1"/>
+      <node ref="R213" pin="2"/>
+      <node ref="C305" pin="1"/>
+      <node ref="L303" pin="1"/>
+      <node ref="C307" pin="1"/>
+      <node ref="R303" pin="1"/>
+      <node ref="TP302" pin="1"/>
+      <node ref="R210" pin="2"/>
+      <node ref="C204" pin="1"/>
     </net>
-    <net code="43" name="Net-(L303-Pad2)">
+    <net code="44" name="Net-(L303-Pad2)">
       <node ref="L303" pin="2"/>
       <node ref="U306" pin="3"/>
     </net>
-    <net code="44" name="Net-(U306-Pad1)">
+    <net code="45" name="Net-(U306-Pad1)">
       <node ref="U306" pin="1"/>
     </net>
-    <net code="45" name="Net-(U302-Pad10)">
-      <node ref="U302" pin="10"/>
+    <net code="46" name="Net-(U302-Pad10)">
       <node ref="U302" pin="7"/>
+      <node ref="U302" pin="10"/>
     </net>
-    <net code="46" name="Net-(R308-Pad2)">
-      <node ref="R309" pin="1"/>
+    <net code="47" name="Net-(R308-Pad2)">
       <node ref="R308" pin="2"/>
+      <node ref="R309" pin="1"/>
       <node ref="TP303" pin="1"/>
       <node ref="U302" pin="9"/>
-    </net>
-    <net code="47" name="+3.3V_wifi_only">
-      <node ref="TP302" pin="1"/>
-      <node ref="U204" pin="1"/>
-      <node ref="R213" pin="2"/>
-      <node ref="C204" pin="1"/>
-      <node ref="R303" pin="1"/>
-      <node ref="R210" pin="2"/>
-      <node ref="C307" pin="1"/>
-      <node ref="L303" pin="1"/>
-      <node ref="C305" pin="1"/>
     </net>
     <net code="48" name="Net-(R310-Pad2)">
       <node ref="U303" pin="5"/>
@@ -3893,175 +3939,181 @@
       <node ref="U302" pin="11"/>
     </net>
     <net code="50" name="Net-(D301-Pad2)">
-      <node ref="U302" pin="16"/>
       <node ref="D301" pin="2"/>
+      <node ref="U302" pin="16"/>
     </net>
     <net code="51" name="Net-(U302-Pad5)">
       <node ref="U302" pin="5"/>
     </net>
     <net code="52" name="Net-(D301-Pad1)">
-      <node ref="L301" pin="2"/>
       <node ref="D301" pin="1"/>
       <node ref="U302" pin="1"/>
+      <node ref="L301" pin="2"/>
     </net>
     <net code="53" name="/PowerSupplies/Charger_FETs_Source">
       <node ref="C314" pin="2"/>
-      <node ref="Q306" pin="3"/>
-      <node ref="Q302" pin="3"/>
-      <node ref="U301" pin="6"/>
-      <node ref="Q305" pin="3"/>
       <node ref="U301" pin="8"/>
+      <node ref="Q305" pin="3"/>
+      <node ref="U301" pin="6"/>
+      <node ref="Q302" pin="3"/>
+      <node ref="Q306" pin="3"/>
     </net>
     <net code="54" name="Net-(Q301-Pad1)">
+      <node ref="Q302" pin="1"/>
       <node ref="U301" pin="5"/>
       <node ref="Q301" pin="1"/>
-      <node ref="Q302" pin="1"/>
     </net>
-    <net code="55" name="Net-(R302-Pad2)">
-      <node ref="U301" pin="4"/>
+    <net code="55" name="Net-(R303-Pad2)">
+      <node ref="TP301" pin="1"/>
+      <node ref="R304" pin="1"/>
+      <node ref="U306" pin="5"/>
+      <node ref="R303" pin="2"/>
+    </net>
+    <net code="56" name="Net-(R302-Pad2)">
       <node ref="R302" pin="2"/>
+      <node ref="U301" pin="4"/>
     </net>
-    <net code="56" name="Net-(U303-Pad1)">
+    <net code="57" name="Net-(U303-Pad1)">
       <node ref="U303" pin="1"/>
     </net>
-    <net code="57" name="Net-(L302-Pad2)">
-      <node ref="L302" pin="2"/>
+    <net code="58" name="Net-(L302-Pad2)">
       <node ref="U303" pin="3"/>
+      <node ref="L302" pin="2"/>
     </net>
-    <net code="58" name="Net-(F301-Pad2)">
+    <net code="59" name="Net-(F301-Pad2)">
       <node ref="Q305" pin="2"/>
       <node ref="F301" pin="2"/>
     </net>
-    <net code="59" name="/PowerSupplies/Charger_Fets_GateDrive">
+    <net code="60" name="/PowerSupplies/Charger_Fets_GateDrive">
       <node ref="Q305" pin="1"/>
+      <node ref="Q306" pin="1"/>
       <node ref="Q302" pin="2"/>
       <node ref="Q301" pin="2"/>
-      <node ref="Q306" pin="1"/>
     </net>
-    <net code="60" name="Net-(R301-Pad2)">
-      <node ref="R301" pin="2"/>
+    <net code="61" name="Net-(R301-Pad2)">
       <node ref="U301" pin="2"/>
       <node ref="R312" pin="2"/>
+      <node ref="R301" pin="2"/>
     </net>
-    <net code="61" name="+5V">
-      <node ref="R301" pin="1"/>
-      <node ref="U202" pin="33"/>
-      <node ref="R310" pin="1"/>
-      <node ref="R312" pin="1"/>
+    <net code="62" name="+5V">
       <node ref="L302" pin="1"/>
-      <node ref="C311" pin="1"/>
       <node ref="U304" pin="5"/>
-      <node ref="U304" pin="2"/>
+      <node ref="C311" pin="1"/>
+      <node ref="U202" pin="33"/>
+      <node ref="R301" pin="1"/>
       <node ref="Q203" pin="2"/>
-      <node ref="C312" pin="1"/>
-      <node ref="R205" pin="2"/>
-      <node ref="C310" pin="1"/>
       <node ref="R206" pin="2"/>
+      <node ref="R205" pin="2"/>
+      <node ref="R312" pin="1"/>
+      <node ref="C312" pin="1"/>
+      <node ref="R310" pin="1"/>
+      <node ref="U304" pin="2"/>
+      <node ref="C310" pin="1"/>
     </net>
-    <net code="62" name="Net-(C314-Pad1)">
+    <net code="63" name="Net-(C314-Pad1)">
+      <node ref="Q301" pin="3"/>
       <node ref="U301" pin="7"/>
       <node ref="C314" pin="1"/>
-      <node ref="Q301" pin="3"/>
     </net>
-    <net code="63" name="Solar_Voltage">
+    <net code="64" name="Solar_Voltage">
       <node ref="TP501" pin="1"/>
-      <node ref="R505" pin="1"/>
-      <node ref="R506" pin="1"/>
       <node ref="D504" pin="3"/>
+      <node ref="R506" pin="1"/>
+      <node ref="R505" pin="1"/>
       <node ref="U202" pin="25"/>
     </net>
-    <net code="64" name="Net-(SW201-Pad2)">
+    <net code="65" name="Net-(SW201-Pad2)">
       <node ref="U202" pin="8"/>
       <node ref="SW201" pin="2"/>
     </net>
-    <net code="65" name="Net-(R208-Pad2)">
+    <net code="66" name="Net-(R208-Pad2)">
       <node ref="R208" pin="2"/>
       <node ref="U203" pin="13"/>
     </net>
-    <net code="66" name="Net-(U201-Pad9)">
+    <net code="67" name="SDA1">
+      <node ref="J203" pin="3"/>
+      <node ref="JP201" pin="1"/>
+      <node ref="R212" pin="2"/>
+      <node ref="U202" pin="30"/>
+      <node ref="U203" pin="15"/>
+    </net>
+    <net code="68" name="Net-(U201-Pad9)">
       <node ref="U201" pin="9"/>
     </net>
-    <net code="67" name="Net-(Q202-Pad3)">
-      <node ref="Q202" pin="3"/>
+    <net code="69" name="Net-(Q202-Pad3)">
       <node ref="U201" pin="16"/>
+      <node ref="Q202" pin="3"/>
     </net>
-    <net code="68" name="Net-(U201-Pad7)">
+    <net code="70" name="Net-(U201-Pad7)">
       <node ref="U201" pin="7"/>
     </net>
-    <net code="69" name="Net-(U201-Pad8)">
+    <net code="71" name="Net-(U201-Pad8)">
       <node ref="U201" pin="8"/>
     </net>
-    <net code="70" name="Net-(JP203-Pad2)">
-      <node ref="JP203" pin="2"/>
+    <net code="72" name="Net-(JP203-Pad2)">
       <node ref="U204" pin="8"/>
+      <node ref="JP203" pin="2"/>
     </net>
-    <net code="71" name="Net-(U201-Pad10)">
+    <net code="73" name="Net-(U201-Pad10)">
       <node ref="U201" pin="10"/>
     </net>
-    <net code="72" name="Net-(U202-Pad~)">
+    <net code="74" name="Net-(U202-Pad~)">
       <node ref="U202" pin="~"/>
     </net>
-    <net code="73" name="Net-(U202-Pad34)">
+    <net code="75" name="Net-(U202-Pad34)">
       <node ref="U202" pin="34"/>
     </net>
-    <net code="74" name="Net-(U202-Pad36)">
+    <net code="76" name="Net-(U202-Pad36)">
       <node ref="U202" pin="36"/>
     </net>
-    <net code="75" name="Net-(U202-Pad37)">
+    <net code="77" name="Net-(U202-Pad37)">
       <node ref="U202" pin="37"/>
     </net>
-    <net code="76" name="Net-(U202-Pad4)">
+    <net code="78" name="Net-(U202-Pad4)">
       <node ref="U202" pin="4"/>
     </net>
-    <net code="77" name="Net-(U202-Pad6)">
+    <net code="79" name="Net-(U202-Pad6)">
       <node ref="U202" pin="6"/>
     </net>
-    <net code="78" name="Net-(U202-Pad7)">
+    <net code="80" name="Net-(U202-Pad7)">
       <node ref="U202" pin="7"/>
     </net>
-    <net code="79" name="Net-(U202-Pad~)">
+    <net code="81" name="Net-(U202-Pad~)">
       <node ref="U202" pin="~"/>
     </net>
-    <net code="80" name="Net-(R201-Pad2)">
+    <net code="82" name="Net-(R201-Pad2)">
       <node ref="U201" pin="11"/>
       <node ref="R201" pin="2"/>
     </net>
-    <net code="81" name="/Teensy-LC/LCD_DB5">
-      <node ref="U203" pin="5"/>
-      <node ref="R202" pin="1"/>
-    </net>
-    <net code="82" name="Net-(R202-Pad2)">
-      <node ref="R202" pin="2"/>
+    <net code="83" name="Net-(R202-Pad2)">
       <node ref="U201" pin="12"/>
+      <node ref="R202" pin="2"/>
     </net>
-    <net code="83" name="/Teensy-LC/LCD_DB6">
-      <node ref="U203" pin="6"/>
+    <net code="84" name="/Teensy-LC/LCD_DB6">
       <node ref="R203" pin="1"/>
+      <node ref="U203" pin="6"/>
     </net>
-    <net code="84" name="Net-(R203-Pad2)">
-      <node ref="U201" pin="13"/>
+    <net code="85" name="Net-(R203-Pad2)">
       <node ref="R203" pin="2"/>
+      <node ref="U201" pin="13"/>
     </net>
-    <net code="85" name="/Teensy-LC/LCD_DB7">
+    <net code="86" name="/Teensy-LC/LCD_DB7">
       <node ref="U203" pin="7"/>
       <node ref="R204" pin="1"/>
     </net>
-    <net code="86" name="Net-(R204-Pad2)">
+    <net code="87" name="Net-(R204-Pad2)">
       <node ref="R204" pin="2"/>
       <node ref="U201" pin="14"/>
     </net>
-    <net code="87" name="Net-(SW202-Pad1)">
-      <node ref="U202" pin="9"/>
+    <net code="88" name="Net-(SW202-Pad1)">
       <node ref="SW202" pin="1"/>
+      <node ref="U202" pin="9"/>
     </net>
-    <net code="88" name="Net-(U202-Pad20)">
+    <net code="89" name="Net-(U202-Pad20)">
       <node ref="U202" pin="20"/>
     </net>
-    <net code="89" name="Net-(U202-Pad12)">
+    <net code="90" name="Net-(U202-Pad12)">
       <node ref="U202" pin="12"/>
-    </net>
-    <net code="90" name="Net-(U202-Pad13)">
-      <node ref="U202" pin="13"/>
     </net>
     <net code="91" name="Net-(U202-Pad14)">
       <node ref="U202" pin="14"/>
@@ -4080,38 +4132,38 @@
       <node ref="U202" pin="10"/>
     </net>
     <net code="96" name="Mains_Voltage">
-      <node ref="D402" pin="3"/>
-      <node ref="U202" pin="23"/>
       <node ref="R402" pin="1"/>
+      <node ref="U202" pin="23"/>
+      <node ref="D402" pin="3"/>
       <node ref="R401" pin="2"/>
     </net>
     <net code="97" name="Mains_Current">
-      <node ref="D401" pin="3"/>
-      <node ref="J402" pin="1"/>
-      <node ref="R409" pin="1"/>
       <node ref="R404" pin="1"/>
+      <node ref="J402" pin="1"/>
+      <node ref="D401" pin="3"/>
+      <node ref="R409" pin="1"/>
       <node ref="U202" pin="24"/>
     </net>
     <net code="98" name="Net-(U202-Pad26)">
       <node ref="U202" pin="26"/>
     </net>
     <net code="99" name="SCL1">
-      <node ref="U203" pin="14"/>
-      <node ref="JP202" pin="1"/>
-      <node ref="R211" pin="2"/>
       <node ref="U202" pin="29"/>
+      <node ref="U203" pin="14"/>
+      <node ref="R211" pin="2"/>
+      <node ref="JP202" pin="1"/>
       <node ref="J203" pin="4"/>
     </net>
     <net code="100" name="+3.3V_TEENSY_OUT">
-      <node ref="C202" pin="1"/>
-      <node ref="U202" pin="31"/>
-      <node ref="C201" pin="1"/>
-      <node ref="J203" pin="1"/>
       <node ref="R208" pin="1"/>
       <node ref="R212" pin="1"/>
       <node ref="R211" pin="1"/>
-      <node ref="U203" pin="16"/>
+      <node ref="J203" pin="1"/>
       <node ref="TP202" pin="1"/>
+      <node ref="U202" pin="31"/>
+      <node ref="U203" pin="16"/>
+      <node ref="C202" pin="1"/>
+      <node ref="C201" pin="1"/>
     </net>
     <net code="101" name="Net-(U204-Pad14)">
       <node ref="U204" pin="14"/>
@@ -4133,8 +4185,8 @@
       <node ref="U204" pin="5"/>
     </net>
     <net code="107" name="Net-(R209-Pad2)">
-      <node ref="R209" pin="2"/>
       <node ref="U204" pin="6"/>
+      <node ref="R209" pin="2"/>
     </net>
     <net code="108" name="Net-(JP201-Pad2)">
       <node ref="U204" pin="7"/>
@@ -4145,47 +4197,44 @@
       <node ref="R206" pin="1"/>
     </net>
     <net code="110" name="Net-(Q201-Pad3)">
-      <node ref="Q201" pin="3"/>
-      <node ref="Q203" pin="1"/>
       <node ref="R205" pin="1"/>
+      <node ref="Q203" pin="1"/>
+      <node ref="Q201" pin="3"/>
     </net>
     <net code="111" name="Net-(RV201-Pad2)">
       <node ref="RV201" pin="2"/>
       <node ref="U201" pin="3"/>
     </net>
     <net code="112" name="Net-(R207-Pad1)">
-      <node ref="RV201" pin="1"/>
       <node ref="R207" pin="1"/>
+      <node ref="RV201" pin="1"/>
     </net>
     <net code="113" name="Net-(Q203-Pad3)">
-      <node ref="Q203" pin="3"/>
       <node ref="R207" pin="2"/>
       <node ref="U201" pin="2"/>
+      <node ref="Q203" pin="3"/>
     </net>
-    <net code="114" name="SDA1">
-      <node ref="JP201" pin="1"/>
-      <node ref="U203" pin="15"/>
-      <node ref="J203" pin="3"/>
-      <node ref="R212" pin="2"/>
-      <node ref="U202" pin="30"/>
-    </net>
-    <net code="115" name="LCD_ON_OFF">
+    <net code="114" name="LCD_ON_OFF">
       <node ref="TP201" pin="1"/>
       <node ref="Q201" pin="1"/>
       <node ref="Q202" pin="1"/>
       <node ref="U203" pin="12"/>
     </net>
-    <net code="116" name="/Teensy-LC/LCD_RS">
-      <node ref="U203" pin="11"/>
+    <net code="115" name="/Teensy-LC/LCD_RS">
       <node ref="U201" pin="4"/>
+      <node ref="U203" pin="11"/>
     </net>
-    <net code="117" name="/Teensy-LC/LCD_RW">
-      <node ref="U203" pin="10"/>
+    <net code="116" name="/Teensy-LC/LCD_RW">
       <node ref="U201" pin="5"/>
+      <node ref="U203" pin="10"/>
     </net>
-    <net code="118" name="/Teensy-LC/LCD_EN">
+    <net code="117" name="/Teensy-LC/LCD_EN">
       <node ref="U203" pin="9"/>
       <node ref="U201" pin="6"/>
+    </net>
+    <net code="118" name="/Teensy-LC/LCD_DB5">
+      <node ref="U203" pin="5"/>
+      <node ref="R202" pin="1"/>
     </net>
     <net code="119" name="/Teensy-LC/LCD_DB4">
       <node ref="U203" pin="4"/>
@@ -4198,104 +4247,102 @@
       <node ref="U202" pin="5"/>
     </net>
     <net code="121" name="/Teensy-LC/mcu_wifi_tx">
-      <node ref="U202" pin="3"/>
-      <node ref="J202" pin="2"/>
       <node ref="U204" pin="11"/>
+      <node ref="J202" pin="2"/>
+      <node ref="U202" pin="3"/>
     </net>
     <net code="122" name="/Teensy-LC/mcu_wifi_rx">
-      <node ref="U204" pin="12"/>
       <node ref="U202" pin="2"/>
       <node ref="J202" pin="1"/>
+      <node ref="U204" pin="12"/>
     </net>
     <net code="123" name="/Teensy-LC/~reset">
       <node ref="C205" pin="1"/>
-      <node ref="R213" pin="1"/>
       <node ref="U204" pin="17"/>
       <node ref="U204" pin="15"/>
+      <node ref="R213" pin="1"/>
     </net>
-    <net code="124" name="Net-(Q401-Pad3)">
+    <net code="124" name="Net-(R409-Pad2)">
+      <node ref="R409" pin="2"/>
+      <node ref="U402" pin="3"/>
+    </net>
+    <net code="125" name="Net-(R407-Pad2)">
+      <node ref="R408" pin="2"/>
+      <node ref="U401" pin="3"/>
+      <node ref="R407" pin="2"/>
+    </net>
+    <net code="126" name="Net-(Q401-Pad3)">
+      <node ref="Q401" pin="3"/>
       <node ref="R403" pin="1"/>
       <node ref="R404" pin="2"/>
-      <node ref="Q401" pin="3"/>
     </net>
-    <net code="125" name="Net-(D403-Pad3)">
+    <net code="127" name="Net-(D403-Pad3)">
       <node ref="D403" pin="3"/>
       <node ref="U402" pin="1"/>
     </net>
-    <net code="126" name="Net-(Q401-Pad1)">
-      <node ref="R407" pin="1"/>
-      <node ref="U401" pin="1"/>
-      <node ref="Q401" pin="1"/>
-    </net>
-    <net code="127" name="Net-(R412-Pad2)">
-      <node ref="U401" pin="4"/>
-      <node ref="R413" pin="1"/>
-      <node ref="R412" pin="2"/>
-    </net>
-    <net code="128" name="Net-(R409-Pad2)">
-      <node ref="U402" pin="3"/>
-      <node ref="R409" pin="2"/>
-    </net>
-    <net code="129" name="Net-(R407-Pad2)">
-      <node ref="U401" pin="3"/>
-      <node ref="R407" pin="2"/>
-      <node ref="R408" pin="2"/>
-    </net>
-    <net code="130" name="Net-(C403-Pad1)">
-      <node ref="C403" pin="1"/>
-      <node ref="R408" pin="1"/>
-      <node ref="R410" pin="2"/>
+    <net code="128" name="Net-(C403-Pad1)">
       <node ref="D403" pin="2"/>
+      <node ref="C403" pin="1"/>
       <node ref="U402" pin="4"/>
-    </net>
-    <net code="131" name="Net-(R410-Pad1)">
-      <node ref="R411" pin="2"/>
+      <node ref="TP402" pin="1"/>
+      <node ref="R408" pin="1"/>
       <node ref="R410" pin="1"/>
     </net>
-    <net code="132" name="Net-(TR401-Pad2)">
-      <node ref="TR401" pin="3"/>
+    <net code="129" name="Net-(Q401-Pad2)">
+      <node ref="Q401" pin="2"/>
+      <node ref="Q402" pin="2"/>
+    </net>
+    <net code="130" name="Net-(R412-Pad2)">
+      <node ref="U401" pin="4"/>
+      <node ref="R413" pin="1"/>
+      <node ref="TP403" pin="1"/>
+      <node ref="R412" pin="2"/>
+    </net>
+    <net code="131" name="Net-(TR401-Pad2)">
       <node ref="TR401" pin="2"/>
+      <node ref="TR401" pin="3"/>
     </net>
-    <net code="133" name="Net-(R401-Pad1)">
-      <node ref="TR401" pin="7"/>
-      <node ref="TR401" pin="5"/>
-      <node ref="R401" pin="1"/>
-    </net>
-    <net code="134" name="/MainsPowerMonitor/AC_Mains_Phase">
-      <node ref="TR401" pin="1"/>
-      <node ref="J401" pin="1"/>
-    </net>
-    <net code="135" name="/MainsPowerMonitor/AC_Mains_Neutral">
-      <node ref="J401" pin="2"/>
-      <node ref="TR401" pin="4"/>
-    </net>
-    <net code="136" name="/MainsPowerMonitor/AC_CurrentSense_N">
-      <node ref="R406" pin="1"/>
-      <node ref="TR401" pin="8"/>
+    <net code="132" name="/MainsPowerMonitor/AC_CurrentSense_N">
       <node ref="R405" pin="2"/>
       <node ref="C401" pin="1"/>
-      <node ref="Q401" pin="2"/>
       <node ref="R402" pin="2"/>
+      <node ref="TP401" pin="1"/>
+      <node ref="TR401" pin="8"/>
+      <node ref="TR401" pin="6"/>
+      <node ref="R406" pin="1"/>
       <node ref="R403" pin="2"/>
       <node ref="J402" pin="2"/>
-      <node ref="TR401" pin="6"/>
+      <node ref="Q402" pin="3"/>
     </net>
-    <net code="137" name="Net-(D403-Pad1)">
+    <net code="133" name="Net-(R401-Pad1)">
+      <node ref="TR401" pin="5"/>
+      <node ref="TR401" pin="7"/>
+      <node ref="R401" pin="1"/>
+    </net>
+    <net code="134" name="/MainsPowerMonitor/AC_Mains_Neutral">
+      <node ref="TR401" pin="4"/>
+      <node ref="J401" pin="2"/>
+    </net>
+    <net code="135" name="Net-(D403-Pad1)">
       <node ref="D403" pin="1"/>
     </net>
-    <net code="138" name="Net-(R504-Pad1)">
+    <net code="136" name="/MainsPowerMonitor/AC_Mains_Phase">
+      <node ref="J401" pin="1"/>
+      <node ref="TR401" pin="1"/>
+    </net>
+    <net code="137" name="Net-(R504-Pad1)">
       <node ref="R504" pin="1"/>
       <node ref="R505" pin="2"/>
     </net>
-    <net code="139" name="Net-(R503-Pad1)">
+    <net code="138" name="Net-(R503-Pad1)">
       <node ref="R504" pin="2"/>
       <node ref="R503" pin="1"/>
     </net>
-    <net code="140" name="Net-(R502-Pad1)">
+    <net code="139" name="Net-(R502-Pad1)">
       <node ref="R503" pin="2"/>
       <node ref="R502" pin="1"/>
     </net>
-    <net code="141" name="Net-(R501-Pad1)">
+    <net code="140" name="Net-(R501-Pad1)">
       <node ref="R502" pin="2"/>
       <node ref="R501" pin="1"/>
     </net>
