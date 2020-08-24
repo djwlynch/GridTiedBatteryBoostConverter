@@ -49,7 +49,7 @@ J203,I2C_BUS,Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm,1,Adam Tech,PH1-04
 RV201,5K,Potentiometers:Potentiometer_Trimmer_Bourns_3006P,1,Bourns Inc,3006P-7-502LF,digikey,3006P-7-502LF-ND
 U204,ESP-WROOM-02U,RF_Module_jl:MODULE_ESP-WROOM-02U,1,Espressif Systems,ESP-WROOM-02U,digikey,1904-1022-1-ND
 R101,0R Ohms,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,Stackpole Electronics Inc,RMCF0805ZT0R00,digikey,RMCF0805ZT0R00CT-ND
-R412,1.15K 1%,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,Yageo,RC0805FR-071K15L,digikey,311-1.00KCRCT-ND
+R412,1.15K 1%,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,Yageo,RC0805FR-071K15L,digikey,311-1.15KCRCT-ND
 R407,1.27K 1%,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,Yageo,RC0805FR-071K27L,digikey,311-1.27KCRCT-ND
 R104;Rint2;R122,1.5K 0.1%,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,3,Panasonic Electronic Components,ERA-6AEB152V,digikey,P1.5KDACT-ND
 R501;R502;R503;R504;R505;R205,100K 1%,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,6,Yageo,RC0805FR-07100KL,digikey,311-100KCRCT-ND
